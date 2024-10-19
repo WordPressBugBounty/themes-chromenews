@@ -27,7 +27,7 @@ if (!function_exists('chromenews_post_thumbnail')) :
             $chromenews_post_class = !empty($chromenews_post_image_alignment) ? $chromenews_post_image_alignment : $chromenews_theme_class;
 
             if ($chromenews_post_class != 'no-image') :
-                ?>
+?>
                 <div class="post-thumbnail <?php echo esc_attr($chromenews_post_class); ?>">
                     <?php echo chromenews_the_post_thumbnail('chromenews-featured', $post->ID); ?>
                 </div>
@@ -38,13 +38,13 @@ if (!function_exists('chromenews_post_thumbnail')) :
             $chromenews_archive_image = ($chromenews_archive_layout == 'archive-layout-list') ? 'medium' : (($chromenews_archive_layout == 'archive-layout-full') ? 'chromenews-medium' : 'post-thumbnail');
             $chromenews_archive_class = ($chromenews_archive_layout == 'archive-layout-list') ? chromenews_get_option('archive_image_alignment') : '';
 
-            ?>
+        ?>
             <div class="post-thumbnail <?php echo esc_attr($chromenews_archive_class); ?>">
                 <a href="<?php the_permalink(); ?>" aria-hidden="true">
                     <?php echo chromenews_the_post_thumbnail($chromenews_archive_image, $post->ID); ?>
                 </a>
             </div>
-        <?php endif;
+            <?php endif;
     }
 endif;
 
@@ -86,9 +86,20 @@ if (!function_exists('chromenews_the_post_thumbnail')) :
                     } else {
                         // Check if external image URL is valid and display it
                         if (@getimagesize($matches[1][0])) {
-                            ?>
-                            <img src="<?php echo esc_url($matches[1][0]); ?>" alt="<?php echo esc_attr(basename($matches[1][0])); ?>" />
+                            if ($return) {
+                                ob_start();            ?>
+                                <img src="<?php echo esc_url($matches[1][0]); ?>" alt="<?php echo esc_attr(basename($matches[1][0])); ?>" />
+                            <?php $chromenews_img_html = ob_get_contents();
+                                ob_end_clean();
+                                return $chromenews_img_html;
+                            } else { ?>
+                                <img src="<?php echo esc_url($matches[1][0]); ?>" alt="<?php echo esc_attr(basename($matches[1][0])); ?>" />
                             <?php
+                            }
+
+                            ?>
+
+<?php
                         }
                     }
                 }
