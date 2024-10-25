@@ -36,6 +36,7 @@ if (!function_exists('chromenews_loop_grid')) :
                    href="<?php the_permalink(); ?>"></a>
                    <?php 
                    if($chromenews_post_thumbnail){
+                    
                     echo wp_kses_post($chromenews_post_thumbnail);
                    }
                     ?>

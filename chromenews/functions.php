@@ -292,6 +292,15 @@ function chromenews_style_files(){
     
     wp_enqueue_style('chromenews-style', get_template_directory_uri().'/style'.$min.'.css', array(), $chromenews_version);
     wp_add_inline_style('chromenews-style', chromenews_custom_style());
+
+    if (is_rtl() && is_child_theme()) {
+        wp_enqueue_style(
+            'chromenews-rtl',
+            get_template_directory_uri() . '/rtl.css',
+            array(), // Load after other styles
+            $chromenews_version
+        );
+    }
 }
 
 /**
