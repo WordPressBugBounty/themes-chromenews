@@ -193,3 +193,25 @@ function chromenews_get_image_alt_from_filename($image_url)
     // Get the filename from the image URL and sanitize it for alt text usage.
     return esc_attr(pathinfo($image_url, PATHINFO_FILENAME));
 }
+
+
+function chromenews_add_img_attributes($allowedtags)
+{
+    if (isset($allowedtags['img'])) {
+        // Add additional attributes that plugins or core updates may introduce
+        $allowedtags['img']['decoding'] = true;
+        $allowedtags['img']['srcset'] = true;
+        $allowedtags['img']['sizes'] = true;
+        $allowedtags['img']['loading'] = true;
+        $allowedtags['img']['data-*'] = true; // Support data-* attributes
+        $allowedtags['img']['aria-*'] = true; // Support aria-* attributes for accessibility
+        $allowedtags['img']['role'] = true;
+        $allowedtags['img']['longdesc'] = true;
+        $allowedtags['img']['usemap'] = true;
+        $allowedtags['img']['referrerpolicy'] = true;
+        $allowedtags['img']['style'] = true; // In case some plugins add inline styles
+        $allowedtags['img']['crossorigin'] = true;
+    }
+    return $allowedtags;
+}
+add_filter('wp_kses_allowed_html', 'chromenews_add_img_attributes');

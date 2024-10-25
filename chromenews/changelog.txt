@@ -1,5 +1,10 @@
 
-### 4.9.4 - Oct 15 2024 =
+### 4.9.5 - Oct 25 2024
+* Update - Image improvements
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
+### 4.9.4 - Oct 15 2024
 * Update - Theme improvements
 * Update - Block Style improvement
 * Fixed - Some styling glitch
