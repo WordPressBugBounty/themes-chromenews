@@ -2,10 +2,10 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 6.6
-Stable tag: 5.0.0
+Stable tag: 5.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
 
 A starter theme called ChromeNews.
 
@@ -25,9 +25,12 @@ ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and mag
 
 == Installation ==
 
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+1. In your WordPress dashboard, go to Appearance > Themes and click Add New.
+2. Click on Upload Theme, then select the theme’s .zip file from your computer. Click Install Now.
+3. After installation, click Activate to start using the theme.
+4. To import demo content, go to Starter Sites under the ChromeNews menu in your dashboard.
+5. To import Gutenberg block patterns, go to Block Patterns under the ChromeNews menu.
+6. To import Elementor template kits, go to Elementor Kits under the ChromeNews menu.
 
 After installed the theme, please read the documentation carefully before start using it.
 
@@ -42,9 +45,15 @@ https://afthemes.com/supports/
 
 == Frequently Asked Questions ==
 
-= Does this theme support any plugins? =
+ChromeNews includes support for the following plugins:
 
-ChromeNews includes support for Infinite Scroll in Jetpack.
+- **Jetpack**: Compatible with Infinite Scroll, Content Options, and Related Posts.
+- **Gutenberg**: Supports a variety of block patterns for enhanced customization.
+- **Elementor**: Compatible with template kits and custom widgets for advanced layouts.
+- **WooCommerce**: Fully compatible with eCommerce functionality, including product grids and custom shop layouts.
+- **Contact Form 7**: Easily create contact forms and integrate them into your pages.
+- **WPML**: Ready for multilingual websites, making translation and localization seamless.
+- **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change log ==
 = 5.0.0 - Oct 25 2024 =
