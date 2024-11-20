@@ -481,8 +481,8 @@ add_filter( 'wp_nav_menu', 'chromenews_menu_notitle' );
 add_filter( 'wp_page_menu', 'chromenews_menu_notitle' );
 add_filter( 'wp_list_categories', 'chromenews_menu_notitle' );
 
-add_action( 'after_setup_theme', 'chromenews_transltion_init');
+add_action( 'init', 'chromenews_transltion_init');
 
 function chromenews_transltion_init() {
-    load_theme_textdomain( 'chromenews', false, get_template_directory()  . '/languages' );
+    load_theme_textdomain( 'chromenews', get_template_directory()  . '/languages' );
 }
