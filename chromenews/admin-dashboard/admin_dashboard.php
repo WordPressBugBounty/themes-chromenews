@@ -161,7 +161,7 @@ if (!class_exists('AF_themes_info')) {
         'chromenews', // Parent slug.
         __('Upgrade', 'chromenews'), // Page title.
         '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'chromenews') .'</span>', // Menu title.
-        'manage_options', // Capability.
+         'manage_options', // Capability.
         esc_url('https://afthemes.com/products/chromenews-pro/') // Menu slug.
         
       );

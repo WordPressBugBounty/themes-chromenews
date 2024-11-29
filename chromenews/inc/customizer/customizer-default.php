@@ -20,7 +20,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
 
         $defaults = array();
         // Preloader options section
-        $defaults['enable_site_preloader'] = 1;
+        $defaults['enable_site_preloader'] = 0;
 
         // Header options section
         $defaults['header_layout'] = 'header-layout-centered';
@@ -170,6 +170,9 @@ if (!function_exists('chromenews_get_default_theme_options')):
         $defaults['small_grid_post_date_author_setting'] = 'show-date-author';
         $defaults['list_post_date_author_setting'] = 'show-date-only';
         $defaults['global_author_icon_gravatar_display_setting'] = 'display-icon';
+        $defaults['global_fetch_content_image_setting'] = 'enable';
+        $defaults['global_toggle_image_lazy_load_setting'] = 'enable';
+        $defaults['global_decoding_image_async_setting'] = 'enable';
 
         $defaults['global_excerpt_length'] = 15;
         $defaults['global_read_more_texts'] = __('Read More', 'chromenews');

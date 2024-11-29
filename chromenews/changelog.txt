@@ -1,3 +1,15 @@
+### 5.2.0 - Nov 29 2024
+* New - Page builder support
+* New - Blank Canvas template
+* New - Full Width template
+* Update - WooCommerce improvement
+* Update - Speed optimization
+* Update - Scripts improvements
+* Update - Preloader disabled by default
+* Option - Customize > Theme Options > Global Settings > Enable Preloader
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
 ### 5.1.0 - Nov 19 2024
 * New - WP 6.7 Compatibility
 * Update - Dashboard improvements

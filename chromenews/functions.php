@@ -148,99 +148,126 @@ add_action('after_setup_theme', 'chromenews_setup');
     add_action('after_setup_theme', 'chromenews_content_width', 0);
 
 /**
- * Generate the Google Fonts URL based on theme options.
+ * Filter font variants to include only necessary ones.
  *
- * @since 1.0.0
- * @return string Google Fonts URL or empty string if no fonts are required.
+ * @param string $font The font string (e.g., "Roboto:400,300,700").
+ * @return string Filtered font string with only the allowed variants.
  */
-function chromenews_fonts_url() {
+function chromenews_filter_font_variants($font) {
+    if (empty($font) || strpos($font, ':') === false) {
+        return $font; // Return as is if no variants exist.
+    }
+  
+    list($font_name, $variants) = explode(':', $font);
+  
+    // Define allowed variants to reduce file size and improve performance.
+    $allowed_variants = array('400', '700');
+    $font_variants = explode(',', $variants);
+    $filtered_variants = array_intersect($font_variants, $allowed_variants);
+  
+    return !empty($filtered_variants) ? $font_name . ':' . implode(',', $filtered_variants) : $font_name;
+  }
+  
+  /**
+  * Generate the Google Fonts URL based on theme options and locale.
+  *
+  * @since 1.0.0
+  * @return string Google Fonts URL or empty string if no fonts are required.
+  */
+  function chromenews_fonts_url() {
     $fonts_url = '';
     $fonts = array();
     $subsets = array('latin'); // Default subset is 'latin'.
-
+  
     // Adjust subsets based on locale.
     $locale = get_locale();
-
-    if (strpos($locale, 'cs') !== false || strpos($locale, 'pl') !== false || strpos($locale, 'hu') !== false) {
-        $subsets[] = 'latin-ext'; // Add 'latin-ext' for Central European languages.
-    } elseif (strpos($locale, 'ru') !== false) {
-        $subsets[] = 'cyrillic'; // Add 'cyrillic' subset for Russian.
-    }
-
-    // Fetch theme options for fonts.
-    $site_title_font = chromenews_get_option('site_title_font');
-    $primary_font = chromenews_get_option('primary_font');
-    $secondary_font = chromenews_get_option('secondary_font');
-
-    // Collect fonts only if they are set and filter unnecessary weights.
-    $theme_fonts = array();
-    foreach (array($site_title_font, $primary_font, $secondary_font) as $font) {
-        if (!empty($font)) {
-            // Assuming you're only using weights 400 and 700 for the fonts
-            $font_name_weight = explode(':', $font);
-            $font_name = $font_name_weight[0]; // Get font family
-            $weights = isset($font_name_weight[1]) ? $font_name_weight[1] : '';
-
-            // Only allow certain weights
-            $allowed_weights = array('400', '700');
-            $weights_array = explode(',', $weights);
-            $filtered_weights = array_intersect($weights_array, $allowed_weights);
-
-            if (!empty($filtered_weights)) {
-                $theme_fonts[] = $font_name . ':' . implode(',', $filtered_weights);
-            }
+    $subset_mapping = array(
+        'cs' => 'latin-ext',
+        'pl' => 'latin-ext',
+        'hu' => 'latin-ext',
+        'ru' => 'cyrillic',
+        'el' => 'greek',
+        'vi' => 'vietnamese',
+    );
+  
+    foreach ($subset_mapping as $lang_code => $subset) {
+        if (strpos($locale, $lang_code) !== false) {
+            $subsets[] = $subset;
+            break;
         }
     }
-
+  
+    // Fetch theme options for fonts and filter variants.
+    $site_title_font = chromenews_filter_font_variants(chromenews_get_option('site_title_font'));
+    $primary_font = chromenews_filter_font_variants(chromenews_get_option('primary_font'));
+    $secondary_font = chromenews_filter_font_variants(chromenews_get_option('secondary_font'));
+  
+    // Collect fonts only if they are not 'off'.
+    foreach (array($site_title_font, $primary_font, $secondary_font) as $font) {
+        if (!empty($font) && 'off' !== sprintf(_x('on', '%s font: on or off', 'chromenews'), $font)) {
+            $fonts[] = $font;
+        }
+    }
+  
+    // Remove duplicate fonts.
+    $fonts = array_unique($fonts);
+  
     // Generate the Google Fonts URL if fonts are available.
-    if (!empty($theme_fonts)) {
+    if (!empty($fonts)) {
         $fonts_url = add_query_arg(array(
-            'family' => implode('|', $theme_fonts), // No URL encoding issues here.
-            'subset' => implode(',', array_unique($subsets)), // Unique subsets
-            'display' => 'swap', // Use 'swap' display option for better performance.
+            'family'  => implode('|', $fonts), // Concatenate fonts with '|'.
+            'subset'  => implode(',', array_unique($subsets)), // Unique subsets.
+            'display' => 'swap', // Use 'swap' for performance.
         ), 'https://fonts.googleapis.com/css');
     }
-
+  
     return esc_url($fonts_url); // Ensure safe output.
-}
-
-/**
- * Preload Google Fonts stylesheets in the <head> for performance.
- */
-function chromenews_preload_google_fonts() {
+  }
+  
+  /**
+  * Add preconnect links for Google Fonts domains to improve performance.
+  *
+  * @param array  $urls          URLs to print for resource hints.
+  * @param string $relation_type The relation type of the URLs (e.g., 'preconnect').
+  * @return array Filtered URLs.
+  */
+  function chromenews_add_preconnect_links($urls, $relation_type) {
+    if ('preconnect' === $relation_type) {
+        $urls[] = 'https://fonts.googleapis.com';
+        $urls[] = 'https://fonts.gstatic.com';
+    }
+  
+    return $urls;
+  }
+  add_filter('wp_resource_hints', 'chromenews_add_preconnect_links', 10, 2);
+  
+  /**
+  * Preload Google Fonts stylesheets in the <head> for performance.
+  */
+  function chromenews_preload_google_fonts() {
     $fonts_url = chromenews_fonts_url();
-
+  
     if ($fonts_url) {
-        // Add preload link for the font stylesheet.
         printf(
             "<link rel='preload' href='%s' as='style' onload=\"this.onload=null;this.rel='stylesheet'\" type='text/css' media='all' crossorigin='anonymous'>\n",
             esc_url($fonts_url)
         );
-
-        // Preconnect to Google Fonts origins.
-        echo "<link rel='preconnect' href='https://fonts.googleapis.com' crossorigin='anonymous'>\n";
-        echo "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous'>\n";
     }
-}
-
-/**
- * Enqueue Google Fonts in the theme.
- */
-function chromenews_enqueue_google_fonts() {
+  }
+  add_action('wp_head', 'chromenews_preload_google_fonts', 1);
+  
+  /**
+  * Enqueue the theme's Google Fonts stylesheet with additional optimization.
+  */
+  function chromenews_enqueue_google_fonts() {
     $fonts_url = chromenews_fonts_url();
-
+  
     if ($fonts_url) {
-        // Enqueue Google Fonts stylesheet.
         wp_enqueue_style('chromenews-google-fonts', $fonts_url, array(), null);
-
-        // Add preconnect and preload links for better performance.
-        add_action('wp_head', 'chromenews_preload_google_fonts', 1);
     }
-}
-add_action('wp_enqueue_scripts', 'chromenews_enqueue_google_fonts');
-
-
-
+  }
+  add_action('wp_enqueue_scripts', 'chromenews_enqueue_google_fonts');
+  
 
 
 
@@ -481,8 +508,8 @@ add_filter( 'wp_nav_menu', 'chromenews_menu_notitle' );
 add_filter( 'wp_page_menu', 'chromenews_menu_notitle' );
 add_filter( 'wp_list_categories', 'chromenews_menu_notitle' );
 
-add_action( 'init', 'chromenews_transltion_init');
+add_action( 'after_setup_theme', 'chromenews_transltion_init');
 
 function chromenews_transltion_init() {
-    load_theme_textdomain( 'chromenews', get_template_directory()  . '/languages' );
+    load_theme_textdomain( 'chromenews', false, get_template_directory()  . '/languages' );
 }

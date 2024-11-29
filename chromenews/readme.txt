@@ -2,10 +2,10 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 6.7
-Stable tag: 5.1.0
+Stable tag: 5.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
 
 A starter theme called ChromeNews.
 
@@ -47,6 +47,18 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
+= 5.2.0 - Nov 29 2024 =
+* New - Page builder support
+* New - Blank Canvas template
+* New - Full Width template
+* Update - WooCommerce improvement
+* Update - Speed optimization
+* Update - Scripts improvements
+* Update - Preloader disabled by default
+* Option - Customize > Theme Options > Global Settings > Enable Preloader
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
 = 5.1.0 - Nov 19 2024 =
 * New - WP 6.7 Compatibility
 * Update - Dashboard improvements
