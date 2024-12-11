@@ -22,7 +22,7 @@ if (!function_exists('chromenews_loop_list')) :
             <div class="read-single color-pad">
                 <div class="col-3 float-l pos-rel read-img read-bg-img">
                     <a class="aft-post-image-link"
-                       href="<?php the_permalink(); ?>"></a>
+                       href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($chromenews_post_id)) ?>"></a>
                        <?php 
                    if($chromenews_post_thumbnail){
                     echo wp_kses_post($chromenews_post_thumbnail);

@@ -7,9 +7,12 @@
     
     $chromenews_class = '';
     $chromenews_background = '';
+    $inline_style = '';
     if (has_header_image()) {
-        $chromenews_class = 'af-header-image  data-bg';
+        $chromenews_class = 'af-header-image';
         $chromenews_background = get_header_image();
+        // Set inline style for background-image
+        $inline_style = 'style="background-image: url(' . esc_url($chromenews_background) . ');"';
     }
 $chromenews_show_top_header_section = chromenews_get_option('show_top_header_section');
 ?>
@@ -33,8 +36,7 @@ $chromenews_show_top_header_section = chromenews_get_option('show_top_header_sec
     </div>
 </div>
 <?php endif; ?>
-<div class="mid-header-wrapper <?php echo esc_attr($chromenews_class); ?>"
-     data-background="<?php echo esc_attr($chromenews_background); ?>">
+<div class="mid-header-wrapper data-bg <?php echo esc_attr($chromenews_class); ?>" <?php echo $inline_style; ?> >
 
     <div class="mid-header">
         <div class="container-wrapper">

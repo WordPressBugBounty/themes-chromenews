@@ -411,6 +411,7 @@ if (!class_exists('AF_themes_info')) {
           'siteUrl' => $siteUrl,
           'aflogoUrl' => get_template_directory_uri(),
           "themeUrl" => (! is_child_theme()) ? get_template_directory_uri() : get_stylesheet_directory_uri(),
+          "themeSlug" => $this->page_slug,
           "themeName" => $this->theme_name,
           "themeVesrion" => $this->theme_version,
           "currentUser" => $this->current_user_name,
