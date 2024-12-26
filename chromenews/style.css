@@ -4,8 +4,8 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 5.2.1
-Requires at least: 4.9
+Version: 5.3.0
+Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
 License: GNU General Public License v2 or later
@@ -3383,7 +3383,7 @@ body.full-width-content .chromenews_express_posts_grid_widget .af-express-grid-w
     min-height: 450px;
 }
 
-.af-main-banner-featured-posts .read-details.pad .read-title h4 {
+.af-main-banner-featured-posts .read-details.pad .read-title h3 {
     margin-top: 0;
 }
 
@@ -3392,23 +3392,23 @@ body.full-width-content .chromenews_express_posts_grid_widget .af-express-grid-w
     background-color: #dedede;
 }
 
-.read-title h4{
+.read-title h3{
     font-size: 16px;
     margin: 5px 0;
     line-height: 1.4;
 }
 
-.archive-list-post .read-title h4 {
+.archive-list-post .read-title h3 {
     margin-top: 0;
 }
 
-.read-title h4 a,
+.read-title h3 a,
 .read-title h2 a{
     color: #fff;
     border-bottom: 1px solid transparent;
     transition: border 0.075s linear;
 }
-.read-title h4 a:hover,
+.read-title h3 a:hover,
 .read-title h2 a:hover{
     border-bottom: 1px solid #ffcc00;
 }
@@ -3427,7 +3427,7 @@ main ol li,
 p,
 input,
 textarea,
-.read-title h4,
+.read-title h3,
 .chromenews-customizer .post-description,
 .chromenews-widget .post-description{
     font-family: 'Noto Serif', serif;
@@ -3643,10 +3643,10 @@ section.aft-featured-video-section .section-wrapper {
 }
 .af-main-banner-categorized-posts .af-post-carousel .read-img{height: 240px;}
 
-.af-list-post .read-title h4,
-.featured-post-items-wrap .af-sec-post.list-part .read-title h4,
-.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h4,
-.af-main-banner-categorized-posts.express-carousel .af-sec-post .read-title h4 {
+.af-list-post .read-title h3,
+.featured-post-items-wrap .af-sec-post.list-part .read-title h3,
+.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h3,
+.af-main-banner-categorized-posts.express-carousel .af-sec-post .read-title h3 {
     margin-top: 0;
 }
 .chromenews-customizer .post-description,
@@ -3719,13 +3719,13 @@ section.aft-featured-video-section .section-wrapper {
     margin-right: 2px;
 }
 
-.aft-light-mode.aft-section-layout-background .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h4 a{
+.aft-light-mode.aft-section-layout-background .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h3 a{
     color: #202020;
 }
-.aft-light-mode.aft-section-layout-background .aft-banner-background-alternative .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h4 a{
+.aft-light-mode.aft-section-layout-background .aft-banner-background-alternative .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h3 a{
     color: #fff;
 }
-.aft-light-mode.aft-section-layout-background .aft-main-banner-section.data-bg .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h4 a {
+.aft-light-mode.aft-section-layout-background .aft-main-banner-section.data-bg .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h3 a {
     color: #fff;
 }
 .af-main-banner-thumb-posts .af-sec-post:last-child .read-single{
@@ -4049,7 +4049,7 @@ section.aft-featured-video-section .section-wrapper {
     display: none;
 }
 @media screen and (min-width: 1025px){
-    .aft-banner-layout-tiled-3 .af-main-banner-thumb-posts .af-sec-post:not(:first-child) .read-title h4{
+    .aft-banner-layout-tiled-3 .af-main-banner-thumb-posts .af-sec-post:not(:first-child) .read-title h3{
         font-size: 14px;
     }
 }
@@ -4112,7 +4112,7 @@ section.aft-featured-video-section .section-wrapper {
     display: none;
 }
 @media screen and (min-width:1025px){
-    .aft-banner-layout-tiled-4 .af-main-banner-thumb-posts .af-sec-post .read-title h4{
+    .aft-banner-layout-tiled-4 .af-main-banner-thumb-posts .af-sec-post .read-title h3{
         font-size: 16px;
     }
 }
@@ -4177,7 +4177,7 @@ section.aft-featured-video-section .section-wrapper {
 .aft-banner-layout-tiled .aft-main-banner-wrapper .aft-slider-part .af-sec-post .read-img.read-bg-img {
     height: 240px;
 }
-.aft-banner-layout-tiled .aft-slider-part .af-sec-post .read-title h4{
+.aft-banner-layout-tiled .aft-slider-part .af-sec-post .read-title h3{
     font-size: 20px;
 }
 /* =================== banner layout tiled 5 =================== */
@@ -4592,7 +4592,7 @@ body.aft-dark-mode .aft-main-banner-section.aft-banner-background-secondary{
     background: #fff;
 }
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .aft-popular-taxonomies-lists ul li a,
-body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h4 a,
+body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h3 a,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .widget-title .heading-line,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .aft-posts-tabs-panel .nav-tabs>li>a,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .aft-comment-view-share > span > a,
@@ -4601,7 +4601,7 @@ body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .ban
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .banner-exclusive-posts-wrapper a:visited,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .featured-category-item .read-img a,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h2 a,
-body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a,
+body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .widget-title,
 body .aft-main-banner-section.aft-banner-background-secondary:not(.data-bg) .header-after1{
     color: #fff;
@@ -4633,7 +4633,7 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-posts-tabs-panel .nav-tabs>li>a.active,
 
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-main-banner-wrapper .widget-title .heading-line,
-.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h4 a,
+.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h3 a,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .widget-title .heading-line,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-posts-tabs-panel .nav-tabs>li>a,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-comment-view-share > span > a,
@@ -4642,13 +4642,13 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .banner-exclusive-posts-wrapper a:visited,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .featured-category-item .read-img a,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h2 a,
-.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a,
+.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .widget-title,
 .aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .header-after1{
     color: #202020;
 }
 
-.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-light .read-details .read-title h4 a,
+.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-light .read-details .read-title h3 a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .widget-title .heading-line,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-posts-tabs-panel .nav-tabs>li>a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .aft-comment-view-share > span > a,
@@ -4657,7 +4657,7 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .banner-exclusive-posts-wrapper a:visited,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .featured-category-item .read-img a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h2 a,
-.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a,
+.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .widget-title,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .header-after1{
     color: #fff;
@@ -4675,8 +4675,8 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 /* ==================== Banner Alternate Background Color Options ==================== */
 
 /* ==================== Banner Default Background Color Options ==================== */
-.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h4 a,
-.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-light .read-details .read-title h4 a,
+.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .af-sec-post .grid-design-default .read-details .read-title h3 a,
+.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .af-main-banner-thumb-posts .small-grid-style .grid-design-light .read-details .read-title h3 a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .widget-title .heading-line,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .aft-posts-tabs-panel .nav-tabs>li>a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .aft-comment-view-share > span > a,
@@ -4685,7 +4685,7 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .banner-exclusive-posts-wrapper a:visited,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .featured-category-item .read-img a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h2 a,
-.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a,
+.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .widget-title,
 .aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .header-after1{
     color: #202020;
@@ -4709,7 +4709,7 @@ body.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative{
 
 /* ==================== Banner Background image Color Options ==================== */
 body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper a .exclusive-post-title,
-body .aft-main-banner-section.data-bg .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h4 a,
+body .aft-main-banner-section.data-bg .af-main-banner-thumb-posts .small-grid-style .grid-design-default .read-details .read-title h3 a,
 body .aft-main-banner-section.data-bg .widget-title .heading-line,
 body .aft-main-banner-section.data-bg .aft-posts-tabs-panel .nav-tabs>li>a,
 body .aft-main-banner-section.data-bg .read-single:not(.grid-design-texts-over-image) .aft-comment-view-share > span > a,
@@ -4718,7 +4718,7 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
 body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive-posts a:visited,
 body .aft-main-banner-section.data-bg .featured-category-item .read-img a,
 body .aft-main-banner-section.data-bg .read-single:not(.grid-design-texts-over-image) .read-title h2 a,
-body .aft-main-banner-section.data-bg .read-single:not(.grid-design-texts-over-image) .read-title h4 a,
+body .aft-main-banner-section.data-bg .read-single:not(.grid-design-texts-over-image) .read-title h3 a,
 body .aft-main-banner-section.data-bg .widget-title,
 body .aft-main-banner-section.data-bg .header-after1{
     color: #fff;
@@ -5540,14 +5540,14 @@ body.aft-light-mode .aft-main-banner-section .aft-main-banner-wrapper .aft-main-
     display: inline-block;
     position: inherit;
 }
-.banner-single-slider-1 .read-title h4{
+.banner-single-slider-1 .read-title h3{
     font-weight: bold;
 }
 .grid-design-texts-over-image .af-post-format,
 .grid-design-texts-over-image .category-color-1,
 .grid-design-texts-over-image .read-details .entry-meta span a,
 .grid-design-texts-over-image .read-details .entry-meta span,
-.grid-design-texts-over-image .read-title h4 a{
+.grid-design-texts-over-image .read-title h3 a{
     color: #fff;
 }
 .entry-meta span.posts-author a {
@@ -5877,7 +5877,7 @@ iframe.af-hide-iframe{
     width: 50%;
     max-width: 136px;
 }
-.aft-trending-posts.list-part .af-double-column.list-style .read-title h4{
+.aft-trending-posts.list-part .af-double-column.list-style .read-title h3{
     margin-top: 0;
 }
 
@@ -5894,7 +5894,7 @@ iframe.af-hide-iframe{
     font-weight: 700;
     font-size: 16px;
 }
-.trending-posts-vertical .read-title h4{margin-bottom: 0;}
+.trending-posts-vertical .read-title h3{margin-bottom: 0;}
 .trending-posts-vertical .read-categories{padding: 0;}
 .trending-posts-vertical .read-categories li{float: left;margin-bottom: 2px;}
 .trending-posts-vertical .read-categories li:last-child{margin-bottom: 2px;}
@@ -6003,6 +6003,7 @@ div.sharedaddy .sd-content ul li:last-child{display: none;}
 div.sharedaddy .sd-content ul li a.sd-button{
     border-radius: 0;
     border: none;
+    background: #000;
 }
 
 /*official colors*/
@@ -7151,13 +7152,13 @@ body.single span.tags-links a:hover{
     position: absolute;
     opacity: 0.7;
 }
-.read-single-overbanner .read-title h4 {
+.read-single-overbanner .read-title h3 {
     font-size: 36px;
 }
 .read-single-overbanner .read-details .entry-meta span.byline span,
 .read-single-overbanner .read-details .entry-meta span,
 .read-single-overbanner .cat-color-1,
-.read-single-overbanner .read-title h4 a {
+.read-single-overbanner .read-title h3 a {
     color: #fff;
 }
 
@@ -7356,11 +7357,15 @@ div.wp-block .editor-rich-text__editable code {
 
 .entry-content ul.wp-block-latest-posts ,
 .entry-content ol:not([class*="wp-"]) ,
+.entry-content ul:not([class*="wp-"]):not([class*="wc-block"])
 .entry-content ul:not([class*="wp-"]):not(.awpa-contact-info) {
     padding-left: 0;
     margin-left: 20px;
     margin-bottom: 15px;
     /* list-style-position: inside; */
+}
+ul.wc-block-product-categories-list {
+    list-style-position: inside;
 }
 .entry-content .alignwide ul.wp-block-latest-posts ,
 .entry-content .alignwide ol:not([class*="wp-"]) ,
@@ -9530,8 +9535,8 @@ body .primary-footer-area:first-child:nth-last-child(3) .chromenews_posts_slider
 body .primary-footer-area:first-child:nth-last-child(3) ~ .primary-footer-area .chromenews_posts_slider_widget .read-single .read-img.read-bg-img {
     height: 230px;
 }
-body .primary-footer-area:first-child:nth-last-child(3) .chromenews_posts_slider_widget .read-single .read-details .read-title h4,
-body .primary-footer-area:first-child:nth-last-child(3) ~ .primary-footer-area .chromenews_posts_slider_widget .read-single .read-details .read-title h4 {
+body .primary-footer-area:first-child:nth-last-child(3) .chromenews_posts_slider_widget .read-single .read-details .read-title h3,
+body .primary-footer-area:first-child:nth-last-child(3) ~ .primary-footer-area .chromenews_posts_slider_widget .read-single .read-details .read-title h3 {
     font-size: 18px;
 }
 
@@ -9792,9 +9797,9 @@ footer .widget-title,
     position: relative;
 }
 
-#secondary .archive-list-post .read-title h4,
-#sidr .archive-list-post .read-title h4,
-footer .archive-list-post .read-title h4{
+#secondary .archive-list-post .read-title h3,
+#sidr .archive-list-post .read-title h3,
+footer .archive-list-post .read-title h3{
     font-size: 20px;
 }
 /*--------------------------------------------------------------
@@ -10007,7 +10012,7 @@ body footer.site-footer .nav-links a,
 body footer.site-footer .read-details .entry-meta span,
 body footer.site-footer .entry-meta span,
 body footer.site-footer .read-title h2 a,
-body footer.site-footer .read-title h4 a{
+body footer.site-footer .read-title h3 a{
     color: #fff;
 }
 
@@ -10094,7 +10099,7 @@ body.aft-dark-mode .nav-links a,
 body.aft-dark-mode .read-details .entry-meta span,
 body.aft-dark-mode .entry-meta span,
 body.aft-dark-mode .read-title h2 a,
-body.aft-dark-mode .read-title h4 a{
+body.aft-dark-mode .read-title h3 a{
     color: #fff;
 }
 body.aft-dark-mode .em-author-details ul li a{
@@ -10295,17 +10300,17 @@ p.awpa-more-posts a:hover{
 }
 
 .hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h2 a, 
-.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h4 a, 
+.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h3 a, 
 .hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h2 a, 
-.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h4 a{
+.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h3 a{
     opacity: .9;
     transition: all ease-in .3s;
 }
 
 .hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h2 a:hover, 
-.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h4 a:hover, 
+.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h3 a:hover, 
 .hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h2 a:hover, 
-.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h4 a:hover,
+.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h3 a:hover,
 
 .hover-title-secondary-color .grid-design-texts-over-image .read-details .entry-meta span.author-links > span a:hover, 
 .hover-title-secondary-color .grid-design-texts-over-image .read-details .entry-meta span.aft-comment-view-share a:hover,
@@ -10322,9 +10327,9 @@ p.awpa-more-posts a:hover{
     border-color: transparent;
 }
 .hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h2 a:hover, 
-.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h4 a:hover, 
+.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h3 a:hover, 
 .hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h2 a:hover, 
-.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h4 a:hover{
+.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h3 a:hover{
     opacity: 1;
 }
 .entry-content > [class*="wp-block-"] a.wp-block-file__button:not(.has-text-color),
@@ -10455,7 +10460,7 @@ p a,
 .aft-light-mode .widget ul > li a,
 .aft-light-mode .widget ol > li a,
 .aft-light-mode .read-title h2 a ,
-.aft-light-mode .read-title h4 a ,
+.aft-light-mode .read-title h3 a ,
 
 .widget > ul > li .comment-author-link {
     color: #404040;
@@ -10496,7 +10501,7 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .aft-light-mode .widget ul > li a:hover,
 .aft-light-mode .widget ol > li a:hover,
 .aft-light-mode .read-title h2 a:hover ,
-.aft-light-mode .read-title h4 a:hover {
+.aft-light-mode .read-title h3 a:hover {
     border-bottom: 1px solid #ffcc00;
 }
 
@@ -10506,8 +10511,8 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .hover-title-secondary-color.aft-light-mode #secondary .chromenews-widget ol[class*="wp-block-"] a:hover,
 
 .hover-title-secondary-color.aft-dark-mode .read-title h2 a:hover,
-.hover-title-secondary-color.aft-dark-mode .read-title h4 a:hover,
-.hover-title-secondary-color .read-title h4 a:hover, 
+.hover-title-secondary-color.aft-dark-mode .read-title h3 a:hover,
+.hover-title-secondary-color .read-title h3 a:hover, 
 .hover-title-secondary-color .read-title h2 a:hover,
 
 .hover-title-secondary-color.aft-light-mode .nav-links a:hover .post-title,
@@ -10525,24 +10530,24 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .hover-title-secondary-color.aft-dark-mode .widget ul > li a:hover,
 .hover-title-secondary-color.aft-dark-mode .widget ol > li a:hover,
 .hover-title-secondary-color.aft-light-mode .read-title h2 a:hover,
-.hover-title-secondary-color.aft-light-mode .read-title h4 a:hover{
+.hover-title-secondary-color.aft-light-mode .read-title h3 a:hover{
     border-color: transparent;
 }
 
-.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-custom:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
-.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-custom:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
-.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
-.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
-.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
-.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h4 a:hover,
+.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-custom:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
+.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-custom:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
+.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
+.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-alternative:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
+.hover-title-secondary-color.aft-dark-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
+.hover-title-secondary-color.aft-light-mode .aft-main-banner-section.aft-banner-background-default:not(.data-bg) .read-single:not(.grid-design-texts-over-image) .read-title h3 a:hover,
 .hover-title-secondary-color.aft-dark-mode #secondary .chromenews-widget ul[class*="wp-block-"] a:hover,
 .hover-title-secondary-color.aft-light-mode #secondary .chromenews-widget ul[class*="wp-block-"] a:hover,
 .hover-title-secondary-color.aft-dark-mode #secondary .chromenews-widget ol[class*="wp-block-"] a:hover,
 .hover-title-secondary-color.aft-light-mode #secondary .chromenews-widget ol[class*="wp-block-"] a:hover,
 
 .hover-title-secondary-color.aft-dark-mode .read-title h2 a:hover,
-.hover-title-secondary-color.aft-dark-mode .read-title h4 a:hover,
-.hover-title-secondary-color .read-title h4 a:hover, 
+.hover-title-secondary-color.aft-dark-mode .read-title h3 a:hover,
+.hover-title-secondary-color .read-title h3 a:hover, 
 .hover-title-secondary-color .read-title h2 a:hover,
 .hover-title-secondary-color .nav-links a:hover .post-title,
 .hover-title-secondary-color.aft-dark-mode .banner-exclusive-posts-wrapper a .exclusive-post-title:hover,
@@ -10552,14 +10557,14 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .hover-title-secondary-color.aft-dark-mode .widget ul:not([class]) > li a:hover,
 .hover-title-secondary-color.aft-dark-mode .widget ol:not([class]) > li a:hover,
 .hover-title-secondary-color.aft-light-mode .read-title h2 a:hover ,
-.hover-title-secondary-color.aft-light-mode .read-title h4 a:hover{
+.hover-title-secondary-color.aft-light-mode .read-title h3 a:hover{
     color: #ffc934;
 }
 
 .aft-dark-mode .grid-design-texts-over-image .read-title h2 a:hover,
-.aft-dark-mode .grid-design-texts-over-image .read-title h4 a:hover,
+.aft-dark-mode .grid-design-texts-over-image .read-title h3 a:hover,
 .aft-light-mode .grid-design-texts-over-image .read-title h2 a:hover,
-.aft-light-mode .grid-design-texts-over-image .read-title h4 a:hover {
+.aft-light-mode .grid-design-texts-over-image .read-title h3 a:hover {
     border-bottom-color: #fff;
 }
 .aft-dark-mode ul.cat-links > li a:hover,
@@ -10587,8 +10592,8 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-details .entry-meta span,
 .hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-details .entry-meta span a,
 .hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-details .entry-meta span,
-.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h4 a,
-.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h4 a,
+.hover-title-secondary-color.aft-light-mode .grid-design-texts-over-image .read-title h3 a,
+.hover-title-secondary-color.aft-dark-mode .grid-design-texts-over-image .read-title h3 a,
 
 .aft-light-mode .grid-design-texts-over-image .read-details .entry-meta span a,
 .aft-light-mode .grid-design-texts-over-image .read-details .entry-meta span,
@@ -10596,10 +10601,10 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
 .aft-dark-mode .grid-design-texts-over-image .read-details .entry-meta span a,
 .aft-dark-mode .grid-design-texts-over-image .read-details .entry-meta span,
 
-.aft-light-mode .grid-design-texts-over-image .read-title h4 a,
+.aft-light-mode .grid-design-texts-over-image .read-title h3 a,
 .aft-light-mode .grid-design-texts-over-image .read-details,
 
-.aft-dark-mode .grid-design-texts-over-image .read-title h4 a{
+.aft-dark-mode .grid-design-texts-over-image .read-title h3 a{
     color: #fff;
 }
 
@@ -10784,10 +10789,10 @@ h1.page-title {
 
 /*big spotlight post title*/
 .mailchimp-block .block-title,
-body:not(.full-width-content) #primary .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h4,
-.chromenews_posts_slider_widget .read-single .read-details .read-title h4,
-article.latest-posts-full .read-title h4,
-.af-banner-carousel .read-title h4{
+body:not(.full-width-content) #primary .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h3,
+.chromenews_posts_slider_widget .read-single .read-details .read-title h3,
+article.latest-posts-full .read-title h3,
+.af-banner-carousel .read-title h3{
     font-size: 32px;
 }
 /*big spotlight post title*/
@@ -10801,65 +10806,65 @@ article.latest-posts-full .read-title h4,
 
 /*medium spotlight post title*/
 
-.af-main-banner-thumb-posts .af-sec-post .read-title h4,
-.af-main-banner-featured-posts .read-title h4,
-.chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single .read-title h4,
-.af-main-banner-categorized-posts.express-carousel .af-sec-post .read-title h4,
+.af-main-banner-thumb-posts .af-sec-post .read-title h3,
+.af-main-banner-featured-posts .read-title h3,
+.chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single .read-title h3,
+.af-main-banner-categorized-posts.express-carousel .af-sec-post .read-title h3,
 
-.chromenews_posts_express_list .grid-part .read-title h4,
-.af-double-column.list-style .aft-spotlight-posts-1 .read-title h4,
-.chromenews_single_col_categorised_posts .read-title h4,
+.chromenews_posts_express_list .grid-part .read-title h3,
+.af-double-column.list-style .aft-spotlight-posts-1 .read-title h3,
+.chromenews_single_col_categorised_posts .read-title h3,
 
-.site-footer .chromenews_posts_slider_widget .read-single .read-details .read-title h4 ,
-#sidr .chromenews_posts_slider_widget .read-single .read-details .read-title h4 ,
-#secondary .chromenews_posts_slider_widget .read-single .read-details .read-title h4,
-.archive-list-post .read-title h4,
-.archive-masonry-post .read-title h4,
-.chromenews_posts_double_columns_widget .af-widget-body .af-sec-post .read-title h4,
+.site-footer .chromenews_posts_slider_widget .read-single .read-details .read-title h3 ,
+#sidr .chromenews_posts_slider_widget .read-single .read-details .read-title h3 ,
+#secondary .chromenews_posts_slider_widget .read-single .read-details .read-title h3,
+.archive-list-post .read-title h3,
+.archive-masonry-post .read-title h3,
+.chromenews_posts_double_columns_widget .af-widget-body .af-sec-post .read-title h3,
 
-body:not(.archive-first-post-full) .archive-layout-grid.four-col-masonry article:nth-of-type(5n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-body:not(.archive-first-post-full) .archive-layout-grid.two-col-masonry article:nth-of-type(3n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-body:not(.archive-first-post-full) .archive-layout-grid.three-col-masonry article:nth-of-type(4n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-.archive-first-post-full .archive-layout-grid.four-col-masonry article:nth-of-type(5n+6).archive-image-list-alternate  .archive-grid-post .read-title h4,
-.archive-first-post-full .archive-layout-grid.two-col-masonry article:nth-of-type(3n+4).archive-image-list-alternate  .archive-grid-post .read-title h4,
-.archive-first-post-full .archive-layout-grid.three-col-masonry article:nth-of-type(4n+5).archive-image-list-alternate  .archive-grid-post .read-title h4,
-article.latest-posts-grid .read-title h4,
-.two-col-masonry article.latest-posts-grid.col-2 .read-title h4,
-.af-main-banner-categorized-posts.express-posts .af-sec-post:not(.list-part) .read-title h4,
-.af-main-banner-categorized-posts.express-posts .af-sec-post:first-child .read-title h4{
+body:not(.archive-first-post-full) .archive-layout-grid.four-col-masonry article:nth-of-type(5n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+body:not(.archive-first-post-full) .archive-layout-grid.two-col-masonry article:nth-of-type(3n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+body:not(.archive-first-post-full) .archive-layout-grid.three-col-masonry article:nth-of-type(4n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+.archive-first-post-full .archive-layout-grid.four-col-masonry article:nth-of-type(5n+6).archive-image-list-alternate  .archive-grid-post .read-title h3,
+.archive-first-post-full .archive-layout-grid.two-col-masonry article:nth-of-type(3n+4).archive-image-list-alternate  .archive-grid-post .read-title h3,
+.archive-first-post-full .archive-layout-grid.three-col-masonry article:nth-of-type(4n+5).archive-image-list-alternate  .archive-grid-post .read-title h3,
+article.latest-posts-grid .read-title h3,
+.two-col-masonry article.latest-posts-grid.col-2 .read-title h3,
+.af-main-banner-categorized-posts.express-posts .af-sec-post:not(.list-part) .read-title h3,
+.af-main-banner-categorized-posts.express-posts .af-sec-post:first-child .read-title h3{
     font-size: 20px;
 }
 /*medium spotlight post title*/
 
-.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h4,
-.chromenews_popular_news_widget .banner-vertical-slider .af-double-column.list-style .read-title h4,
-.aft-banner-layout-tabbed-aligned .aft-thumb-part .read-title h4,
-.aft-banner-layout-vertical .af-main-banner-thumb-posts .read-title h4,
-.chromenews_posts_double_columns_widget .af-widget-body .af-double-column.list-style .read-title h4,
-.aft-trending-posts.list-part .af-double-column.list-style .read-title h4,
+.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h3,
+.chromenews_popular_news_widget .banner-vertical-slider .af-double-column.list-style .read-title h3,
+.aft-banner-layout-tabbed-aligned .aft-thumb-part .read-title h3,
+.aft-banner-layout-vertical .af-main-banner-thumb-posts .read-title h3,
+.chromenews_posts_double_columns_widget .af-widget-body .af-double-column.list-style .read-title h3,
+.aft-trending-posts.list-part .af-double-column.list-style .read-title h3,
 
-.four-col-masonry article.col-2 .read-title h4,
-.four-col-masonry article.latest-posts-grid.col-2 .read-title h4,
+.four-col-masonry article.col-2 .read-title h3,
+.four-col-masonry article.latest-posts-grid.col-2 .read-title h3,
 .widget ul ul li,
 .widget > ul > li,
 .widget:not(.chromenews_social_contacts_widget) ul.menu >li,
-.af-reated-posts .read-title h4,
-.af-main-banner-latest-posts .read-title h4{
+.af-reated-posts .read-title h3,
+.af-main-banner-latest-posts .read-title h3{
     font-size: 16px;
 }
 
 /*general post title*/
-.four-col-masonry article.col-2 .read-title h4,
-.four-col-masonry article.latest-posts-grid.col-2 .read-title h4,
-.af-list-post .read-title h4,
+.four-col-masonry article.col-2 .read-title h3,
+.four-col-masonry article.latest-posts-grid.col-2 .read-title h3,
+.af-list-post .read-title h3,
 .widget:not(.chromenews_social_contacts_widget) ul.menu >li,
-.af-main-banner-thumb-posts .read-single:not(.af-cat-widget-carousel) .read-title h4,
-.af-main-banner-thumb-posts .list-style .read-single:not(.af-cat-widget-carousel) .read-title h4,
-.af-trending-posts .aft-trending-posts.list-part .af-double-column.list-style .read-title h4{
+.af-main-banner-thumb-posts .read-single:not(.af-cat-widget-carousel) .read-title h3,
+.af-main-banner-thumb-posts .list-style .read-single:not(.af-cat-widget-carousel) .read-title h3,
+.af-trending-posts .aft-trending-posts.list-part .af-double-column.list-style .read-title h3{
     font-size: 16px;
 }
-.aft-main-banner-wrapper .aft-trending-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h4,
-.aft-main-banner-wrapper .aft-tabbed-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h4 {
+.aft-main-banner-wrapper .aft-trending-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h3,
+.aft-main-banner-wrapper .aft-tabbed-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h3 {
     font-size: 14px;
 }
 /*general post title*/
@@ -11244,7 +11249,7 @@ article.latest-posts-grid .read-title h4,
         height: 45px;
         min-width: 45px;
     }
-    .af-post-thumbnail-holder .af-double-column.list-style .read-details .read-title h4{
+    .af-post-thumbnail-holder .af-double-column.list-style .read-details .read-title h3{
         font-size: 14px;
         font-weight: normal;
     }
@@ -11595,14 +11600,14 @@ article.latest-posts-grid .read-title h4,
         height: 40px;
         width: 40px;
     }
-    body:not(.archive-first-post-full) .archive-layout-grid.four-col-masonry article:nth-of-type(5n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body:not(.archive-first-post-full) .archive-layout-grid.two-col-masonry article:nth-of-type(3n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body:not(.archive-first-post-full) .archive-layout-grid.three-col-masonry article:nth-of-type(4n).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body.archive-first-post-full .archive-layout-grid.four-col-masonry article:nth-of-type(5n+6).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body.archive-first-post-full .archive-layout-grid.two-col-masonry article:nth-of-type(3n+4).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body.archive-first-post-full .archive-layout-grid.three-col-masonry article:nth-of-type(4n+5).archive-image-list-alternate  .archive-grid-post .read-title h4,
-    body article.latest-posts-grid .read-title h4,
-    body .two-col-masonry article.latest-posts-grid.col-3 .read-title h4 {
+    body:not(.archive-first-post-full) .archive-layout-grid.four-col-masonry article:nth-of-type(5n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body:not(.archive-first-post-full) .archive-layout-grid.two-col-masonry article:nth-of-type(3n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body:not(.archive-first-post-full) .archive-layout-grid.three-col-masonry article:nth-of-type(4n).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body.archive-first-post-full .archive-layout-grid.four-col-masonry article:nth-of-type(5n+6).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body.archive-first-post-full .archive-layout-grid.two-col-masonry article:nth-of-type(3n+4).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body.archive-first-post-full .archive-layout-grid.three-col-masonry article:nth-of-type(4n+5).archive-image-list-alternate  .archive-grid-post .read-title h3,
+    body article.latest-posts-grid .read-title h3,
+    body .two-col-masonry article.latest-posts-grid.col-3 .read-title h3 {
         font-size: 20px;
     }
 }
@@ -11836,11 +11841,11 @@ article.latest-posts-grid .read-title h4,
         height: 260px;
     }
     /*media query of fonts*/
-    body:not(.full-width-content) #primary .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h4,
+    body:not(.full-width-content) #primary .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h3,
     body .mailchimp-block .block-title,
-    body .chromenews_posts_slider_widget .read-single .read-details .read-title h4,
-    body article.latest-posts-full .read-title h4,
-    body .af-banner-carousel .read-title h4,
+    body .chromenews_posts_slider_widget .read-single .read-details .read-title h3,
+    body article.latest-posts-full .read-title h3,
+    body .af-banner-carousel .read-title h3,
     body.single-post .entry-title,
     body h1.page-title{
         font-size: 20px;

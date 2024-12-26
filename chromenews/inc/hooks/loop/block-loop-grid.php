@@ -22,13 +22,13 @@ if (!function_exists('chromenews_loop_grid')) :
     <div class="pos-rel read-single color-pad clearfix af-cat-widget-carousel <?php echo esc_attr($chromenews_grid_design); ?> <?php echo esc_attr($chromenews_no_thumbnail_class); ?>">
       <?php if ($chromenews_title_position == 'top'): ?>
         <div class="read-title">
-          <h4>
-            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-          </h4>
+          <h3>
+            <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($chromenews_post_id)); ?>"><?php the_title(); ?></a>
+          </h3>
         </div>
-        <div class="post-item-metadata entry-meta">
-          <?php chromenews_post_item_meta($chromenews_post_display); ?>
-          <?php chromenews_get_comments_views_share($chromenews_post_id); ?>
+        <div class=" post-item-metadata entry-meta">
+              <?php chromenews_post_item_meta($chromenews_post_display); ?>
+              <?php chromenews_get_comments_views_share($chromenews_post_id); ?>
         </div>
       <?php endif; ?>
       <div class="read-img pos-rel read-bg-img">
@@ -68,17 +68,17 @@ if (!function_exists('chromenews_loop_grid')) :
 
         <?php if ($chromenews_title_position == 'bottom'): ?>
           <div class="read-title">
-            <h4>
-              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </h4>
+            <h3>
+              <a href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr(get_the_title($chromenews_post_id)); ?>"><?php the_title(); ?></a>
+            </h3>
           </div>
           <?php //if ($chromenews_small_grid == false): 
 
 
           ?>
-          <div class="post-item-metadata entry-meta">
-            <?php chromenews_post_item_meta($chromenews_post_display); ?>
-            <?php chromenews_get_comments_views_share($chromenews_post_id); ?>
+          <div class=" post-item-metadata entry-meta">
+                <?php chromenews_post_item_meta($chromenews_post_display); ?>
+                <?php chromenews_get_comments_views_share($chromenews_post_id); ?>
           </div>
         <?php endif; ?>
         <?php //endif; 

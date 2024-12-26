@@ -70,8 +70,12 @@ if (!function_exists('chromenews_the_post_thumbnail')) :
                 }
             } else {
                 // Fallback to first image in content if no thumbnail is set
-                $chromenews_post_content = get_post_field('post_content', $chromenews_post_id);
+                // $chromenews_post_content = get_post_field('post_content', $chromenews_post_id);
+                // $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $chromenews_post_content, $matches);
+                
+                $chromenews_post_content = substr(get_post_field('post_content', $chromenews_post_id), 0, 3000);
                 $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $chromenews_post_content, $matches);
+        
 
                 if (isset($matches[1][0])) {
                     $chromenews_img_id = chromenews_find_post_id_from_path($matches[1][0]);

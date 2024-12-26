@@ -32,7 +32,7 @@
             <?php endif; ?>
             <div class="read-title">
                 <?php the_title('<h4 class="entry-title">
-                    <a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a>
+                    <a href="' . esc_url(get_permalink()) . '" aria-label="'.esc_attr(get_the_title($post->ID)).'" rel="bookmark">', '</a>
                 </h4>'); ?>
             </div>
             
