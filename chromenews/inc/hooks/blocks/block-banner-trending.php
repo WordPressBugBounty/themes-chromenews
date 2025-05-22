@@ -38,7 +38,7 @@ $chromenews_carousel_args_encoded = wp_json_encode($chromenews_carousel_args);
                 ?>
                 <div class="slick-item">
                     <div class="aft-trending-posts list-part af-sec-post">
-                        <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', $chromenews_count, false, true, false); ?>
+                        <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', $chromenews_count, true, true, false); ?>
                     </div>
                 </div>
                 <?php

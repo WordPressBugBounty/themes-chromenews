@@ -59,7 +59,7 @@ if (!function_exists('chromenews_render_posts')):
         <span class="slick-item ">
           <li class="aft-trending-posts list-part af-sec-post read-single color-pad">
             <div class="aft-trending-posts list-part af-sec-post ">
-              <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, false, true, false); ?>
+              <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, true, true, false); ?>
             </div>
           </li>
         </span>

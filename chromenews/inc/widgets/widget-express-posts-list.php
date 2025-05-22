@@ -94,7 +94,7 @@ if (!class_exists('ChromeNews_Express_Posts_List')) :
                                             </div>
                                         <?php else: ?>
                                             <div class="col-2 pad float-l list-part af-sec-post">
-                                                <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, false, true, false); ?>
+                                                <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, true, true, false); ?>
                                             </div>
                                         <?php endif; ?>
                                         <?php

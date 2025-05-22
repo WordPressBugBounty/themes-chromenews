@@ -56,15 +56,16 @@ if (!class_exists('AF_themes_info')) {
       $this->current_user_name = $current_user->user_login;
     }
 
-    function chromenews_make_upgrade_link_external() {
-      ?>
+    function chromenews_make_upgrade_link_external()
+    {
+?>
       <script type="text/javascript">
-        jQuery(document).ready( function($) {   
-            $('#aft-upgrade-menu-item').parent().attr('target','_blank');               
+        jQuery(document).ready(function($) {
+          $('#aft-upgrade-menu-item').parent().attr('target', '_blank');
         });
-    </script>
-      <?php
-  }
+      </script>
+    <?php
+    }
     function chromenews_body_classes($classes)
     {
       $classes = explode(' ', $classes);
@@ -160,10 +161,10 @@ if (!class_exists('AF_themes_info')) {
       add_submenu_page(
         'chromenews', // Parent slug.
         __('Upgrade', 'chromenews'), // Page title.
-        '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'chromenews') .'</span>', // Menu title.
-         'manage_options', // Capability.
+        '<span id="aft-upgrade-menu-item">' . __('Upgrade', 'chromenews') . '</span>', // Menu title.
+        'manage_options', // Capability.
         esc_url('https://afthemes.com/products/chromenews-pro/') // Menu slug.
-        
+
       );
     }
 
@@ -217,7 +218,7 @@ if (!class_exists('AF_themes_info')) {
       ?>
         <div id="templatespare-plugin-install-activate" data-class=<?php echo $class; ?>
           current-theme=<?php echo esc_attr($this->theme_slug) ?> install=<?php echo json_encode($install); ?>
-          activate=<?php echo json_encode($activate); ?> page='<?php echo $this->page_slug; ?>'
+          activate=<?php echo json_encode($activate); ?> data-plugin-page='<?php echo $this->page_slug; ?>'
           message='<?php echo $message; ?>' ispro=''></div>
       <?php
       }
@@ -291,7 +292,7 @@ if (!class_exists('AF_themes_info')) {
 
       ?>
         <div id="templatespare-plugin-install-activate" data-class="<?php echo $class; ?>" current-theme='blockspare'
-          install=<?php echo json_encode($install); ?> activate=<?php echo json_encode($activate); ?> page="aft-block-patterns"
+          install=<?php echo json_encode($install); ?> activate=<?php echo json_encode($activate); ?> data-plugin-page="aft-block-patterns"
           message='<?php echo $message; ?>' isPro='<?php echo esc_attr($chromenews_blockspare_status); ?>'></div>
 <?php
       }
@@ -362,7 +363,7 @@ if (!class_exists('AF_themes_info')) {
         $class = (!empty($chromenews_elespare_verison) && $chromenews_elespare_active && $chromenews_elespare_verison < $chromenews_elespare_old_version)
           ? admin_url('plugins.php')
           : 'false';
-        echo '<div id="templatespare-plugin-install-activate" data-class="' . esc_attr($class) . '" current-theme="elespare" install="' . esc_attr(json_encode($install)) . '" activate="' . esc_attr(json_encode($activate)) . '" page="aft-template-kits" message="' . esc_attr($message) . '" isPro="' . esc_attr($chromenews_elespare_status) . '"></div>';
+        echo '<div id="templatespare-plugin-install-activate" data-class="' . esc_attr($class) . '" current-theme="elespare" install="' . esc_attr(json_encode($install)) . '" activate="' . esc_attr(json_encode($activate)) . '" data-plugin-page="aft-template-kits" message="' . esc_attr($message) . '" isPro="' . esc_attr($chromenews_elespare_status) . '"></div>';
       }
     }
 

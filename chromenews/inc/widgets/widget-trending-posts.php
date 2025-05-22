@@ -94,7 +94,7 @@ if (!class_exists('ChromeNews_Trending_Posts')) :
                     ?>
                             <div class="slick-item pad">
                                 <div class="aft-trending-posts list-part af-sec-post">
-                                    <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', $chromenews_count, false, true, false); ?>
+                                    <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', $chromenews_count, true, true, false); ?>
                                 </div>
                             </div>
                         <?php

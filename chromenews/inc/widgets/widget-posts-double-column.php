@@ -98,7 +98,7 @@ if (!class_exists('ChromeNews_Express_Posts_Double_Column')) :
                                                 <?php do_action('chromenews_action_loop_grid', $post->ID, 'grid-design-default', 'medium_large'); ?>
                                             </div>
                                         <?php else: ?>
-                                            <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, false, true, false); ?>
+                                            <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, true, true, false); ?>
                                         <?php
                                         endif;
                                         $chromenews_count++;

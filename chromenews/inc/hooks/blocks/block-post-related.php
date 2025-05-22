@@ -38,7 +38,7 @@ if ($chromenews_categories) :
                     ?>
                         <div class="col-2 pad float-l trending-posts-item">
                             <div class="aft-trending-posts list-part af-sec-post">
-                                <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, false, true, false); ?>
+                                <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, true, true, false); ?>
                             </div>
                         </div>
                     <?php }

@@ -81,7 +81,7 @@ if (!class_exists('ChromeNews_Posts_lists')) :
 
                                     ?>
                                     <div class="pad float-l col-2">
-                                        <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, false, true, false); ?>
+                                        <?php do_action('chromenews_action_loop_list', $post->ID, 'medium', 0, true, true, false); ?>
                                     </div>
                                 <?php
                                 endwhile;
