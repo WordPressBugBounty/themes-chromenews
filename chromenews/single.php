@@ -20,22 +20,19 @@ get_header();
             if ($social_share_icon_opt == 'after-content') {
                 $wrap_class = 'social-after-content';
             }
-
             while (have_posts()) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class('af-single-article'); ?>>
 
-                    <div class="entry-content-wrap read-single <?php echo esc_attr($wrap_class); ?>">
+                    <div class="entry-content-wrap af-cat-widget-carousel read-single <?php echo esc_attr($wrap_class); ?>">
 
                         <?php if (is_single()) : ?>
                             <div class="entry-content-title-featured-wrap">
                                 <?php
-
                                 $single_post_title_view = chromenews_get_option('single_post_title_view');
                                 if (($single_post_title_view == 'boxed') || ($single_post_title_view == 'title-below-image')) {
                                     do_action('chromenews_action_single_header');                                
                                     do_action('chromenews_action_single_featured_image');
                                 }
-
                                 ?>
                             </div>
                         <?php endif; ?>

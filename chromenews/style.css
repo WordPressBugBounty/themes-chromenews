@@ -4,7 +4,7 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 5.4.0
+Version: 5.4.1
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.8
@@ -4750,7 +4750,7 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
 .cat-links li{
     display: inline-block;
     font-size: 14px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 5px;
     line-height: 11px;
 }
@@ -4763,7 +4763,7 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
     word-wrap: normal;
     /* letter-spacing: 0.1px; */
     transition: 0.075s;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 /*cat links - color*/
@@ -9674,7 +9674,7 @@ p.awpa-more-posts a {
 .aft-dark-mode .wp-post-author-meta .wp-post-author-meta-more-posts a:hover,
 p.awpa-more-posts a:hover {border-color: #ffcc00 ;}
 .wp-post-author-wrap .awpa-contact-info {padding: 0;}
-.wp-post-author-wrap .awpa-contact-info li {display: inline-block;padding: 0;}
+.wp-post-author-wrap .awpa-contact-info li {display: inline-block;padding-right: 5px;}
 .wp_post_author_widget .wp-post-author-wrap.left .awpa-contact-info li {
     padding: 10px 5px 0 0;
 }

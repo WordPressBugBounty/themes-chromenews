@@ -37,7 +37,7 @@ if (!function_exists('chromenews_loop_list')) :
                 <?php chromenews_post_format($chromenews_post_id); ?>
                 <?php chromenews_count_content_words($chromenews_post_id); ?>
               </div>
-              <div class="read-categories">
+              <div class="read-categories categories-inside-image">
                 <?php chromenews_post_categories(); ?>
               </div>
             </div>
