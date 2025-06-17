@@ -4,7 +4,7 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 5.4.1
+Version: 5.4.2
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.8
@@ -1268,6 +1268,7 @@ a:hover {
 }
 .pos-rel {
     position: relative;
+    overflow: hidden;
 }
 .container-wrapper #primary {
     width: 66.66%;
@@ -3131,7 +3132,7 @@ body.aft-dark-mode.aft-single-featured-full .af-breadcrumbs,
     padding-left: 0;
 }
 .af-wide-layout .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
-    max-width: 1200px;
+    max-width: 1240px;
 }
 .aft-section-layout-background .chromenews-widget.chromenews_tabbed_posts_widget .tab-content.af-widget-body {
     padding-bottom: 20px;
@@ -4293,6 +4294,12 @@ section.aft-featured-video-section .section-wrapper {
 .aft-banner-layout-vertical .af-main-banner-thumb-posts .af-sec-post .read-img.read-bg-img {
     height: 190px;
 }
+.aft-banner-compressed-aligned .aft-trending-part .read-categories,
+.aft-banner-compressed-aligned .aft-trending-part .entry-meta,
+.aft-banner-compressed-aligned .aft-tabbed-part .read-categories,
+.aft-banner-compressed-aligned .aft-tabbed-part .entry-meta,
+.aft-banner-layout-vertical .aft-trending-part .read-categories,
+.aft-banner-layout-vertical .aft-trending-part .entry-meta,
 .aft-banner-layout-vertical .af-trending-navcontrols.af-slick-navcontrols,
 .aft-banner-layout-vertical .aft-trending-part span.author-links{
     display: none;
@@ -4750,7 +4757,7 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
 .cat-links li{
     display: inline-block;
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 5px;
     line-height: 11px;
 }
@@ -4763,7 +4770,7 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
     word-wrap: normal;
     /* letter-spacing: 0.1px; */
     transition: 0.075s;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 /*cat links - color*/
@@ -9674,7 +9681,7 @@ p.awpa-more-posts a {
 .aft-dark-mode .wp-post-author-meta .wp-post-author-meta-more-posts a:hover,
 p.awpa-more-posts a:hover {border-color: #ffcc00 ;}
 .wp-post-author-wrap .awpa-contact-info {padding: 0;}
-.wp-post-author-wrap .awpa-contact-info li {display: inline-block;padding-right: 5px;}
+.wp-post-author-wrap .awpa-contact-info li {display: inline-block;}
 .wp_post_author_widget .wp-post-author-wrap.left .awpa-contact-info li {
     padding: 10px 5px 0 0;
 }
@@ -10667,8 +10674,8 @@ body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chrom
     align-items: center;
     flex-wrap: wrap;
 }
-.aft-archive-wrapper .no-post-image .category-min-read-wrap .read-categories {
-    padding-left: 10px;
+.aft-archive-wrapper .no-post-image .category-min-read-wrap .min-read {
+    padding-right: 10px;
 }
 
 .aft-first-post-full .no-post-image .author-links .item-metadata {
@@ -10683,7 +10690,7 @@ body:not(.single) .aft-archive-wrapper .no-post-image.read-single:not(.grid-desi
 body:not(.single) .aft-archive-wrapper .no-post-image:not(.grid-design-texts-over-image) .read-single span.min-read {
     background: transparent;
     color: #4a4a4a;
-    padding: 0;
+    padding: 0 10px 0 0;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .03em;
@@ -10832,28 +10839,30 @@ article.latest-posts-grid .read-title h3,
 }
 /*medium spotlight post title*/
 
-.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h3,
+.af-list-post .read-title h3,
 .chromenews_popular_news_widget .banner-vertical-slider .af-double-column.list-style .read-title h3,
 .aft-banner-layout-tabbed-aligned .aft-thumb-part .read-title h3,
 .aft-banner-layout-vertical .af-main-banner-thumb-posts .read-title h3,
 .chromenews_posts_double_columns_widget .af-widget-body .af-double-column.list-style .read-title h3,
 .aft-trending-posts.list-part .af-double-column.list-style .read-title h3,
+.af-main-banner-categorized-posts.express-posts .af-sec-post.list-part .read-title h3,
 
+#sidr .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h3,
+#secondary .chromenews_express_posts_grid_widget .af-express-grid-wrap .read-single:first-child .read-title h3,
+.af-reated-posts .read-title h3,
+.af-main-banner-latest-posts .read-title h3,
 .four-col-masonry article.col-2 .read-title h3,
-.four-col-masonry article.latest-posts-grid.col-2 .read-title h3,
+.four-col-masonry article.latest-posts-grid.col-2 .read-title h3{
+    font-size: 18px;
+}
+
 .widget ul ul li,
 .widget > ul > li,
-.widget:not(.chromenews_social_contacts_widget) ul.menu >li,
-.af-reated-posts .read-title h3,
-.af-main-banner-latest-posts .read-title h3{
+.widget:not(.chromenews_social_contacts_widget) ul.menu >li{
     font-size: 16px;
 }
 
 /*general post title*/
-.four-col-masonry article.col-2 .read-title h3,
-.four-col-masonry article.latest-posts-grid.col-2 .read-title h3,
-.af-list-post .read-title h3,
-.widget:not(.chromenews_social_contacts_widget) ul.menu >li,
 .af-main-banner-thumb-posts .read-single:not(.af-cat-widget-carousel) .read-title h3,
 .af-main-banner-thumb-posts .list-style .read-single:not(.af-cat-widget-carousel) .read-title h3,
 .af-trending-posts .aft-trending-posts.list-part .af-double-column.list-style .read-title h3{
@@ -10861,7 +10870,7 @@ article.latest-posts-grid .read-title h3,
 }
 .aft-main-banner-wrapper .aft-trending-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h3,
 .aft-main-banner-wrapper .aft-tabbed-part.col-4 .aft-trending-posts.list-part .af-double-column.list-style .read-title h3 {
-    font-size: 14px;
+    font-size: 16px;
 }
 /*general post title*/
 

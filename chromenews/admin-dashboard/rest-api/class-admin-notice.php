@@ -160,9 +160,9 @@ class AdminNotice
 
     $notice_header = sprintf(
       '<h2>%1$s</h2><p class="about-description">%2$s</p></hr>',
-      esc_html__('Howdy!', 'chromenews'),
+      esc_html__('👋 Welcome, and Thank You!', 'chromenews'),
       sprintf(
-        esc_html__('%s is now installed and ready to use. We\'ve assembled some links to get you started.', 'chromenews'),
+        esc_html__('%s is now active. We\'re here to help you turn your ideas into a beautiful, professional website — quickly and confidently.', 'chromenews'),
         $this->theme_name
       )
     );
@@ -180,8 +180,7 @@ class AdminNotice
     $notice_starter_msg = sprintf(
       '<div class="aft-notice-col-2">
 				<div class="aft-general-info">
-					<h3><span class="dashicons dashicons-images-alt2">
-					</span>%1$s</h3>
+					<h3>%1$s</h3>
 					<p>%2$s</p>
 				</div>
 				<div class="aft-general-info-link %9$s ">
@@ -195,12 +194,13 @@ class AdminNotice
 					</div>
 				</div>
 				</div>',
-      __('Explore Our Pre-Built Starter Websites!', 'chromenews'),
-      esc_html__('Let your imagination soar! Designed with User-Friendly features, incorporating the Latest Trends and SEO-Friendly Markups. We genuinely appreciate you choosing our theme!', 'chromenews'),
+      __('🚀 Start With One Click', 'chromenews'),
+      esc_html__('Choose from 100+ starter sites designed for blogs, magazines, businesses & more.
+      Setup is simple — no coding required.', 'chromenews'),
       $chromenews_templatespare_url,
       $chromenews_templatespare_title,
       esc_url($demo_link),
-      esc_html__('Demos/product', 'chromenews'),
+      esc_html__('View Demos', 'chromenews'),
       esc_url(admin_url() . "admin.php?page=" . $this->page_slug),
       esc_html__('Theme dashboard', 'chromenews'),
       esc_attr($btn_class),
@@ -219,19 +219,19 @@ class AdminNotice
 				<div>
 					<a href="https://docs.afthemes.com/chromenews/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%3$s</a>
 					<a href="https://www.youtube.com/watch?v=W8NeOsnBK_A&list=PL8nUD79gscmjvGYgtQfVKgJMsBLIspJ1A" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%4$s</a>
-					<a href="https://afthemes.com/blog/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%5$s</a>
+					<a href="https://afthemes.com/supports/" target="_blank"><span aria-hidden="true" class="dashicons dashicons-external"></span>%5$s</a>
 				</div>
 				<div>
 					<a href="https://wordpress.org/support/theme/chromenews/reviews/?filter=5" class="button" target="_blank">%6$s</a>
 				</div>
 			</div>
 			</div>',
-      __('Documentation', 'chromenews'),
-      esc_html__('Please check our full documentation for detailed information on how to setup and customize the theme.', 'chromenews'),
-      esc_html__('Docs', 'chromenews'),
+      __('🤝 We\'re Here for You', 'chromenews'),
+      esc_html__('Whether you\'re just starting or customizing your site.', 'chromenews'),
+      esc_html__('Documentation', 'chromenews'),
       esc_html__('Videos', 'chromenews'),
-      esc_html__('Blog', 'chromenews'),
-      esc_html__('Rate This Theme', 'chromenews')
+      esc_html__('Support', 'chromenews'),
+      esc_html__('⭐ Rate This Theme', 'chromenews')
 
     );
 
