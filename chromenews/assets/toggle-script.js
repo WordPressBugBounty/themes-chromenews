@@ -16,7 +16,7 @@
     },
 
         n.lightDarkToggleFunction = function (DefaultSiteModeAttr) {
-            jQuery.removeCookie('stored-site-mode', { expires: 7, path: '/' });            
+            jQuery.removeCookie('chromenews-stored-site-mode', { expires: 7, path: '/' });            
             var actualSiteModeAttr = e('#aft-dark-light-mode-btn').data('site-mode');            
             var switchSiteModeAttr = '';
             if (DefaultSiteModeAttr === 'aft-dark-mode') {
@@ -28,7 +28,7 @@
             e('body').addClass(switchSiteModeAttr);
             e('#aft-dark-light-mode-btn').removeClass(DefaultSiteModeAttr);
             e('#aft-dark-light-mode-btn').addClass(switchSiteModeAttr);
-            jQuery.cookie('stored-site-mode', switchSiteModeAttr, { expires: 7, path: '/' });
+            jQuery.cookie('chromenews-stored-site-mode', switchSiteModeAttr, { expires: 7, path: '/' });
            
 
         },

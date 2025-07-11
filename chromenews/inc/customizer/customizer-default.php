@@ -21,6 +21,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
         $defaults = array();
         // Preloader options section
         $defaults['enable_site_preloader'] = 0;
+        $defaults['disable_wp_emoji'] = 0;
 
         // Header options section
         $defaults['header_layout'] = 'header-layout-centered';

@@ -129,8 +129,8 @@ if (!function_exists('chromenews_dark_and_light_mode_section')) :
     if ($chromenews_enable_site_mode_switch == 'aft-enable-mode-switch') :
       $chromenews_global_site_mode_setting = chromenews_get_option('global_site_mode_setting');
 
-      if (isset($_COOKIE["stored-site-mode"])) {
-        $chromenews_global_site_mode_setting = $_COOKIE["stored-site-mode"];
+      if (isset($_COOKIE["chromenews-stored-site-mode"])) {
+        $chromenews_global_site_mode_setting = $_COOKIE["chromenews-stored-site-mode"];
       } else {
         if (!empty($chromenews_global_site_mode_setting)) {
           $chromenews_global_site_mode_setting = $chromenews_global_site_mode_setting;

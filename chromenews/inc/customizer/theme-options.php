@@ -394,6 +394,27 @@ $wp_customize->add_control(
     )
 );
 
+// Setting - Disable Emoji Script.
+$wp_customize->add_setting(
+    'disable_wp_emoji',
+    array(
+        'default'           => $chromenews_default['disable_wp_emoji'],
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'chromenews_sanitize_checkbox',
+    )
+);
+
+$wp_customize->add_control(
+    'disable_wp_emoji',
+    array(
+        'label'    => esc_html__('Disable Emoji Script', 'chromenews'),
+        'description'       => esc_html__('GDPR friendly & better performance', 'chromenews'),
+        'section'  => 'site_layout_settings', // Use your preferred section.
+        'type'     => 'checkbox',
+        'priority' => 10,
+    )
+);
+
 
 // Setting - global content alignment of news.
 $wp_customize->add_setting(

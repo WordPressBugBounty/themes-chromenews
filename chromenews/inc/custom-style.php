@@ -771,7 +771,17 @@ background-color: <?php chromenews_esc_custom_style($text_over_secondary_color) 
         }
 
 <?php
-        return ob_get_clean();
+        
+        $css = ob_get_clean();
+
+        // Minify CSS: remove comments, newlines, extra spaces
+        $css = preg_replace('!/\*.*?\*/!s', '', $css);        // Remove comments
+        $css = preg_replace('/\s+/', ' ', $css);             // Collapse whitespace
+        $css = str_replace([' {', '{ ', '; ', ': ', ', '], ['{', '{', ';', ':', ','], $css);
+        $css = trim($css);
+
+        return $css;
+        // return ob_get_clean();
     }
 }
 
