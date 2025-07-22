@@ -1,4 +1,14 @@
-### 5.4.4 - Jun 11 2025 =
+### 5.4.5 - Jun 22 2025
+* New - Arabic language file
+* New - French language file
+* New - Italian language file
+* New - Japanese language file
+* New - Polish language file
+* New - Portugese language file
+* Update - GDPR compatible
+* Update - Speed optimization
+
+### 5.4.4 - Jun 11 2025
 * New - Spanish language file
 * New - Dutch language file
 * New - Russian language file

@@ -1,0 +1,2023 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ChromeNews 5.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/chromenews\n"
+"POT-Creation-Date: 2025-03-17T09:01:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: chromenews\n"
+"X-Generator: WP-CLI 2.6.0\n"
+
+msgid "ChromeNews"
+msgstr "Chromenews"
+
+msgid "https://afthemes.com/products/chromenews/"
+msgstr "https://afthemes.com/products/chromenews/"
+
+msgid ""
+"ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and"
+" magazines. The theme comes with a number of free starter sites that may be "
+"easily integrated to construct a fantastic news hub. The theme is fully "
+"widgetized, with 9+ custom widgets and widget sections, allowing users to "
+"customize site content. It also offers a light and dark color mode for "
+"viewing articles and blog posts in a fashionable manner. It also includes a "
+"variety of useful customizer choices for creating an aesthetically pleasing "
+"news site. You may set it up as you want and see how it looks before making "
+"any changes with the live customizer. It supports Gutenberg blocks and "
+"Elementor, as well as the WooCommerce plugin, allowing you to combine an "
+"online store with our newspaper theme. The RTL languages supported theme is "
+"appropriate for a news, journal, magazine, publishing, or review website, as"
+" well as blogging. It's well-designed to help the website rank higher in "
+"search engines, and users will receive excellent support from the staff if "
+"they run into any issues while using it. Find demos: "
+"https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: "
+"https://www.youtube.com/@wpafthemes/ Docs: "
+"https://docs.afthemes.com/chromenews/"
+msgstr ""
+"Chromenews est un thème WordPress puissant parfait pour les nouvelles, les "
+"blogs et les magazines.Le thème est livré avec un certain nombre de sites de"
+" démarrage gratuits qui peuvent être facilement intégrés pour construire un "
+"fantastique centre de nouvelles.Le thème est entièrement widget, avec 9+ "
+"widgets personnalisés et sections de widget, permettant aux utilisateurs de "
+"personnaliser le contenu du site.Il offre également un mode couleur claire "
+"et sombre pour consulter les articles et les articles de blog de manière à "
+"la mode.Il comprend également une variété de choix de personnalisation "
+"utiles pour créer un site d'information esthétiquement agréable.Vous pouvez "
+"le configurer comme vous le souhaitez et voir à quoi il ressemble avant "
+"d'apporter des modifications avec le personnalisateur en direct.Il prend en "
+"charge les blocs Gutenberg et Elementor, ainsi que le plugin WooCommerce, "
+"vous permettant de combiner une boutique en ligne avec notre thème de "
+"journal.Le thème pris en charge des langues RTL est approprié pour un site "
+"Web de nouvelles, journal, magazine, publication ou révision, ainsi que le "
+"blogging.Il est bien conçu pour aider le site Web à se classer plus haut "
+"dans les moteurs de recherche, et les utilisateurs recevront un excellent "
+"support du personnel s'ils rencontrent des problèmes tout en "
+"l'utilisant.Trouver des démos: "
+"https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: "
+"https://www.youtube.com/@wpafthemes/ docs: "
+"https://docs.afthemes.com/chromenews/"
+
+msgid "AF themes"
+msgstr "Thèmes AF"
+
+msgid "https://www.afthemes.com/"
+msgstr "https://www.afthemes.com/"
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page est introuvable."
+
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links"
+" below or a search?"
+msgstr ""
+"Il semble que rien n'a été trouvé à cet endroit. Peut-être essayer l'un des "
+"liens ci-dessous ou une recherche?"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Starter Sites"
+msgstr "Sites de démarrage"
+
+msgid "Block Patterns"
+msgstr "Bloquer des modèles"
+
+msgid "Elementor Kits"
+msgstr "Kits Elementor"
+
+msgid "Customize"
+msgstr "Personnaliser"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+msgid "The Templatespare plugin should be updated to the latest version"
+msgstr "Le plugin TemplatesPare doit être mis à jour vers la dernière version"
+
+msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
+msgstr ""
+"Importez un site de démarrage, personnalisez-le et vivez-le en 3 étapes "
+"faciles!"
+
+msgid "Blockspare plugin version should be more than %s."
+msgstr "La version du plugin BlockSpare doit être supérieure à%. %s"
+
+msgid ""
+"One-click Demo Import, Block Editor Ready, No Code Required! Built with "
+"Blockspare."
+msgstr ""
+"Importation de démonstration en un clic, éditeur de blocs prêt, aucun code "
+"requis! Construit avec BlockSpare."
+
+msgid "Elespare plugin version should be more than %s."
+msgstr "La version du plugin Enespare doit être supérieure à%. %s"
+
+msgid ""
+"One-click Import, Header/Footer Builder, Multilingual Support! Powered by "
+"Elespare."
+msgstr ""
+"Importation en un clic, constructeur d'en-tête / pied de page, support "
+"multilingue! Propulsé par Elespare."
+
+msgid "Are you sure you want to install this plugin?"
+msgstr "Êtes-vous sûr que vous souhaitez installer ce plugin?"
+
+msgid "Install Now"
+msgstr "Installer maintenant"
+
+msgid "Activate"
+msgstr "Activer"
+
+msgid "Activated"
+msgstr "Activé"
+
+msgid "Get Starter Sites"
+msgstr "Obtenez des sites de démarrage"
+
+msgid "Get Started"
+msgstr "Commencer"
+
+msgid ""
+"The \"Get Started\" action will install/activate the Templatespare and "
+"Blockspare plugins for Starter Sites and Templates."
+msgstr ""
+"L'action \"Démarrer\" installer / activer les plugins TemplatesPare et "
+"BlockSpare pour les sites et modèles de démarrage."
+
+msgid "By"
+msgstr "Par"
+
+msgid "More Details"
+msgstr "Plus de détails"
+
+msgid "Howdy!"
+msgstr "Salut!"
+
+msgid ""
+"%s is now installed and ready to use. We've assembled some links to get you "
+"started."
+msgstr ""
+"% s est désormais installé et prêt à l'emploi. Nous avons assemblé des liens"
+" pour vous aider à démarrer. %s"
+
+msgid "Explore Our Pre-Built Starter Websites!"
+msgstr "Explorez nos sites Web de démarrage prédéfinis!"
+
+msgid ""
+"Let your imagination soar! Designed with User-Friendly features, "
+"incorporating the Latest Trends and SEO-Friendly Markups. We genuinely "
+"appreciate you choosing our theme!"
+msgstr ""
+"Laissez votre imagination planer! Conçu avec des fonctionnalités "
+"conviviales, incorporant les dernières tendances et les balisages de "
+"référencement.Nous apprécions vraiment que vous choisissiez notre thème!"
+
+msgid "Demos/product"
+msgstr "Démos / produit"
+
+msgid "Theme dashboard"
+msgstr "Tableau de bord à thème"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid ""
+"Please check our full documentation for detailed information on how to setup"
+" and customize the theme."
+msgstr ""
+"Veuillez vérifier notre documentation complète pour des informations "
+"détaillées sur la façon de configurer et de personnaliser le thème."
+
+msgid "Docs"
+msgstr "Docs"
+
+msgid "Videos"
+msgstr "Vidéos"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Rate This Theme"
+msgstr "Évaluez ce thème"
+
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+"Désolé, vous n’avez pas l’autorisation d’installer des extensions sur ce "
+"site."
+
+msgid "Error - unable to verify nonce, please try again."
+msgstr "ERREUR - Impossible de vérifier la nonce, veuillez réessayer."
+
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+"Désolé, vous n’avez pas l’autorisation d’activer des extensions sur ce site."
+
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Une pensée sur &ldquo;% 1 $ s &rdquo; %1$s"
+
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr "% 1 $ s pensée sur &ldquo;% 2 $ s &rdquo; %1$s %2$s"
+
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+msgid "%1$s by %2$s."
+msgstr "<i>%1$s</i> par %2$s."
+
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+msgid "Social Menu"
+msgstr "Menu social"
+
+msgid "Footer Menu"
+msgstr "Menu de pied de page"
+
+msgid "on"
+msgstr "on"
+
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+msgid "-- Select --"
+msgstr "-- Sélectionner --"
+
+msgid "Subscribe"
+msgstr "S’abonner"
+
+msgid "Trending"
+msgstr "Tendance"
+
+msgid "Breaking News"
+msgstr "Rédaction des actualités"
+
+msgid "Main News"
+msgstr "Nouvelles principales"
+
+msgid "Trending Now"
+msgstr "Tendance maintenant"
+
+msgid "Popular"
+msgstr "Populaires"
+
+msgid "Latest"
+msgstr "Dernier"
+
+msgid "Editor's Picks"
+msgstr "Choix de l'éditeur"
+
+msgid "Trending Story"
+msgstr "Histoire tendance"
+
+msgid "Featured Posts"
+msgstr "Articles en vedette"
+
+msgid "Read More"
+msgstr "Lire la suite"
+
+msgid "Related News"
+msgstr "Nouvelles connexes"
+
+msgid "You may have missed"
+msgstr "Tu as peut-être manqué"
+
+msgid "Copyright &copy; All rights reserved."
+msgstr "Copyright & Copy; Tous droits réservés."
+
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+msgid "Site Title Size"
+msgstr "Taille du titre du site"
+
+msgid "Uppercase Site Title and Tagline"
+msgstr "Titre et slogan du site en majuscules"
+
+msgid "Site Title/Tagline Color"
+msgstr "Titre du site / Couleur du slogan"
+
+msgid "Header Image Mode"
+msgstr "Mode d'image de tête"
+
+msgid "Image visibility may vary as per the mode"
+msgstr "La visibilité de l'image peut varier selon le mode"
+
+msgid "Set as Background"
+msgstr "Définir en arrière-plan"
+
+msgid "Show Full Image"
+msgstr "Afficher l'image complète"
+
+msgid "Enable Image Tint/Overlay"
+msgstr "Activer l'image teinte / superposition"
+
+msgid "ChromeNews Pro"
+msgstr "Chromenews pro"
+
+msgid "Upgrade Now"
+msgstr "Mettre à niveau"
+
+msgid "Site Title/Tagline Color (Dark Mode)"
+msgstr "Titre du site / Couleur du slogan (mode foncé)"
+
+msgid "Site Color Mode"
+msgstr "Mode de couleur du site"
+
+msgid "Light"
+msgstr "Lumineux"
+
+msgid "Dark"
+msgstr "Foncé"
+
+msgid "Primary Color Section"
+msgstr "Section couleur primaire"
+
+msgid "Background Color (Dark Mode)"
+msgstr "Couleur d'arrière-plan (mode foncé)"
+
+msgid "Background Color (Dark Mode) will be applied for this mode."
+msgstr "La couleur d'arrière-plan (mode foncé) sera appliquée pour ce mode."
+
+msgid "Secondary Color Section"
+msgstr "Section de couleurs secondaires"
+
+msgid "Secondary Color"
+msgstr "Couleur secondaire"
+
+msgid "Texts over Secondary Color"
+msgstr "Textes sur la couleur secondaire"
+
+msgid "Primary Navigation Section"
+msgstr "Section de navigation primaire"
+
+msgid "Fonts & Typography"
+msgstr "Polices et typographie"
+
+msgid "Font Family Section"
+msgstr "Section de la famille des polices"
+
+msgid "Site Title Font"
+msgstr "Police du titre du site"
+
+msgid "Primary Font"
+msgstr "Police primaire"
+
+msgid "Secondary Font"
+msgstr "Police secondaire"
+
+msgid "Post Title Font"
+msgstr "Police du titre des publications"
+
+msgid "Widgets, Archives, Search, etc."
+msgstr "Widgets, archives, recherche, etc."
+
+msgid "Texts Formatting Section"
+msgstr "Section de formatage des textes"
+
+msgid "Title Font Weight"
+msgstr "Titre de la police du titre"
+
+msgid "Default Value: %d"
+msgstr "Valeur par défaut:% D %d"
+
+msgid "500"
+msgstr "500"
+
+msgid "700"
+msgstr "700"
+
+msgid "Font Size Section"
+msgstr "Section de taille de police"
+
+msgid "Global Section Title Size"
+msgstr "Taille du titre de la section globale"
+
+msgid "Main Banner Options"
+msgstr "Options de bannières principales"
+
+msgid "Main Banner"
+msgstr "Bannière principale"
+
+msgid "Enable Main Banner Section"
+msgstr "Activer la section des bannières principales"
+
+msgid "Main Banner Background Image"
+msgstr "Image de fond de bannière principale"
+
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr "Taille recommandée% 1 $ s Px x% 2 $ s PX %1$s %2$s"
+
+msgid "Select Main Banner Layout"
+msgstr "Sélectionnez la disposition de la bannière principale"
+
+msgid "Default"
+msgstr "Par défaut"
+
+msgid "Tiled"
+msgstr "Carrelé"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "Select Main Banner Order"
+msgstr "Sélectionnez la commande de bannière principale"
+
+msgid "Order 1"
+msgstr "Commande 1"
+
+msgid "Order 2"
+msgstr "Commande 2"
+
+msgid "Main News Section"
+msgstr "Section des nouvelles principales"
+
+msgid "Filter Posts By"
+msgstr "Filtrer les publications par"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Tag"
+msgstr "Étiquette"
+
+msgid "Select Category"
+msgstr "Sélectionner une catégorie"
+
+msgid "Select category to be shown on main slider section"
+msgstr "Sélectionnez la catégorie à afficher sur la section curseur principal"
+
+msgid "Select Tag"
+msgstr "Sélectionner la balise"
+
+msgid "Select tag to be shown on main slider section"
+msgstr "Sélectionnez la balise à afficher sur la section du curseur principal"
+
+msgid "Number of Posts"
+msgstr "Nombre de postes"
+
+msgid "Accepts any postive number."
+msgstr "Accepte tout numéro postif."
+
+msgid "Enable Autoplay"
+msgstr "Activer la lecture automatique"
+
+msgid "Editor's Picks Section"
+msgstr "Section des choix de l'éditeur"
+
+msgid "Section Title"
+msgstr "Titre de section"
+
+msgid "Trending Section"
+msgstr "Section tendance"
+
+msgid "Popular Tags"
+msgstr "Étiquettes populaires"
+
+msgid "Enable Trending Tags"
+msgstr "Activer les balises à tendance"
+
+msgid "Order Tags By"
+msgstr "Commandez les balises par"
+
+msgid "Popularity"
+msgstr "Popularité"
+
+msgid "Exclusive News"
+msgstr "Nouvelles exclusives"
+
+msgid "Enable Exclusive News"
+msgstr "Activer les nouvelles exclusives"
+
+msgid "Flash Posts Category"
+msgstr "Catégorie Flash Posts"
+
+msgid "Select category to be shown on trending posts"
+msgstr "Sélectionnez la catégorie à afficher sur les messages tendances"
+
+msgid "Frontpage Options"
+msgstr "Options de page Front"
+
+msgid "Enable Featured Post Section"
+msgstr "Activer la section de publication en vedette"
+
+msgid "Select"
+msgstr "Sélectionner"
+
+msgid "Select category to be shown on featured section"
+msgstr "Sélectionnez la catégorie à afficher sur la section en vedette"
+
+msgid "Frontpage Layout Settings"
+msgstr "Paramètres de mise en page"
+
+msgid "Frontpage Content Alignment"
+msgstr "Alignement de contenu en première page"
+
+msgid "Select frontpage content alignment"
+msgstr "Sélectionnez l'alignement du contenu FrontPage"
+
+msgid "Home Content - Home Sidebar"
+msgstr "Contenu à domicile - barre latérale à domicile"
+
+msgid "Home Sidebar - Home Content"
+msgstr "Barre latérale à domicile - Contenu à domicile"
+
+msgid "Only Home Content"
+msgstr "Seulement contenu à domicile"
+
+msgid "Header Options"
+msgstr "Options d'en-tête"
+
+msgid "Header Settings"
+msgstr "Réglages d’en-tête"
+
+msgid "Site Light/Dark Mode"
+msgstr "Site Light / Mode sombre"
+
+msgid "Enable"
+msgstr "Activer"
+
+msgid "Disable"
+msgstr "Désactiver"
+
+msgid "Top Header Section"
+msgstr "Section d'en-tête supérieure"
+
+msgid "Show Top Header"
+msgstr "Afficher l'en-tête supérieur"
+
+msgid "Show Social Menu"
+msgstr "Afficher le menu social"
+
+msgid "Show Date"
+msgstr "Date de présentation"
+
+msgid "Show Time"
+msgstr "Afficher l'heure"
+
+msgid "Time Format"
+msgstr "Format d’heure"
+
+msgid "12 hours"
+msgstr "12 heures"
+
+msgid "24 hours"
+msgstr "24 heures"
+
+msgid "From WordPress Settings"
+msgstr "À partir des paramètres WordPress"
+
+msgid "Header Advertisement"
+msgstr "Annonceur"
+
+msgid "Header Section Advertisement"
+msgstr "Annonce de section d'en-tête"
+
+msgid "URL Link"
+msgstr "Lien URL"
+
+msgid "Theme Options"
+msgstr "Options du thème"
+
+msgid "Breadcrumb Options"
+msgstr "Options de chapelure"
+
+msgid "Show breadcrumbs"
+msgstr "Montrer la chapelure"
+
+msgid "Select Breadcrumbs"
+msgstr "Sélectionner la chapelure"
+
+msgid ""
+"Please ensure that you have enabled the plugin's breadcrumbs before choosing"
+" other than Default"
+msgstr ""
+"Veuillez vous assurer que vous avez activé la chapelure du plugin avant de "
+"choisir autrement que par défaut"
+
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+msgid "Rank Math"
+msgstr "Match de grade"
+
+msgid "NavXT"
+msgstr "Navxt"
+
+msgid "Global Settings"
+msgstr "Réglages globaux"
+
+msgid "Enable Preloader"
+msgstr "Activer le préloadeur"
+
+msgid "Global Content Alignment"
+msgstr "Alignement mondial du contenu"
+
+msgid "Content - Primary sidebar"
+msgstr "Contenu - barre latérale primaire"
+
+msgid "Primary sidebar - Content"
+msgstr "Barre latérale primaire - Contenu"
+
+msgid "Full width content"
+msgstr "Contenu à pleine largeur"
+
+msgid "Also Show Content Image in Archive"
+msgstr "Affichez également l'image de contenu dans Archive"
+
+msgid "If there is no Post Featured image set"
+msgstr "S'il n'y a pas de message d'image en vedette"
+
+msgid "Enable"
+msgstr "Activer"
+
+msgid "Categories Settings"
+msgstr "Catégories Paramètres"
+
+msgid "Post Categories"
+msgstr "Catégories de poste"
+
+msgid "Show"
+msgstr "Afficher"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Author and Date Settings"
+msgstr "Paramètres de l'auteur et de la date"
+
+msgid "For Spotlight Posts"
+msgstr "Pour les messages de projecteur"
+
+msgid "Show Date and Author"
+msgstr "Afficher la date et l'auteur"
+
+msgid "Show Date Only"
+msgstr "Afficher la date uniquement"
+
+msgid "Hide All"
+msgstr "Cacher tout"
+
+msgid "For Small Grid"
+msgstr "Pour la petite grille"
+
+msgid "For List"
+msgstr "Pour la liste"
+
+msgid "Author Icon/Gravatar"
+msgstr "Icône de l'auteur / Gravatar"
+
+msgid "Show Gravatar"
+msgstr "Montrer de la gravité"
+
+msgid "Show Icon"
+msgstr "Icône de montre"
+
+msgid "None"
+msgstr "Aucun(e)"
+
+msgid "Post Date Type"
+msgstr "Type de post-date"
+
+msgid "Published Date"
+msgstr "Date publiée"
+
+msgid "Modified Date"
+msgstr "Date de modification"
+
+msgid "Date Format"
+msgstr "Format de date"
+
+msgid "WordPress Default Date Format"
+msgstr "Format de date de défaut WordPress"
+
+msgid "Ago Date Format"
+msgstr "Format de date il y a"
+
+msgid "Minutes Read Count"
+msgstr "Minutes Lire Count"
+
+msgid "Excerpt Settings"
+msgstr "Paramètres d'extraction"
+
+msgid "Global Excerpt Read More"
+msgstr "Extrait mondial en savoir plus"
+
+msgid "Custom Menu Section"
+msgstr "Section de menu personnalisé"
+
+msgid "Enable Custom Menu Section"
+msgstr "Activer la section Menu personnalisée"
+
+msgid "Icon"
+msgstr "Icône"
+
+msgid "Bell"
+msgstr "Cloche"
+
+msgid "Play"
+msgstr "Jouer"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Link"
+msgstr "Lien"
+
+msgid "Single Post"
+msgstr "Publication seule"
+
+msgid "Show Featured Image"
+msgstr "Afficher l’image mise en avant"
+
+msgid "Featured Image Position"
+msgstr "Position de l’image"
+
+msgid "Title below image"
+msgstr "Titre ci-dessous Image"
+
+msgid "Single Content"
+msgstr "Contenu unique"
+
+msgid "Spacious"
+msgstr "Spacieux"
+
+msgid "Compact"
+msgstr "Compact"
+
+msgid "Show Tags under Content"
+msgstr "Afficher les balises sous contenu"
+
+msgid "Social Share Option"
+msgstr "Option de partage social"
+
+msgid "Social Share from Jetpack plugin"
+msgstr "Partage social du plugin Jetpack"
+
+msgid "After Title"
+msgstr "Après le titre"
+
+msgid "Before Title"
+msgstr "Avant le titre"
+
+msgid "After Content"
+msgstr "Après le contenu"
+
+msgid "Related Posts Settings"
+msgstr "Paramètres relevés connexes"
+
+msgid "Enable Related Posts"
+msgstr "Activer les articles connexes"
+
+msgid "Archive Settings"
+msgstr "Paramètres d'archives"
+
+msgid "Disable Main Banner on Blog"
+msgstr "Désactiver la bannière principale sur le blog"
+
+msgid "Archive layout"
+msgstr "Disposition des archives"
+
+msgid "Select layout for archive"
+msgstr "Sélectionnez la mise en page pour l'archive"
+
+msgid "Grid"
+msgstr "Grille"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Sidebar Settings"
+msgstr "Paramètres de la barre latérale"
+
+msgid "Make Sidebar Sticky"
+msgstr "Rendre la barre latérale collante"
+
+msgid "Sidebar Sticky Position"
+msgstr "Position collante de barre latérale"
+
+msgid "Top"
+msgstr "En haut"
+
+msgid "Bottom"
+msgstr "En bas"
+
+msgid "You May Have Missed"
+msgstr "Tu as peut-être manqué"
+
+msgid "Show Above Footer"
+msgstr "Montrer au-dessus du pied de page"
+
+msgid "Posts Section Title"
+msgstr "Titre de la section des publications"
+
+msgid "Footer"
+msgstr "Pied de page"
+
+msgid "Footer Background Image"
+msgstr "Image d'arrière-plan de pied"
+
+msgid "Copyright Text"
+msgstr "Texte du droit d'auteur"
+
+msgid "Hide footer Menu Section"
+msgstr "Section de menu de pied de page"
+
+msgid "Pages:"
+msgstr "Pages :"
+
+msgid "Light/Dark Button"
+msgstr "Bouton clair / sombre"
+
+msgid "Layout Options"
+msgstr "Options de mise en page"
+
+msgid "Content Options"
+msgstr "Options de contenu"
+
+msgid "Set as global layout"
+msgstr "Définir la disposition globale"
+
+msgid "Please go to Customize>Themes Options for Single Post/Page."
+msgstr ""
+"Veuillez consulter les options de personnalisation> Thèmes pour une seule "
+"publication / page."
+
+msgid "Sidebar Options"
+msgstr "Options de barre latérale"
+
+msgid "Content - Primary Sidebar"
+msgstr "Contenu - barre latérale primaire"
+
+msgid "Primary Sidebar - Content"
+msgstr "Barre latérale primaire - Contenu"
+
+msgid "No Sidebar"
+msgstr "Aucune colonne latérale"
+
+msgid "Please go to Customize>Frontpage Options for Homepage."
+msgstr "Veuillez consulter les options FrontPage pour la page d'accueil."
+
+msgid "Category Color 1"
+msgstr "Catégorie Couleur 1"
+
+msgid "Category Color 2"
+msgstr "Catégorie Couleur 2"
+
+msgid "Category Color 3"
+msgstr "Catégorie Couleur 3"
+
+msgid "Color Class"
+msgstr "Classe de couleurs"
+
+msgid ""
+"Select category color class. You can set appropriate categories color on "
+"\"Categories\" section of the theme customizer."
+msgstr ""
+"Sélectionnez la classe de couleurs de catégorie.Vous pouvez définir les "
+"catégories appropriées Color sur la section \"Catégories\" du "
+"personnalisateur de thème."
+
+msgid "AF Companion"
+msgstr "Par compagnon"
+
+msgid "Templatespare"
+msgstr "Modèles"
+
+msgid "Elespare"
+msgstr "Élever"
+
+msgid "Blockspare"
+msgstr "Bloc de blocage"
+
+msgid "Latest Posts Block"
+msgstr "Les derniers articles bloquent"
+
+msgid "Free Live Chat using 3CX"
+msgstr "Chat en direct gratuit en utilisant 3cx"
+
+msgid "Magic Content Box"
+msgstr "Boîte de contenu magique"
+
+msgid "WP Post Author"
+msgstr "Auteur du post WP"
+
+msgid "Frontend Post Submission"
+msgstr "Soumission de poste frontal"
+
+msgid "HybridNews Main Banner"
+msgstr "Bannière principale des hybridnews"
+
+msgid "HybridNews Express Posts"
+msgstr "HybridNews Express Posts"
+
+msgid "Express Grid"
+msgstr "Grille express"
+
+msgid "About Author"
+msgstr "À propos de l'auteur"
+
+msgid ""
+"We mainly focus on quality code and elegant design with incredible support. "
+"Our WordPress themes and plugins empower you to create an elegant, "
+"professional, and easy-to-maintain website in no time at all. Even on mobile"
+" and tablet screens, your website will look great"
+msgstr ""
+"Nous nous concentrons principalement sur le code de qualité et la conception"
+" élégante avec un support incroyable.Nos thèmes et plugins WordPress vous "
+"permettent de créer un site Web élégant, professionnel et facile à maintenir"
+" en un rien de temps.Même sur les écrans mobiles et tablettes, votre site "
+"Web aura fière allure"
+
+msgid "HybridNews Primary Section"
+msgstr "Section principale des hybridnews"
+
+msgid "Post Slider"
+msgstr "Curseur de poste"
+
+msgid "Post Grid"
+msgstr "Grille après"
+
+msgid "Post List"
+msgstr "Liste de postes"
+
+msgid "Connect to Us"
+msgstr "Connectez-vous à nous"
+
+msgid "Advertisement"
+msgstr "Publicité"
+
+msgid "HybridNews Secondary Section"
+msgstr "HybridNews Section secondaire"
+
+msgid "Express Tile"
+msgstr "Carreau express"
+
+msgid "Single Column"
+msgstr "Colonne unique"
+
+msgid "Categories"
+msgstr "Catégories"
+
+msgid "HybridNews Ticker News"
+msgstr "HybridNews Ticker News"
+
+msgid "HybridNews Featured News"
+msgstr "HybridNews a présenté des nouvelles"
+
+msgid "Featured News"
+msgstr "Nouvelles en vedette"
+
+msgid "HybridNews Three Columns Posts"
+msgstr "HybridNews trois colonnes Posts"
+
+msgid "Three Columns"
+msgstr "Trois colonnes"
+
+msgid "HybridNews Post Carousel"
+msgstr "HybridNews post-carrousel"
+
+msgid "Post Carousel"
+msgstr "Post Carrousel"
+
+msgid "HybridNews"
+msgstr "Hybridnews"
+
+msgid ""
+"Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we"
+" hope you are loving it! We would appreciate it if you can %3$sgive us a 5 "
+"star rating on WordPress.org%4$s! We'll continue to develop exciting new "
+"features for free in the future by sharing the love!"
+msgstr ""
+"Howdy,% 1 $ s! Nous avons remarqué que vous utilisez% 2 $ S depuis un "
+"certain temps maintenant, nous espérons que vous l'aimez! Nous apprécierions"
+" que vous puissiez% 3 $ SGIVE US une note 5 étoiles sur wordpress.org% 4 $ "
+"s! Nous continuerons à développer gratuitement de nouvelles fonctionnalités "
+"passionnantes à l'avenir en partageant l'amour! %1$s %2$s %3$s %4$s"
+
+msgid "Sure thing"
+msgstr "Bien sûr"
+
+msgid "Remind me later"
+msgstr "Me le rappeler ultérieurement"
+
+msgid "I've already done."
+msgstr "J'ai déjà fait."
+
+msgid "Got any support queries?"
+msgstr "Vous avez des requêtes de soutien?"
+
+msgid "Previous"
+msgstr "Précédent"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "%s min read"
+msgstr "% s min Lire %s"
+
+msgid "ago"
+msgstr "il y a"
+
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
+
+msgid "Action failed. Please refresh the page and retry."
+msgstr "L'action a échoué. Veuillez actualiser la page et réessayer."
+
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin & # 8217; hein?"
+
+msgid ""
+"%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit "
+"with an exclusive gift: %4$s premium features! Use code %3$s at checkout. "
+"Wishing you a season filled with joyous holidays and even happier savings! "
+"🎄✨"
+msgstr ""
+"% 1 $ S 🎁 J'espère que vous aimez notre thème GRATUIT% 2 $ S! Plongez dans "
+"l'esprit festif avec un cadeau exclusif:% 4 $ S Caractéristiques Premium! "
+"Utiliser le code% 3 $ S à la caisse.Je vous souhaite une saison remplie de "
+"vacances joyeuses et de économies encore plus heureuses! 🎄✨ %1$s %2$s %3$s "
+"%4$s"
+
+msgid "Claim Your Discount"
+msgstr "Réclamez votre remise"
+
+msgid "Power Bundle"
+msgstr "Pack de puissance"
+
+msgid "All Themes Plan"
+msgstr "Tous les thèmes plan"
+
+msgid "Maybe Later"
+msgstr "Peut-être plus tard"
+
+msgid "Have Queries?"
+msgstr "Vous avez des questions?"
+
+msgid "Displays author info."
+msgstr "Affiche les informations sur l'auteur."
+
+msgid "AFTA Author Info"
+msgstr "Informations sur l'auteur AFTA"
+
+msgid "Profile image"
+msgstr "Image de profil"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Descriptions"
+msgstr "Descriptions"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Displays Express Posts from selected categories."
+msgstr "Affiche des articles express à partir de catégories sélectionnées."
+
+msgid "AFTA Express Posts List"
+msgstr "Liste des publications AFTA Express"
+
+msgid "Displays grid from selected categories."
+msgstr "Affiche la grille des catégories sélectionnées."
+
+msgid "AFTA Post Double Columns"
+msgstr "AFTA Post Double Colonnes"
+
+msgid "Select Category 1"
+msgstr "Sélectionnez la catégorie 1"
+
+msgid "Select Category 2"
+msgstr "Sélectionnez la catégorie 2"
+
+msgid "AFTA Post Grid"
+msgstr "Grille AFTA Post"
+
+msgid "AFTA Post List"
+msgstr "Liste de publication AFTA"
+
+msgid "Displays posts single column from selected categories."
+msgstr ""
+"Affiche des messages une colonne unique à partir des catégories "
+"sélectionnées."
+
+msgid "AFTA Post Single Column"
+msgstr "Colonne unique AFTA Post"
+
+msgid "Displays posts slider from selected category."
+msgstr "Affiche le curseur des articles de la catégorie sélectionnée."
+
+msgid "AFTA Posts Slider"
+msgstr "Afta Post Slider"
+
+msgid "Select category"
+msgstr "Sélectionner une catégorie"
+
+msgid "Displays social contacts lists from selected settings."
+msgstr ""
+"Affiche les listes de contacts sociaux à partir des paramètres sélectionnés."
+
+msgid "AFTA Social Contacts"
+msgstr "Contacts sociaux AFTA"
+
+msgid "Connect with Us"
+msgstr "Connectez-vous avec nous"
+
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu"
+" on Menu Settings."
+msgstr ""
+"Le menu social n'est pas défini. Vous devez créer un menu et l'attribuer au "
+"menu social sur les paramètres du menu."
+
+msgid "AFTA Trending News"
+msgstr "AFTA Tending News"
+
+msgid "Upload"
+msgstr "Téléverser"
+
+msgid "Select Image"
+msgstr "Sélectionnez une image"
+
+msgid "Choose Image"
+msgstr "Choisissez une image"
+
+msgid "X"
+msgstr "X"
+
+msgid "Select"
+msgstr "Sélectionner"
+
+msgid "Recent"
+msgstr "Récent"
+
+msgid "Main Sidebar"
+msgstr "Colonne latérale principale"
+
+msgid "Add widgets for main sidebar."
+msgstr "Ajoutez des widgets pour la barre latérale principale."
+
+msgid "Front-page Content Section"
+msgstr "Section de contenu en première page"
+
+msgid "Add widgets to front-page contents section."
+msgstr "Ajoutez des widgets à la section des contenus en première page."
+
+msgid "Front-page Sidebar Section"
+msgstr "Section de barre latérale en première page"
+
+msgid "Add widgets to front-page sidebar section."
+msgstr "Ajoutez des widgets à la section de barre latérale de la page."
+
+msgid "Off Canvas"
+msgstr "Hors-champ"
+
+msgid "Add widgets for off-canvas section."
+msgstr "Ajoutez des widgets pour la section hors-canne."
+
+msgid "Footer First Section"
+msgstr "PREMIÈRE SECTION DE PREMIER"
+
+msgid "Displays items on footer first column."
+msgstr "Affiche les éléments sur la première colonne du pied de page."
+
+msgid "Footer Second Section"
+msgstr "Deuxième section de pied"
+
+msgid "Displays items on footer second column."
+msgstr "Affiche des éléments sur la deuxième colonne de pied de page."
+
+msgid "Footer Third Section"
+msgstr "Troisième section de pied"
+
+msgid "Displays items on footer third column."
+msgstr "Affiche les éléments sur le pied de page troisième."
+
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+msgid "%d item"
+msgstr "% D %d"
+
+msgid "Browse:"
+msgstr "Parcourir :"
+
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "404 Not Found"
+msgstr "404 - Introuvable"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+msgid "Page %s"
+msgstr "Page %s"
+
+msgid "Comment Page %s"
+msgstr "Page de commentaire %s"
+
+msgid "Minute %s"
+msgstr "Minute %s"
+
+msgid "Week %s"
+msgstr "Semaine %s"
+
+msgid "g:i a"
+msgstr "G\\hi"
+
+msgid "i"
+msgstr "i"
+
+msgid "g a"
+msgstr "g a"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "F"
+msgstr "F"
+
+msgid "j"
+msgstr "j"
+
+msgid "W"
+msgstr "W"
+
+msgid "Install Required Plugins"
+msgstr "Installer les plugins requis"
+
+msgid "Install Plugins"
+msgstr "Installer des plugins"
+
+msgid "Installing Plugin: %s"
+msgstr "Extension en cours d’installation : %s"
+
+msgid "Updating Plugin: %s"
+msgstr "Mise à jour du plugin:% S %s"
+
+msgid "Something went wrong with the plugin API."
+msgstr "Quelque chose a mal tourné avec l'API du plugin."
+
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Ce thème nécessite le plugin suivant:% 1 $ s. %1$s"
+
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Ce thème recommande le plugin suivant:% 1 $ s. %1$s"
+
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"Le plugin suivant doit être mis à jour à sa dernière version pour garantir "
+"une compatibilité maximale avec ce thème:% 1 $ s. %1$s"
+
+msgid "There is an update available for: %1$s."
+msgstr "Il existe une mise à jour disponible pour:% 1 $ s. %1$s"
+
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "Le plugin requis suivant est actuellement inactif:% 1 $ s. %1$s"
+
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "Le plugin recommandé suivant est actuellement inactif:% 1 $ s. %1$s"
+
+msgid "Begin installing plugin"
+msgstr "Commencer à installer le plugin"
+
+msgid "Begin updating plugin"
+msgstr "Commencer à mettre à jour le plugin"
+
+msgid "Begin activating plugin"
+msgstr "Commencer à activer le plugin"
+
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à l'installateur des plugins requis"
+
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+msgid "Plugin activated successfully."
+msgstr "Le plugin s'est activé avec succès."
+
+msgid "The following plugin was activated successfully:"
+msgstr "Le plugin suivant a été activé avec succès:"
+
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Aucune action prise. Le plugin% 1 $ s était déjà actif. %1$s"
+
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non activé. Une version plus élevée de% S est nécessaire pour ce "
+"thème. Veuillez mettre à jour le plugin. %s"
+
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins installés et activés avec succès. % 1 $ s %1$s"
+
+msgid "Dismiss this notice"
+msgstr "Ignorer cette notification"
+
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Il existe un ou plusieurs plugins requis ou recommandés pour installer, "
+"mettre à jour ou activer."
+
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Veuillez contacter l'administrateur de ce site pour obtenir de l'aide."
+
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ce plugin doit être mis à jour pour être compatible avec votre thème."
+
+msgid "Update Required"
+msgstr "Mise à jour requise"
+
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Le package de plugin distant ne contient pas de dossier avec la limace "
+"souhaitée et le renommée n'a pas fonctionné."
+
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Veuillez contacter le fournisseur de plugins et leur demander d'emballer "
+"leur plugin conformément aux directives WordPress."
+
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Le package de plugin distant se compose de plusieurs fichiers, mais les "
+"fichiers ne sont pas emballés dans un dossier."
+
+msgid "and"
+msgstr "et"
+
+msgid "TGMPA v%s"
+msgstr "Tgmpa v% s %s"
+
+msgid "Required"
+msgstr "Obligatoire"
+
+msgid "Recommended"
+msgstr "Recommandées"
+
+msgid "WordPress Repository"
+msgstr "Référentiel WordPress"
+
+msgid "External Source"
+msgstr "Source externe"
+
+msgid "Pre-Packaged"
+msgstr "Préemballé"
+
+msgid "Not Installed"
+msgstr "Non installé"
+
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+msgid "Active"
+msgstr "Actif"
+
+msgid "Required Update not Available"
+msgstr "Mise à jour requise non disponible"
+
+msgid "Requires Update"
+msgstr "Nécessite une mise à jour"
+
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "All <span class = \"count\"> (% s) </span> %s"
+
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "Pour installer <span class = \"count\"> (% s) </span> %s"
+
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "Mise à jour disponible <span class = \"count\"> (% s) </span> %s"
+
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "Pour activer <span class = \"count\"> (% s) </span> %s"
+
+msgid "unknown"
+msgstr "inconnu"
+
+msgid "Installed version:"
+msgstr "Version installée:"
+
+msgid "Minimum required version:"
+msgstr "Version minimale requise:"
+
+msgid "Available version:"
+msgstr "Version disponible:"
+
+msgid "No plugins to install, update or activate."
+msgstr "Pas de plugins à installer, à mettre à jour ou à activer."
+
+msgid "Plugin"
+msgstr "Extension"
+
+msgid "Source"
+msgstr "Adresse web source"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Status"
+msgstr "État"
+
+msgid "Install %2$s"
+msgstr "Installer% 2 $ s %2$s"
+
+msgid "Update %2$s"
+msgstr "Mise à jour% 2 $ S %2$s"
+
+msgid "Activate %2$s"
+msgstr "Activer% 2 $ s %2$s"
+
+msgid "Upgrade message from the plugin author:"
+msgstr "Mettre à niveau le message de l'auteur du plugin:"
+
+msgid "Install"
+msgstr "Installer"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Aucun plugins n'a été sélectionné pour être installé. Aucune action prise."
+
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Aucun plugins n'a été sélectionné pour être mis à jour. Aucune action prise."
+
+msgid "No plugins are available to be installed at this time."
+msgstr "Aucun plugins n'est disponible pour être installé pour le moment."
+
+msgid "No plugins are available to be updated at this time."
+msgstr "Aucun plugins n'est disponible pour être mis à jour pour le moment."
+
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Aucun plugins n'a été sélectionné pour être activé. Aucune action prise."
+
+msgid "No plugins are available to be activated at this time."
+msgstr "Aucun plugins n'est disponible pour être activé pour le moment."
+
+msgid "Plugin activation failed."
+msgstr "L'activation du plugin a échoué."
+
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour de l’extension %1$s (%2$d/%3$d)"
+
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Une erreur s'est produite lors de l'installation de% 1 $ S: <strong>% 2 $ s "
+"</strong>. %1$s %2$s"
+
+msgid "The installation of %1$s failed."
+msgstr "L'installation de% 1 $ s a échoué. %1$s"
+
+msgid ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr ""
+"Le processus d'installation et d'activation commence.Ce processus peut "
+"prendre un certain temps sur certains hôtes, alors soyez patient."
+
+msgid "%1$s done."
+msgstr "% 1 $ s fait. %1$s"
+
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installations et activations ont été achevées."
+
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+"Installation et activation du plugin% 1 $ s (% 2 $ d /% 3 $ d) %1$s %2$d "
+"%3$d"
+
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Le processus d'installation commence.Ce processus peut prendre un certain "
+"temps sur certains hôtes, alors soyez patient."
+
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été terminées."
+
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation du plugin% 1 $ s (% 2 $ d /% 3 $ d) %1$s %2$d %3$d"
+
+msgid "Blank Canvas"
+msgstr "Toile vide"
+
+msgid "Page Builder Full Width"
+msgstr "Page Builder pleine largeur"
+
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre première publication ? <a href=\"%1$s\">Commencez "
+"ici</a>."
+
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec des mots clés différents."
+
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne pouvons pas trouver le contenu demandé. Peut-être "
+"qu’une recherche peut vous aider."
+
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Poursuivre la lecture <span class=\"screen-reader-text\"> \"%s\" </span>"
+
+msgid "Next post:"
+msgstr "Article suivant:"
+
+msgid "Previous post:"
+msgstr "Article précédent:"
+
+msgid "Continue Reading"
+msgstr "Continuer la lecture"
+
+msgid "Frontpage Widgets Template"
+msgstr "Modèle de widgets FrontPage"
+
+msgid "Update Blockspare Pro"
+msgstr "Mettre à jour Blockspare Pro"
+
+msgid "Update Blockspare"
+msgstr "Mettre à jour BlockSpare"
+
+msgid "Powerful Gutenberg Blocks & Patterns"
+msgstr "Blocs et motifs de Gutenberg puissants"
+
+msgid ""
+"Easily build and customize your pages with a vast library of Gutenberg "
+"blocks and patterns, perfect for blogs, magazines, and business sites. Add "
+"post grids, sliders, and carousels without touching a single line of code. "
+"Import demo data and effortlessly create multilingual, visually appealing "
+"pages with complete flexibility."
+msgstr ""
+"Construisez et personnalisez facilement vos pages avec une vaste "
+"bibliothèque de blocs et de modèles Gutenberg, parfaits pour les blogs, les "
+"magazines et les sites commerciaux.Ajouter des grilles de poste, des "
+"curseurs et des carrousels sans toucher une seule ligne de code.Importez des"
+" données de démonstration et créez sans effort des pages multilingues et "
+"visuellement attrayantes avec une flexibilité complète."
+
+msgid "Hello"
+msgstr "Bonjour"
+
+msgid "Welcome to"
+msgstr "Bienvenue"
+
+msgid "Update Elespare Pro"
+msgstr "Mettre à jour Epepare Pro"
+
+msgid "Update Elespare"
+msgstr "Mettre à jour les Elespare"
+
+msgid "Professional Sites with Elementor"
+msgstr "Sites professionnels avec Elementor"
+
+msgid ""
+"Transform your blog, news, or magazine website with 35+ advanced Elementor "
+"widgets and 350+ customizable templates. Easily create headers, footers, "
+"post grids, sliders, and carousels with a fast-loading and SEO-optimized "
+"structure. Import demo content with a single click and enjoy codeless "
+"customization to craft your perfect site, no matter the language."
+msgstr ""
+"Transformez votre site Web de blog, d'actualités ou de magazine avec plus de"
+" 35 widgets élémentor avancés et plus de 350 modèles personnalisables.Créez "
+"facilement des en-têtes, des pieds de page, des grilles de post, des "
+"curseurs et des carrousels avec une structure de chargement rapide et "
+"optimisée en SEO.Importez du contenu de démonstration en un seul clic et "
+"profitez de la personnalisation sans code pour élaborer votre site parfait, "
+"quelle que soit la langue."
+
+msgid ""
+"We would like to thank you for installing and activating [theme] theme for "
+"your precious site. All of the features provided by the theme are now ready "
+"to use; Here, we have gathered all of the essential details and helpful "
+"links for you and your better experience with [theme]. Once again, Thanks "
+"for using our theme!"
+msgstr ""
+"Nous tenons à vous remercier d'avoir installé et activé le thème [thème] "
+"pour votre précieux site.Toutes les fonctionnalités fournies par le thème "
+"sont maintenant prêtes à l'emploi; Ici, nous avons rassemblé tous les "
+"détails essentiels et les liens utiles pour vous et votre meilleure "
+"expérience avec [le thème].Encore une fois, merci d'utiliser notre thème!"
+
+msgid "Theme Details"
+msgstr "Détails du thème"
+
+msgid "View Demo"
+msgstr "Afficher la démo"
+
+msgid "View Documentation"
+msgstr "Voir la documentation"
+
+msgid "Upgrade to Pro"
+msgstr "Passer à Pro"
+
+msgid "Need Support?"
+msgstr "Besoin de support?"
+
+msgid "Live editing in Customizer"
+msgstr "Édition en direct en personnalisation"
+
+msgid "One Click Demo Import Support"
+msgstr "UN CLIC Cliquez sur la support d'importation"
+
+msgid "Typography Style and Color"
+msgstr "Style de typographie et couleur"
+
+msgid "Light/Dark Mode"
+msgstr "Mode clair / sombre"
+
+msgid "Preloader Option"
+msgstr "Option préloaderie"
+
+msgid "Multiple Header Options"
+msgstr "Options d'en-tête multiples"
+
+msgid "Logo and title customization"
+msgstr "Personnalisation du logo et du titre"
+
+msgid "Header Image"
+msgstr "Image d’entête"
+
+msgid "Multiple Frontpage Banner Options"
+msgstr "Options de bannières avant de plusieurs pages"
+
+msgid "Frontpage Banner Section Order"
+msgstr "Ordre de section de bannière de la page Frontpage"
+
+msgid "Featured Posts Section"
+msgstr "Section des articles en vedette"
+
+msgid "Category Color Options"
+msgstr "Options de couleurs de catégorie"
+
+msgid "Posts Section Advertisements"
+msgstr "Postes Section publicités"
+
+msgid "Custom Widgets"
+msgstr "Widgets personnalisés"
+
+msgid "Author Biography"
+msgstr "Biographie de l’auteur/autrice"
+
+msgid "Post Image Slider Widget"
+msgstr "Widget de curseur de publication"
+
+msgid "Post Carousel Widget"
+msgstr "Widget post-carrousel"
+
+msgid "Post Grid Widget"
+msgstr "Widget de grille post"
+
+msgid "Post Double Column Double Categories Widget"
+msgstr "Widget de doubles catégories de double colonne"
+
+msgid "Post Tabbed Widget"
+msgstr "Widget de publication"
+
+msgid "Social Contact Widget"
+msgstr "Widget de contact social"
+
+msgid "Post Single Column Widget"
+msgstr "Publier un widget de colonne unique"
+
+msgid "Trending Posts Vertical Carousel Widget"
+msgstr "Posts à tendance widget de carrousel vertical"
+
+msgid "Video Slider Widget"
+msgstr "Widget de curseur vidéo"
+
+msgid "Basic Custom Widgets Controls"
+msgstr "Contrôles de base des widgets personnalisés"
+
+msgid "Advanced Custom Widgets Controls"
+msgstr "Contrôles avancés de widgets personnalisés"
+
+msgid "Archive Grid Layout"
+msgstr "Disposition de la grille d'archives"
+
+msgid "Archive Full Layout"
+msgstr "Archive Full Dayout"
+
+msgid "Archive List Layout"
+msgstr "Disposition des archives"
+
+msgid "Mailchimp Subscription Supports"
+msgstr "Prise en charge de l'abonnement MailChimp"
+
+msgid "Display Related Posts"
+msgstr "Afficher les articles connexes"
+
+msgid "Footer Widgets Section"
+msgstr "Section des widgets de pied"
+
+msgid "Gutenberg Compatibility"
+msgstr "Compatibilité de Gutenberg"
+
+msgid "RTL Compatibility"
+msgstr "Compatibilité RTL"
+
+msgid "WooCommerce Compatibility"
+msgstr "Compatibilité WooCommerce"
+
+msgid "Hide Theme Credit Link"
+msgstr "Masquer le lien de crédit à thème"
+
+msgid "Responsive Layout"
+msgstr "Mise en page responsive"
+
+msgid "Translations Ready"
+msgstr "Traductions prêtes"
+
+msgid "SEO Optimized"
+msgstr "SEO optimisé"
+
+msgid "Normal Support"
+msgstr "Soutien normal"
+
+msgid "Advance Support"
+msgstr "Support avancé"
+
+msgid ""
+"Set the theme header type, set the colors, spacing, alignment and more."
+msgstr ""
+"Définissez le type d'en-tête de thème, définissez les couleurs, "
+"l'espacement, l'alignement et plus encore."
+
+msgid "Banner Advertisement"
+msgstr "Bannière publicitaire"
+
+msgid ""
+"You can easily place your promotional banners within your header section."
+msgstr ""
+"Vous pouvez facilement placer vos bannières promotionnelles dans votre "
+"section d'en-tête."
+
+msgid "Color Options"
+msgstr "Options de couleur"
+
+msgid "Change the color setting provide with the Theme."
+msgstr "Modifiez le paramètre de couleur Fournir avec le thème."
+
+msgid "Selecting different categories can be done for different section."
+msgstr ""
+"La sélection de différentes catégories peut être effectuée pour une section "
+"différente."
+
+msgid "Frontpage Option"
+msgstr "Option FrontPage"
+
+msgid ""
+"Frontpage layout with Popular Tag, Breaking News, Main Banner, Feature News "
+"can be set."
+msgstr ""
+"La mise en page FrontPage avec une balise populaire, des nouvelles de "
+"Breaking, la bannière principale, les nouvelles de fonctionnalités peuvent "
+"être définies."
+
+msgid "Static Front Page"
+msgstr "Première page"
+
+msgid ""
+"Set the Homepage as a static page to create own homepage using widgets."
+msgstr ""
+"Définissez la page d'accueil comme une page statique pour créer sa propre "
+"page d'accueil à l'aide de widgets."
+
+msgid "Widgets Area"
+msgstr "Zone de widgets"
+
+msgid "Widgets can be added on all the section provide by the Theme."
+msgstr ""
+"Les widgets peuvent être ajoutés sur toutes les sections fournies par le "
+"thème."
+
+msgid "Archive Options"
+msgstr "Options d'archives"
+
+msgid "Customize the blog layout desgin."
+msgstr "Personnalisez la mise en page du blog Desgin."
+
+msgid "Theme Option"
+msgstr "Option de thème"
+
+msgid ""
+"Set the Global Layout, Breadcrumb, Sidebar, Single Post, You may have missed"
+" and more."
+msgstr ""
+"Définissez la disposition globale, la chapelure, la barre latérale, le "
+"message unique, vous avez peut-être manqué et plus encore."
+
+msgid "Footer Options"
+msgstr "Options de pied de page"
+
+msgid "Set the footer type, number of columns, spacing and colors."
+msgstr ""
+"Réglez le type de pied de page, le nombre de colonnes, l'espacement et les "
+"couleurs."
+
+msgid "View"
+msgstr "Voir"
+
+msgid "Support"
+msgstr "Support"
+
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to"
+" ask your query is the dedicated Support forum for the theme.."
+msgstr ""
+"Vous avez une question d'assistance à thème ou trouvé un bug ou vous avez "
+"des commentaires? Le meilleur endroit pour demander à votre requête est le "
+"forum de support dédié pour le thème."
+
+msgid "Video  Tutorials"
+msgstr "Tutoriels vidéo"
+
+msgid "Video"
+msgstr "Vidéo"
+
+msgid "Watch out the videos for an easy learning on Customizing the Theme ."
+msgstr ""
+"Attention aux vidéos pour un apprentissage facile sur la personnalisation du"
+" thème."
+
+msgid ""
+"Use AF Companion to import live demo content, widgets, and settings swiftly."
+" This plugin gives fundamental layout to build your website and accelerate "
+"the development process."
+msgstr ""
+"Utilisez AF Companion pour importer rapidement du contenu de démonstration "
+"en direct, des widgets et des paramètres.Ce plugin donne une disposition "
+"fondamentale pour créer votre site Web et accélérer le processus de "
+"développement."
+
+msgid ""
+"You may design complicated layouts for your website in just a few minutes "
+"with our adaptable and inventive blocks."
+msgstr ""
+"Vous pouvez concevoir des dispositions compliquées pour votre site Web en "
+"quelques minutes avec nos blocs adaptables et inventifs."
+
+msgid ""
+"Get ready-to-use Starter Sites instantly and build modern websites in "
+"minutes."
+msgstr ""
+"Promenez-vous instantanément des sites de démarrage prêts à l'emploi et "
+"créez des sites Web modernes en quelques minutes."
+
+msgid ""
+"DESIGN PERFECT BLOG, NEWS, OR MAGAZINE WEBSITES Elespare is a simple yet "
+"effective WordPress plugin that lets you use Elementor to create fantastic "
+"Header, Footer and Contents of websites with highly customization options "
+"for FREE."
+msgstr ""
+"Design Perfect Blog, News ou Magazine Sites Web Elessare est un plugin "
+"WordPress simple mais efficace qui vous permet d'utiliser Elementor pour "
+"créer gratuitement un en-tête, un pied de page et un contenu fantastiques "
+"avec des options de personnalisation hautement."
+
+msgid ""
+"A beautiful collection of latest posts Gutenberg blocks for WordPress, which"
+" helps you to design posts grid, posts list, full posts layout, advanced "
+"express posts design and tile layouts of your posts."
+msgstr ""
+"Une belle collection de derniers articles Gutenberg Blocks pour WordPress, "
+"qui vous aide à concevoir des publications, la liste des messages, la "
+"disposition complète des publications, la conception des messages express "
+"avancés et les dispositions de carreaux de vos messages."
+
+msgid ""
+"We build a beautiful series of page section Gutenberg blocks for WordPress "
+"content to help you quickly create the website you've always desired."
+msgstr ""
+"Nous construisons une belle série de blocs Gutenberg de la section de page "
+"pour le contenu WordPress pour vous aider à créer rapidement le site Web que"
+" vous avez toujours souhaité."
+
+msgid ""
+"It has 3 different widgets for post's author, selective author by id and "
+"custom author. It also provides shortcodes for the author profile."
+msgstr ""
+"Il a 3 widgets différents pour l'auteur de Post, l'auteur sélectif par ID et"
+" l'auteur personnalisé.Il fournit également des codes Short pour le profil "
+"de l'auteur."
+
+msgid ""
+"This free plugin offers a free live chat solution for your website visitors "
+"to contact you via live chat or a live call - all for free! Engage with your"
+" customers and increase sales."
+msgstr ""
+"Ce plugin gratuit propose une solution de chat en direct gratuite pour que "
+"les visiteurs de votre site Web vous contactent via le chat en direct ou un "
+"appel en direct - le tout gratuitement! Engagez avec vos clients et "
+"augmentez les ventes."
+
+msgid ""
+"A free WordPress Plugin which facilitates with the functionality to submit "
+"Posts from frontend with or without logging in with various configurable "
+"options."
+msgstr ""
+"Un plugin WordPress gratuit qui facilite la fonctionnalité pour soumettre "
+"des publications de frontend avec ou sans se connecter avec diverses options"
+" configurables."
+
+msgid ""
+"This plugin helps you grow your Mailchimp lists and write better newsletters"
+" through various methods. You can create good looking opt-in forms or "
+"integrate with any existing form on your site, like your comment, contact or"
+" checkout form."
+msgstr ""
+"Ce plugin vous aide à développer vos listes MailChimp et à écrire de "
+"meilleures newsletters via diverses méthodes.Vous pouvez créer de beaux "
+"formulaires d'opt-in ou intégrer à n'importe quel formulaire existant sur "
+"votre site, comme votre formulaire de commentaire, de contact ou de "
+"paiement."
+
+msgid "Get started"
+msgstr "Premiers pas"
+
+msgid "Useful Plugins"
+msgstr "Extensions utiles"
+
+msgid "Free vs Pro"
+msgstr "Gratuit vs Pro"
+
+msgid "Change Log"
+msgstr "Modifier le journal"
+
+msgid "Features"
+msgstr "Fonctionnalités"
+
+msgid "Free"
+msgstr "Gratuit"
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Go to option"
+msgstr "Aller à l'option"
+
+msgid "Update Templatespare"
+msgstr "Mettre à jour TemplatesPare"
+
+msgid "Easy Website Building with Zero Code"
+msgstr "Création de site Web facile avec du code zéro"
