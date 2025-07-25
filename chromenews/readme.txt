@@ -2,7 +2,7 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 6.8
-Stable tag: 5.4.5
+Stable tag: 5.4.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -47,15 +47,28 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
-= 5.4.5 - Jun 22 2025 =
+= 5.6.0 - July 21 2025 =
+* New - Option to disable WordPress emojis (disable_wp_emoji)
+* New - Global font family type option: Google Fonts or System Fonts
+* Update - Google Fonts now filtered for allowed variants (400, 700)
+* Update - Added preconnect and preload optimizations only when required
+* Fixed - Local font preloading skipped when Google Fonts were in use
+* Fixed - Duplicate or unnecessary Google Fonts loading in certain cases
+* New - German language file
 * New - Arabic language file
 * New - French language file
 * New - Italian language file
 * New - Japanese language file
 * New - Polish language file
 * New - Portugese language file
-* Update - GDPR compatible
-* Update - Speed optimization
+* New - Spanish language file
+* New - Dutch language file
+* New - Russian language file
+* New - Ukranian language file
+* New - Swedish language file
+* Update - Layout improvement
+* Update - Block Style improvement
+* Fixed - Some styling glitch
 
 = 5.4.4 - Jun 11 2025 =
 * New - Spanish language file

@@ -262,7 +262,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
         );
 
         //font option
-
+        $defaults['global_font_family_type'] = 'google';
         $defaults['site_title_font'] = 'Jost:200,300,400,500,600,700,900';
         $defaults['primary_font'] = 'Noto+Serif:400,400italic,700';
         $defaults['secondary_font'] = 'Jost:200,300,400,500,600,700,900';

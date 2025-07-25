@@ -757,3 +757,28 @@ if (!function_exists('chromenews_popular_post_section_filterby_tag_status')) :
     }
 
 endif;
+
+
+/*select page for slider*/
+if (!function_exists('global_font_family_type_status')) :
+
+    /**
+     * Check if slider section page/post is active.
+     *
+     * @since 1.0.0
+     *
+     * @param WP_Customize_Control $control WP_Customize_Control instance.
+     *
+     * @return bool Whether the control is active to the current preview.
+     */
+    function global_font_family_type_status($control)
+    {
+
+        if ('google' == $control->manager->get_setting('global_font_family_type')->value()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+endif;

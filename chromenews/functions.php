@@ -147,21 +147,20 @@ function chromenews_content_width()
 
 add_action('after_setup_theme', 'chromenews_content_width', 0);
 
+
 /**
  * Filter font variants to include only necessary ones.
  *
  * @param string $font The font string (e.g., "Roboto:400,300,700").
  * @return string Filtered font string with only the allowed variants.
  */
-function chromenews_filter_font_variants($font)
-{
+function chromenews_filter_font_variants($font) {
   if (empty($font) || strpos($font, ':') === false) {
     return $font; // Return as is if no variants exist.
   }
 
   list($font_name, $variants) = explode(':', $font);
 
-  // Define allowed variants to reduce file size and improve performance.
   $allowed_variants = array('400', '700');
   $font_variants = explode(',', $variants);
   $filtered_variants = array_intersect($font_variants, $allowed_variants);
@@ -173,15 +172,20 @@ function chromenews_filter_font_variants($font)
  * Generate the Google Fonts URL based on theme options and locale.
  *
  * @since 1.0.0
- * @return string Google Fonts URL or empty string if no fonts are required.
+ * @return string Google Fonts URL or empty string if using system fonts.
  */
-function chromenews_fonts_url()
-{
+function chromenews_fonts_url() {
+  $global_font_family_type = chromenews_get_option('global_font_family_type');
+
+  // Only load Google Fonts if selected
+  if ($global_font_family_type !== 'google') {
+    return '';
+  }
+
   $fonts_url = '';
   $fonts = array();
-  $subsets = array('latin'); // Default subset is 'latin'.
+  $subsets = array('latin');
 
-  // Adjust subsets based on locale.
   $locale = get_locale();
   $subset_mapping = array(
     'cs' => 'latin-ext',
@@ -199,31 +203,28 @@ function chromenews_fonts_url()
     }
   }
 
-  // Fetch theme options for fonts and filter variants.
+  // Get font options and apply filtering
   $site_title_font = chromenews_filter_font_variants(chromenews_get_option('site_title_font'));
-  $primary_font = chromenews_filter_font_variants(chromenews_get_option('primary_font'));
-  $secondary_font = chromenews_filter_font_variants(chromenews_get_option('secondary_font'));
+  $primary_font    = chromenews_filter_font_variants(chromenews_get_option('primary_font'));
+  $secondary_font  = chromenews_filter_font_variants(chromenews_get_option('secondary_font'));
 
-  // Collect fonts only if they are not 'off'.
   foreach (array($site_title_font, $primary_font, $secondary_font) as $font) {
     if (!empty($font) && 'off' !== sprintf(_x('on', '%s font: on or off', 'chromenews'), $font)) {
       $fonts[] = $font;
     }
   }
 
-  // Remove duplicate fonts.
   $fonts = array_unique($fonts);
 
-  // Generate the Google Fonts URL if fonts are available.
   if (!empty($fonts)) {
     $fonts_url = add_query_arg(array(
-      'family'  => implode('|', $fonts), // Concatenate fonts with '|'.
-      'subset'  => implode(',', array_unique($subsets)), // Unique subsets.
-      'display' => 'swap', // Use 'swap' for performance.
+      'family'  => implode('|', $fonts),
+      'subset'  => implode(',', array_unique($subsets)),
+      'display' => 'swap',
     ), 'https://fonts.googleapis.com/css');
   }
 
-  return esc_url($fonts_url); // Ensure safe output.
+  return esc_url($fonts_url);
 }
 
 /**
@@ -233,9 +234,8 @@ function chromenews_fonts_url()
  * @param string $relation_type The relation type of the URLs (e.g., 'preconnect').
  * @return array Filtered URLs.
  */
-function chromenews_add_preconnect_links($urls, $relation_type)
-{
-  if ('preconnect' === $relation_type) {
+function chromenews_add_preconnect_links($urls, $relation_type) {
+  if ('preconnect' === $relation_type && chromenews_get_option('global_font_family_type') === 'google') {
     $urls[] = 'https://fonts.googleapis.com';
     $urls[] = 'https://fonts.gstatic.com';
   }
@@ -247,8 +247,7 @@ add_filter('wp_resource_hints', 'chromenews_add_preconnect_links', 10, 2);
 /**
  * Preload Google Fonts stylesheets in the <head> for performance.
  */
-function chromenews_preload_google_fonts()
-{
+function chromenews_preload_google_fonts() {
   $fonts_url = chromenews_fonts_url();
 
   if ($fonts_url) {
@@ -263,8 +262,7 @@ add_action('wp_head', 'chromenews_preload_google_fonts', 1);
 /**
  * Enqueue the theme's Google Fonts stylesheet with additional optimization.
  */
-function chromenews_enqueue_google_fonts()
-{
+function chromenews_enqueue_google_fonts() {
   $fonts_url = chromenews_fonts_url();
 
   if ($fonts_url) {

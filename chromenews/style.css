@@ -4,7 +4,7 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 5.4.5
+Version: 5.4.6
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.8
@@ -3131,8 +3131,12 @@ body.aft-dark-mode.aft-single-featured-full .af-breadcrumbs,
     padding-right: 0;
     padding-left: 0;
 }
-.af-wide-layout .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
+.af-wide-layout.elementor-default .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper ,
+.af-wide-layout.elementor-page .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
     max-width: 1240px;
+}
+.af-wide-layout .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
+    max-width: 1200px;
 }
 .aft-section-layout-background .chromenews-widget.chromenews_tabbed_posts_widget .tab-content.af-widget-body {
     padding-bottom: 20px;
@@ -10835,7 +10839,7 @@ article.latest-posts-grid .read-title h3,
 .two-col-masonry article.latest-posts-grid.col-2 .read-title h3,
 .af-main-banner-categorized-posts.express-posts .af-sec-post:not(.list-part) .read-title h3,
 .af-main-banner-categorized-posts.express-posts .af-sec-post:first-child .read-title h3{
-    font-size: 22px;
+    font-size: 20px;
 }
 /*medium spotlight post title*/
 
@@ -10853,7 +10857,7 @@ article.latest-posts-grid .read-title h3,
 .af-main-banner-latest-posts .read-title h3,
 .four-col-masonry article.col-2 .read-title h3,
 .four-col-masonry article.latest-posts-grid.col-2 .read-title h3{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .widget ul ul li,
@@ -10877,6 +10881,56 @@ article.latest-posts-grid .read-title h3,
 /*--------------------------------------------------------------
 ## fonts options
 --------------------------------------------------------------*/
+
+/* AD SECTION DESIGN HERE */
+.chromenews-ad-after-post,
+.chromenews-ad-before-content,
+.chromenews-ad-after-content,
+.chromenews-ad-sidebar,
+.chromenews-ad-archive-between,
+.chromenews-ad-archive-before {
+    margin-bottom: 20px;
+}
+.chromenews-ad-archive-after {
+    margin-top: 20px;
+}
+
+.archive-layout-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.archive-layout-grid.clearfix::before,
+.archive-layout-grid.clearfix::after{
+    display: none;
+}
+
+.aft-masonry-archive-posts.two-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 50%;}
+.archive-layout-grid.two-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 50%;}
+
+.aft-masonry-archive-posts.three-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 33.33%;}
+.archive-layout-grid.three-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 33.33%;}
+
+.aft-masonry-archive-posts.four-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 25%;}
+.archive-layout-grid.four-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 25%;}
+
+.archive-layout-list .chromenews-ad-archive-between.float-l.col-1.pad,
+.archive-layout-full-2 .chromenews-ad-archive-between.float-l.col-1.pad,
+.archive-layout-full .chromenews-ad-archive-between.float-l.col-1.pad{
+    /* width: 100%; */
+}
+.archive-layout-grid-2 .chromenews-ad-archive-between.float-l.col-1.pad {
+    /* width: 50%; */
+}
+@media screen and (max-width: 768px) {
+    .archive-layout-grid.four-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 50%;}
+}
+@media screen and (max-width: 480px) {
+    .archive-layout-grid.two-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad,
+    .archive-layout-grid.three-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad,
+    .archive-layout-grid.four-col-masonry .chromenews-ad-archive-between.float-l.col-1.pad {width: 100%;}
+}
+
+/* AD SECTION DESIGN HERE */
 
 /*--------------------------------------------------------------
 # media queries------------------------------------------------

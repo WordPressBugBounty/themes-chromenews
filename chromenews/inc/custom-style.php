@@ -22,9 +22,16 @@ if (!function_exists('chromenews_custom_style')) {
         $dark_background_color = chromenews_get_option('dark_background_color');
         $secondary_color = chromenews_get_option('secondary_color');
         $text_over_secondary_color = chromenews_get_option('text_over_secondary_color');
-        $site_title_font = $chromenews_google_fonts[chromenews_get_option('site_title_font')];
-        $primary_font = $chromenews_google_fonts[chromenews_get_option('primary_font')];
-        $secondary_font = $chromenews_google_fonts[chromenews_get_option('secondary_font')];
+        $global_font_family_type = chromenews_get_option('global_font_family_type');
+        if ($global_font_family_type == 'google') {
+            $site_title_font = $chromenews_google_fonts[chromenews_get_option('site_title_font')];
+            $primary_font = $chromenews_google_fonts[chromenews_get_option('primary_font')];
+            $secondary_font = $chromenews_google_fonts[chromenews_get_option('secondary_font')];
+        } else {
+            $site_title_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            $primary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+            $secondary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+        }
         $title_font_weight = chromenews_get_option('title_font_weight');
         $chromenews_section_title_font_size = chromenews_get_option('chromenews_section_title_font_size');
         $main_navigation_custom_background_color = chromenews_get_option('main_navigation_custom_background_color');
