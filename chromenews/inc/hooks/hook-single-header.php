@@ -83,17 +83,15 @@ if (!function_exists('chromenews_single_featured_image')) :
             <div class="read-img pos-rel">
                 <?php chromenews_post_thumbnail(); ?>
                 <?php
-                if (has_post_thumbnail($chromenews_post_id)):
-                    if ($aft_image_caption = get_post(get_post_thumbnail_id())->post_excerpt):
-                        if (trim($aft_image_caption) !== ''):
-                            ?>
-                            <span class="aft-image-caption">
-                            <p>
-                                <?php echo esc_html($aft_image_caption); ?>
-                            </p>
+                if ( has_post_thumbnail() ) :
+                    $thumbnail_id = get_post_thumbnail_id();
+                    $thumbnail_post = get_post( $thumbnail_id );
+                    if ( $thumbnail_post && trim( $thumbnail_post->post_excerpt ) !== '' ) :
+                        ?>
+                        <span class="aft-image-caption">
+                            <p><?php echo esc_html( $thumbnail_post->post_excerpt ); ?></p>
                         </span>
                         <?php
-                        endif;
                     endif;
                 endif;
                 ?>

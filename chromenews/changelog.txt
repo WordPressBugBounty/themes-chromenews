@@ -1,4 +1,13 @@
-### 5.6.0 - July 21 2025
+### 5.4.8 - Aug 11 2025
+* Update - PHP 8+ compatibility improvement
+* Update - Google SEO compatibility improvement
+* Update - Breadcrumbs notice improvement
+* Update - Admin notice improvement
+* Update - Post excerpt improvement
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
+### 5.4.6 - July 21 2025
 * New - Option to disable WordPress emojis (disable_wp_emoji)
 * New - Global font family type option: Google Fonts or System Fonts
 * Update - Google Fonts now filtered for allowed variants (400, 700)
