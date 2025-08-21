@@ -2,7 +2,7 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 6.8
-Stable tag: 5.4.8
+Stable tag: 5.4.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -47,6 +47,11 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
+= 5.4.9 - Aug 21 2025 =
+* Update - Post navigation HTML structure updated for better styling
+* Update - Previous/Next post labels improved for translations (i18n)
+* Update - Screen reader text corrected to "Post navigation" for accessibility
+
 = 5.4.8 - Aug 11 2025 =
 * Update - PHP 8+ compatibility improvement
 * Update - Google SEO compatibility improvement
