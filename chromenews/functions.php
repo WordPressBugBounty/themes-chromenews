@@ -154,7 +154,8 @@ add_action('after_setup_theme', 'chromenews_content_width', 0);
  * @param string $font The font string (e.g., "Roboto:400,300,700").
  * @return string Filtered font string with only the allowed variants.
  */
-function chromenews_filter_font_variants($font) {
+function chromenews_filter_font_variants($font)
+{
   if (empty($font) || strpos($font, ':') === false) {
     return $font; // Return as is if no variants exist.
   }
@@ -174,7 +175,8 @@ function chromenews_filter_font_variants($font) {
  * @since 1.0.0
  * @return string Google Fonts URL or empty string if using system fonts.
  */
-function chromenews_fonts_url() {
+function chromenews_fonts_url()
+{
   $global_font_family_type = chromenews_get_option('global_font_family_type');
 
   // Only load Google Fonts if selected
@@ -234,7 +236,8 @@ function chromenews_fonts_url() {
  * @param string $relation_type The relation type of the URLs (e.g., 'preconnect').
  * @return array Filtered URLs.
  */
-function chromenews_add_preconnect_links($urls, $relation_type) {
+function chromenews_add_preconnect_links($urls, $relation_type)
+{
   if ('preconnect' === $relation_type && chromenews_get_option('global_font_family_type') === 'google') {
     $urls[] = 'https://fonts.googleapis.com';
     $urls[] = 'https://fonts.gstatic.com';
@@ -247,7 +250,8 @@ add_filter('wp_resource_hints', 'chromenews_add_preconnect_links', 10, 2);
 /**
  * Preload Google Fonts stylesheets in the <head> for performance.
  */
-function chromenews_preload_google_fonts() {
+function chromenews_preload_google_fonts()
+{
   $fonts_url = chromenews_fonts_url();
 
   if ($fonts_url) {
@@ -262,7 +266,8 @@ add_action('wp_head', 'chromenews_preload_google_fonts', 1);
 /**
  * Enqueue the theme's Google Fonts stylesheet with additional optimization.
  */
-function chromenews_enqueue_google_fonts() {
+function chromenews_enqueue_google_fonts()
+{
   $fonts_url = chromenews_fonts_url();
 
   if ($fonts_url) {
@@ -393,6 +398,30 @@ function chromenews_scripts()
     wp_enqueue_script('magnific-popup', get_template_directory_uri() . '/assets/magnific-popup/jquery.magnific-popup' . $min . '.js', array('jquery'), $chromenews_version, true);
     wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/assets/magnific-popup/magnific-popup.css', array(), $chromenews_version);
   }
+
+  $show_footer_checkbox = chromenews_get_option('athfb_show_checkbox_footer');
+  $show_header_checkbox = chromenews_get_option('athfb_show_checkbox_header');
+
+  if ($show_header_checkbox) {
+    wp_register_style(
+      'chromenews_header_builder',
+      get_template_directory_uri() . '/assets/css/header-builder.css',
+      array(),
+      null,
+      'all'
+    );
+    wp_enqueue_style('chromenews_header_builder');
+  }
+  if ($show_footer_checkbox) {
+    wp_register_style(
+      'chromenews_footer_builder',
+      get_template_directory_uri() . '/assets/css/footer-builder.css',
+      array(),
+      null,
+      'all'
+    );
+    wp_enqueue_style('chromenews_footer_builder');
+  }
 }
 
 add_action('wp_enqueue_scripts', 'chromenews_scripts');
@@ -507,3 +536,44 @@ function chromenews_transltion_init()
 {
   load_theme_textdomain('chromenews', false, get_template_directory()  . '/languages');
 }
+
+
+//Header Footer builder
+require_once get_template_directory() . '/inc/customizer/builder/options.php';
+function athfb_load_files()
+{
+  // Only load in admin or customizer context
+  if (!is_admin() && !is_customize_preview()) {
+    return;
+  }
+
+  // Include files in the correct order
+  require_once get_template_directory() . '/inc/customizer/builder/class-header-footer-builder.php';
+  require_once get_template_directory() . '/inc/customizer/builder/class-header-footer-builder-control.php';
+  require_once get_template_directory() . '/inc/customizer/builder/class-block-toggle.php';
+}
+
+// Load files when WordPress is ready and customizer classes are available
+add_action('customize_register', 'athfb_load_files', 1);
+function athfb_loadFiles()
+{
+
+  require_once get_template_directory() . '/inc/customizer/builder/builder-structure.php';
+  require_once get_template_directory() . '/inc/customizer/builder/header-builder-structure.php';
+  require_once get_template_directory() . '/inc/customizer/builder/footer-builder-structure.php';
+}
+
+
+add_action('init', 'athfb_loadFiles');
+
+/**
+ * Initialize the Header Footer Builder
+ */
+function athfb_init()
+{
+  // Only initialize if we're in the right context
+  if (class_exists('Header_Footer_Builder')) {
+    Header_Footer_Builder::get_instance();
+  }
+}
+add_action('admin_init', 'athfb_init');

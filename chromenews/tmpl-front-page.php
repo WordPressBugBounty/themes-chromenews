@@ -1,5 +1,5 @@
 <?php
- /* Template Name: Frontpage Widgets Template */
+ /* Template Name: Front-page Widgets Template */
 
 get_header();
 if ( 'posts' == get_option( 'show_on_front' ) ) {

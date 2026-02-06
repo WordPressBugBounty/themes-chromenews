@@ -6,7 +6,7 @@
  *
  * @since ChromeNews 1.0.0
  */
-if (!function_exists('chromenews_get_terms')):
+if (!function_exists('chromenews_get_terms')) :
   function chromenews_get_terms($category_id = 0, $taxonomy = 'category', $default = '')
   {
     $taxonomy = !empty($taxonomy) ? $taxonomy : 'category';
@@ -46,14 +46,14 @@ endif;
  * @since 1.0.0
  *
  */
-if (!function_exists('chromenews_render_posts')):
+if (!function_exists('chromenews_render_posts')) :
   function chromenews_render_posts($chromenews_number_of_posts, $chromenews_category, $chromenews_filterby)
   {
 
     $all_posts = chromenews_get_posts($chromenews_number_of_posts, $chromenews_category, $chromenews_filterby);
-    if ($all_posts->have_posts()):
+    if ($all_posts->have_posts()) :
       echo '<ul class="aft-tabbed-carousel article-item article-list-item article-tabbed-list article-item-left">';
-      while ($all_posts->have_posts()): $all_posts->the_post();
+      while ($all_posts->have_posts()) : $all_posts->the_post();
         global $post;
 ?>
         <span class="slick-item ">
@@ -71,7 +71,7 @@ if (!function_exists('chromenews_render_posts')):
   }
 endif;
 
-if (!function_exists('chromenews_render_tabbed_posts')):
+if (!function_exists('chromenews_render_tabbed_posts')) :
   function chromenews_render_tabbed_posts($tab_id, $latest_title, $latest_post_filterby, $latest_category, $popular_title, $popular_post_filterby, $popular_category, $number_of_posts)
   {
     $is_recent_active = true;
@@ -81,27 +81,13 @@ if (!function_exists('chromenews_render_tabbed_posts')):
         <ul class="nav nav-tabs af-tabs tab-warpper" role="tablist">
 
           <li role="presentation" class="tab tab-recent ">
-            <a href="#<?php echo esc_attr($tab_id); ?>-recent"
-              aria-label="<?php esc_attr_e('Recent', 'chromenews'); ?>"
-              role="tab"
-              id="<?php echo esc_attr($tab_id); ?>-recent-tab"
-              aria-controls="<?php echo esc_attr($tab_id); ?>-recent"
-              aria-selected="<?php echo $is_recent_active ? 'true' : 'false'; ?>"
-              data-toggle="tab"
-              class="font-family-1 <?php echo $is_recent_active ? 'active' : ''; ?> aft-tab-item">
+            <a href="#<?php echo esc_attr($tab_id); ?>-recent" aria-label="<?php esc_attr_e('Recent', 'chromenews'); ?>" role="tab" id="<?php echo esc_attr($tab_id); ?>-recent-tab" aria-controls="<?php echo esc_attr($tab_id); ?>-recent" aria-selected="<?php echo $is_recent_active ? 'true' : 'false'; ?>" data-toggle="tab" class="font-family-1 <?php echo $is_recent_active ? 'active' : ''; ?> aft-tab-item">
               <?php echo esc_html($latest_title); ?>
             </a>
           </li>
 
           <li role="presentation" class="tab tab-popular">
-            <a href="#<?php echo esc_attr($tab_id); ?>-popular"
-              aria-label="<?php esc_attr_e('Popular', 'chromenews'); ?>"
-              role="tab"
-              id="<?php echo esc_attr($tab_id); ?>-popular-tab"
-              aria-controls="<?php echo esc_attr($tab_id); ?>-popular"
-              aria-selected="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-              data-toggle="tab"
-              class="font-family-1 aft-tab-item">
+            <a href="#<?php echo esc_attr($tab_id); ?>-popular" aria-label="<?php esc_attr_e('Popular', 'chromenews'); ?>" role="tab" id="<?php echo esc_attr($tab_id); ?>-popular-tab" aria-controls="<?php echo esc_attr($tab_id); ?>-popular" aria-selected="<?php echo $is_recent_active ? 'false' : 'true'; ?>" data-toggle="tab" class="font-family-1 aft-tab-item">
               <?php echo esc_html($popular_title); ?>
             </a>
           </li>
@@ -110,21 +96,13 @@ if (!function_exists('chromenews_render_tabbed_posts')):
       </div>
       <div class="tab-content af-widget-body">
 
-        <div id="<?php echo esc_attr($tab_id); ?>-recent"
-          role="tabpanel"
-          aria-labelledby="<?php echo esc_attr($tab_id); ?>-recent-tab"
-          aria-hidden="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-          class="tab-pane <?php echo $is_recent_active ? 'active' : ''; ?>">
+        <div id="<?php echo esc_attr($tab_id); ?>-recent" role="tabpanel" aria-labelledby="<?php echo esc_attr($tab_id); ?>-recent-tab" aria-hidden="<?php echo $is_recent_active ? 'false' : 'true'; ?>" class="tab-pane <?php echo $is_recent_active ? 'active' : ''; ?>">
           <?php
           chromenews_render_posts($number_of_posts, $latest_category, $latest_post_filterby);
           ?>
         </div>
 
-        <div id="<?php echo esc_attr($tab_id); ?>-popular"
-          role="tabpanel"
-          aria-labelledby="<?php echo esc_attr($tab_id); ?>-recent-tab"
-          aria-hidden="<?php echo $is_recent_active ? 'false' : 'true'; ?>"
-          class="tab-pane ">
+        <div id="<?php echo esc_attr($tab_id); ?>-popular" role="tabpanel" aria-labelledby="<?php echo esc_attr($tab_id); ?>-recent-tab" aria-hidden="<?php echo $is_recent_active ? 'false' : 'true'; ?>" class="tab-pane ">
           <?php
           chromenews_render_posts($number_of_posts, $popular_category, $popular_post_filterby);
           ?>
@@ -135,7 +113,7 @@ if (!function_exists('chromenews_render_tabbed_posts')):
   <?php }
 endif;
 
-if (!function_exists('chromenews_render_section_title')):
+if (!function_exists('chromenews_render_section_title')) :
   function chromenews_render_section_title($section_title, $color_class = '')
   {
   ?>

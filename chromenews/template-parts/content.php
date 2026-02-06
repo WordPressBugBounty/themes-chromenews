@@ -77,6 +77,18 @@ if (isset($next_post->ID)) {
 }
 
 
+
+// the_post_navigation(array(
+//     'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('Next', 'chromenews') . '</span> ' .
+//     '<span class="screen-reader-text">' . __('Next post:', 'chromenews') . '</span> ' .
+//     '<span class="chromenews-next-post '.$next_no_thumb_class.'"><h4><span class="post-title">%title</span></h4><span class="post-image">' . $next_post_thumb . '</span></span>',
+//     'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('Previous', 'chromenews') . '</span> ' .
+//     '<span class="screen-reader-text">' . __('Previous post:', 'chromenews') . '</span> ' .
+//     '<span class="chromenews-prev-post '.$previous_no_thumb_class.'"><h4><span class="post-title">%title</span></h4><span class="post-image">' . $previous_post_thumb . '</span></span>',
+//     // 'in_same_term' => true,    
+//     'screen_reader_text' => __('Continue Reading', 'chromenews'),
+// ));
+
 the_post_navigation( array(
     'next_text' => sprintf(
         '<span class="meta-nav" aria-hidden="true">%s</span> ' .

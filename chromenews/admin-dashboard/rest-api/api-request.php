@@ -161,7 +161,6 @@ function chromenews_check_file_extension($filename)
   if (empty($filename) || !is_string($filename)) {
     return false;
 }
-  
   if (substr(strrchr($filename, '.'), 1) === 'php') {
     // has .php exension
     return true;

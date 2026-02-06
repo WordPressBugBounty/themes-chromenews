@@ -79,7 +79,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
         $defaults['select_breadcrumb_mode'] = 'default';
 
 
-        // Frontpage Section.
+        // Front-page Section.
         $defaults['show_main_news_section'] = 1;
         $defaults['select_main_banner_background_color'] = 'background-default';
         $defaults['main_banner_custom_background_color'] = '#0159b7';
@@ -120,7 +120,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
         $defaults['select_tab_section_mode'] = 'default';
         $defaults['select_trending_tab_news_category'] = 0;
         $defaults['main_banner_carousel_autoplay'] = true;
-        $defaults['main_banner_carousel_autoplay_speed'] = 8000;
+        $defaults['main_banner_carousel_autoplay_speed'] = 15000;
 
         $defaults['select_main_banner_section_mode'] = 'banner-carousel';
 

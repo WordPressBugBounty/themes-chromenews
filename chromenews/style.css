@@ -4,10 +4,10 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 5.4.9
+Version: 6.0.4.2
 Requires at least: 4.0
-Requires PHP: 5.3
-Tested up to: 6.8
+Requires PHP: 5.0
+Tested up to: 6.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: chromenews
@@ -631,8 +631,25 @@ body.aft-dark-mode #loader::before {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+.top-navigation .menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.top-navigation ul li a {
+    padding-right: 5px;
+}
+.top-navigation a:visited,
+.top-navigation a:hover,
+.top-navigation a {
+    color: #fff;
+}
+@media screen and (max-width: 640px) {
+    .top-navigation ul li a {
+        padding-bottom: 0;
+    }
+}
 /*============-------------for all navigations----------=============*/
-
+.main-navigation #primary-menu > ul:not(.menu-mobile) > li,
 .main-navigation #primary-menu > li,
 .main-navigation .menu-desktop  > li ,
 .main-navigation .menu-desktop > ul > li {
@@ -654,6 +671,7 @@ body.aft-dark-mode #loader::before {
 }
 
 @media screen and (min-width: 993px) {
+    .main-navigation #primary-menu > ul:not(.menu-mobile) > li:last-child > a,z
     .main-navigation #primary-menu > li:last-child > a,
     .main-navigation .menu-desktop  > li:last-child > a,
     .main-navigation .menu-desktop > ul > li:last-child > a,
@@ -856,6 +874,10 @@ body.aft-dark-mode.sidr-open:before {
     .main-navigation .menu li a button{
         display: none;
     }
+    .main-navigation #primary-menu > ul:not(.menu-mobile){
+        display: flex;
+        flex-wrap: wrap;
+    }
     .main-navigation .menu-desktop,
     .main-navigation .menu-desktop > ul {
         font-size: 0;
@@ -868,6 +890,7 @@ body.aft-dark-mode.sidr-open:before {
         justify-content: flex-start;
     }
 
+    .main-navigation #primary-menu > ul:not(.menu-mobile) > li> a,
     .main-navigation #primary-menu > li> a,
     .main-navigation .menu-desktop > li > a,
     .main-navigation .menu-desktop > ul > li > a {
@@ -1053,6 +1076,7 @@ body.aft-dark-mode.sidr-open:before {
 }
 
 @media only screen and (max-width: 992px) {
+    .main-navigation div.menu > ul,
     .main-navigation .menu > .menu {
         margin: 0;
         list-style: none;
@@ -1239,7 +1263,7 @@ a:hover {
 }
 .container-wrapper {
     width: 100%;
-    max-width: 1240px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -1247,9 +1271,10 @@ a:hover {
 .elementor-template-full-width #content.container-wrapper{
     max-width: 1920px;
     padding: 0;
+    margin-top: 0;
 }
 .af-boxed-layout .af-whole-wrapper{
-    max-width: 1240px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .aft-enable-top-bottom-gaps.af-boxed-layout .af-whole-wrapper {
@@ -1261,7 +1286,7 @@ a:hover {
 }
 
 .af-banner-wrapper{
-    max-width: 1240px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -1448,180 +1473,180 @@ body footer .secondary-footer .aft-small-social-menu ul li a:hover {
     color: #fff;
 }
 footer .aft-small-social-menu ul li a:hover,
-header .top-header .aft-small-social-menu ul li a:hover,
+header .aft-small-social-menu ul li a:hover,
 .social-widget-menu.af-widget-body ul li a{background-color: #000;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="facebook.com"],
 footer .aft-small-social-menu ul li a[href*="facebook.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="facebook.com"]:hover,
+header .aft-small-social-menu ul li a[href*="facebook.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="facebook.com"]{background-color: #3b5999;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="dribble.com"],
 footer .aft-small-social-menu ul li a[href*="dribble.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="dribble.com"]:hover,
+header .aft-small-social-menu ul li a[href*="dribble.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="dribble.com"]{background-color: #ea4c89;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="vk.com"],
 footer .aft-small-social-menu ul li a[href*="vk.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="vk.com"]:hover,
+header .aft-small-social-menu ul li a[href*="vk.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="vk.com"]{background-color: #4c75a3;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="buffer.com"],
 footer .aft-small-social-menu ul li a[href*="buffer.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="buffer.com"]:hover,
+header .aft-small-social-menu ul li a[href*="buffer.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="buffer.com"]{background-color: #000;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="x.com"],
 footer .aft-small-social-menu ul li a[href*="x.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="x.com"]:hover,
+header .aft-small-social-menu ul li a[href*="x.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="x.com"],
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="twitter.com"],
 footer .aft-small-social-menu ul li a[href*="twitter.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="twitter.com"]:hover,
+header .aft-small-social-menu ul li a[href*="twitter.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="twitter.com"]{background-color: #000;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="tiktok.com"],
 footer .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
+header .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="tiktok.com"]{background-color: #111;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="linkedin.com"],
 footer .aft-small-social-menu ul li a[href*="linkedin.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="linkedin.com"]:hover,
+header .aft-small-social-menu ul li a[href*="linkedin.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="linkedin.com"]{background-color: #0077B5;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="instagram.com"],
 footer .aft-small-social-menu ul li a[href*="instagram.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="instagram.com"]:hover,
+header .aft-small-social-menu ul li a[href*="instagram.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="instagram.com"]{background-color: #3F729B;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="youtube.com"],
 footer .aft-small-social-menu ul li a[href*="youtube.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="youtube.com"]:hover,
+header .aft-small-social-menu ul li a[href*="youtube.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="youtube.com"]{background-color: #cd201f;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="vimeo.com"],
 footer .aft-small-social-menu ul li a[href*="vimeo.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="vimeo.com"]:hover,
+header .aft-small-social-menu ul li a[href*="vimeo.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="vimeo.com"]{background-color: #1ab7ea;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="plus.google.com"],
 footer .aft-small-social-menu ul li a[href*="plus.google.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="plus.google.com"]:hover,
+header .aft-small-social-menu ul li a[href*="plus.google.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="plus.google.com"]{background-color: #dd4b39;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="pinterest.com"],
 footer .aft-small-social-menu ul li a[href*="pinterest.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="pinterest.com"]:hover,
+header .aft-small-social-menu ul li a[href*="pinterest.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="pinterest.com"]{background-color: #bd081c;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="tumblr.com"],
 footer .aft-small-social-menu ul li a[href*="tumblr.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="tumblr.com"]:hover,
+header .aft-small-social-menu ul li a[href*="tumblr.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="tumblr.com"]{background-color: #34465d;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="wordpress.com"],
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="wordpress.org"],
 footer .aft-small-social-menu ul li a[href*="wordpress.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="wordpress.com"]:hover,
+header .aft-small-social-menu ul li a[href*="wordpress.com"]:hover,
 footer .aft-small-social-menu ul li a[href*="wordpress.org"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="wordpress.org"]:hover,
+header .aft-small-social-menu ul li a[href*="wordpress.org"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="wordpress.com"],
 .social-widget-menu.af-widget-body ul li a[href*="wordpress.org"]{background-color: #21759b;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="whatsapp.com"],
 footer .aft-small-social-menu ul li a[href*="whatsapp.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="whatsapp.com"]:hover,
+header .aft-small-social-menu ul li a[href*="whatsapp.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="whatsapp.com"]{background-color: #25D366;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="reddit.com"],
 footer .aft-small-social-menu ul li a[href*="reddit.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="reddit.com"]:hover,
+header .aft-small-social-menu ul li a[href*="reddit.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="reddit.com"]{background-color: #ff5700;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="t.me"],
 footer .aft-small-social-menu ul li a[href*="t.me"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="t.me"]:hover,
+header .aft-small-social-menu ul li a[href*="t.me"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="t.me"]{background-color: #00405d;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="ok.ru"],
 footer .aft-small-social-menu ul li a[href*="ok.ru"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="ok.ru"]:hover,
+header .aft-small-social-menu ul li a[href*="ok.ru"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="ok.ru"]{background-color: #ed812b;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="wechat.com"],
 footer .aft-small-social-menu ul li a[href*="wechat.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="wechat.com"]:hover,
+header .aft-small-social-menu ul li a[href*="wechat.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="wechat.com"]{background-color: #09b83e;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="weibo.com"],
 footer .aft-small-social-menu ul li a[href*="weibo.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="weibo.com"]:hover,
+header .aft-small-social-menu ul li a[href*="weibo.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="weibo.com"]{background-color: #ce1126;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="github.com"],
 footer .aft-small-social-menu ul li a[href*="github.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="github.com"]:hover,
+header .aft-small-social-menu ul li a[href*="github.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="github.com"]{ background-color: #00405d;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="snapchat.com"],
 footer .aft-small-social-menu ul li a[href*="snapchat.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="snapchat.com"]:hover,
+header .aft-small-social-menu ul li a[href*="snapchat.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="snapchat.com"]{ background-color: #e6e400;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="twitch.com"],
 footer .aft-small-social-menu ul li a[href*="twitch.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="twitch.com"]:hover,
+header .aft-small-social-menu ul li a[href*="twitch.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="twitch.com"]{ background-color: #6441a5;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="viber.com"],
 footer .aft-small-social-menu ul li a[href*="viber.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="viber.com"]:hover,
+header .aft-small-social-menu ul li a[href*="viber.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="viber.com"]{ background-color: #665cac;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="tiktok.com"],
 footer .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
+header .aft-small-social-menu ul li a[href*="tiktok.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="tiktok.com"]{ background-color: #010101;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="soundcloud.com"],
 footer .aft-small-social-menu ul li a[href*="soundcloud.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="soundcloud.com"]:hover,
+header .aft-small-social-menu ul li a[href*="soundcloud.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="soundcloud.com"]{background-color: #f75200;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="behance.net"],
 footer .aft-small-social-menu ul li a[href*="behance.net"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="behance.net"]:hover,
+header .aft-small-social-menu ul li a[href*="behance.net"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="behance.net"]{background-color: #053eff;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="quora.com"],
 footer .aft-small-social-menu ul li a[href*="quora.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="quora.com"]:hover,
+header .aft-small-social-menu ul li a[href*="quora.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="quora.com"]{background-color: #b92b27;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="yahoo.com"],
 footer .aft-small-social-menu ul li a[href*="yahoo.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="yahoo.com"]:hover,
+header .aft-small-social-menu ul li a[href*="yahoo.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="yahoo.com"]{background-color: #720e9e;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="spotify.com"],
 footer .aft-small-social-menu ul li a[href*="spotify.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="spotify.com"]:hover,
+header .aft-small-social-menu ul li a[href*="spotify.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="spotify.com"]{background-color: #1ed760;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="messenger.com"],
 footer .aft-small-social-menu ul li a[href*="messenger.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="messenger.com"]:hover,
+header .aft-small-social-menu ul li a[href*="messenger.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="messenger.com"]{background-color: #0078ff;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="stackoverflow.com"],
 footer .aft-small-social-menu ul li a[href*="stackoverflow.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="stackoverflow.com"]:hover,
+header .aft-small-social-menu ul li a[href*="stackoverflow.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="stackoverflow.com"]{background-color: #ef8236;}
 
 .chromenews_author_info_widget .aft-small-social-menu ul li a[href*="telegram.com"],
 footer .aft-small-social-menu ul li a[href*="telegram.com"]:hover,
-header .top-header .aft-small-social-menu ul li a[href*="telegram.com"]:hover,
+header .aft-small-social-menu ul li a[href*="telegram.com"]:hover,
 .social-widget-menu.af-widget-body ul li a[href*="telegram.com"]{background-color: #24a1de;}
 
 .aft-small-social-menu ul a:after,
@@ -1771,7 +1796,7 @@ header .top-header .aft-small-social-menu ul li a[href*="telegram.com"]:hover,
 }
 
 footer .aft-small-social-menu ul li a,
-header .top-header .aft-small-social-menu ul li a{
+header .aft-small-social-menu ul li a{
     color: #fff ;
     background-color: rgba(255,255,255,.075);
     line-height: 30px;
@@ -1805,6 +1830,9 @@ footer .aft-small-social-menu ul li a:hover{
 .top-bar-flex .top-bar-left {
     display: flex;
     align-items: center;
+    column-gap: 25px;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
 .top-bar-flex .top-bar-right{
     text-align: right;
@@ -1840,7 +1868,7 @@ footer .aft-small-social-menu ul li a:hover{
     height: 3px;
     background-color: #fff;
     border-color: #fff;
-    transition: 0.075s all ease-in;
+    transition: 0.25s width ease-in;
 }
 .af-on-right .offcanvas .offcanvas-menu span {
     left: inherit;
@@ -1856,7 +1884,6 @@ footer .aft-small-social-menu ul li a:hover{
 .offcanvas-menu span.mbtn-bot {
     bottom: 0;
     width: 60%;
-    transition-delay: 90ms;
 }
 #sidr{
     background: #fff;
@@ -1871,6 +1898,8 @@ footer .aft-small-social-menu ul li a:hover{
     max-width: 380px;
     visibility: hidden;
     opacity: 0;
+    max-height: 100vh;
+    padding-bottom: 15px;
 }
 .sidr.left{
     left: -380px;
@@ -2423,7 +2452,7 @@ div#main-navigation-bar {
 .header-layout-compressed:not(.header-layout-compressed-centered) .compress-bar-logo .logo{padding: 10px;text-align: left;padding-left: 0;}
 .header-layout-compressed:not(.header-layout-compressed-centered) .center-burger > span{display: none;}
 
-@media (max-width: 1200px) and (min-width: 1025px){
+@media (max-width: 1240px) and (min-width: 1025px){
     .header-layout-compressed:not(.header-layout-compressed-centered) .compress-bar-mid {
         max-width: 600px;
     }
@@ -2609,7 +2638,7 @@ div#main-navigation-bar {
 }
 
 .exclusive-posts .marquee a h4 {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -3133,10 +3162,10 @@ body.aft-dark-mode.aft-single-featured-full .af-breadcrumbs,
 }
 .af-wide-layout.elementor-default .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper ,
 .af-wide-layout.elementor-page .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
-    max-width: 1240px;
+    max-width: 1280px;
 }
 .af-wide-layout .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
-    max-width: 1200px;
+    max-width: 1240px;
 }
 .aft-section-layout-background .chromenews-widget.chromenews_tabbed_posts_widget .tab-content.af-widget-body {
     padding-bottom: 20px;
@@ -3514,7 +3543,7 @@ body .af-main-banner-latest-posts.grid-layout.chromenews-customizer {
     padding-top: 20px;
 }
 .aft-section-layout-none .af-main-banner-latest-posts.grid-layout.chromenews-customizer .container-wrapper {
-    max-width: 1240px;
+    max-width: 1280px;
 }
 .af-boxed-layout .af-main-banner-latest-posts.grid-layout.chromenews-customizer {
     padding: 0;
@@ -4251,7 +4280,6 @@ section.aft-featured-video-section .section-wrapper {
 }
 /* =================== banner layout horizontal ==================== */
 
-
 /* =================== banner layout vertical ==================== */
 .aft-banner-layout-vertical.aft-banner-order-2 .aft-main-banner-wrapper .aft-slider-part{order: 1;}
 .aft-banner-layout-vertical.aft-banner-order-2 .aft-main-banner-wrapper .aft-trending-part{order: 2;}
@@ -4308,17 +4336,13 @@ section.aft-featured-video-section .section-wrapper {
 .aft-banner-layout-vertical .aft-trending-part span.author-links{
     display: none;
 }
-
 @media screen and (min-width: 992px){
     .aft-banner-layout-vertical .aft-trending-part .af-widget-carousel {
         max-height: 400px;
         overflow: hidden;
     }
 }
-
-
 /* =================== banner layout vertical ==================== */
-
 
 /* =================== banner layout compressed ==================== */
 .aft-banner-layout-compressed.aft-banner-order-4 .aft-main-banner-wrapper .aft-editors-and-trending-part ,
@@ -4768,12 +4792,11 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
 .cat-links li a{
     display: block;
     color: #404040 ;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.4;
     white-space: nowrap;
     word-wrap: normal;
-    /* letter-spacing: 0.1px; */
-    transition: 0.075s;
+    transition: border 0.075s;
     font-weight: 700;
 }
 
@@ -4793,8 +4816,8 @@ body .aft-main-banner-section.data-bg .banner-exclusive-posts-wrapper .exclusive
 .read-single:not(.af-cat-widget-carousel) .cat-links li a.category-color-6{border-color: #ff5722;}
 .read-single:not(.af-cat-widget-carousel) .cat-links li a.category-color-7{border-color: #9c27b0;}
 
-.read-single:not(.af-cat-widget-carousel) .cat-links li a:hover,
-.widget .read-single:not(.af-cat-widget-carousel) .cat-links li a:hover{
+body .read-single:not(.af-cat-widget-carousel) .cat-links li a:hover,
+body .widget .read-single:not(.af-cat-widget-carousel) .cat-links li a:hover{
     border-bottom-color: transparent;
 }
 /*cat links - color*/
@@ -7921,14 +7944,14 @@ body.full-width-content .alignfull .alignfull {
 body.full-width-content.single-content-mode-boxed .alignfull{
     margin-left: calc(50% - 550px);
     margin-right: calc(50% - 550px);
-    max-width: 1240px;
-    width: 1240px;
+    max-width: 1280px;
+    width: 1280px;
 }
 body.full-width-content.single-content-mode-boxed.af-boxed-layout .alignfull{
     margin-left: calc(50% - 570px);
     margin-right: calc(50% - 570px);
-    max-width: 1240px;
-    width: 1240px;
+    max-width: 1280px;
+    width: 1280px;
 }
 body.full-width-content.single-content-mode-boxed .alignwide{
     margin-left: -3.75rem;
@@ -7946,7 +7969,7 @@ body.full-width-content.single-content-mode-boxed .alignwide{
 body.blockspare-blank-canvas.full-width-content.single-content-mode-boxed .alignwide {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1240px;
+    max-width: 1280px;
 }
 
 body.full-width-content:not(.single-content-mode-boxed) .alignfull{
@@ -10198,6 +10221,91 @@ body.aft-light-mode {
 /*=============for light mode===========*/
 
 
+/* gtranslate design */
+
+body .gt_float_switcher .gt-selected .gt-current-lang {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+body .gt_float_switcher img {
+    width: 20px;
+    border-radius: 0;
+}
+body .gt_float_switcher .gt-selected .gt-current-lang span.gt_float_switcher-arrow {
+    height: 20px;
+}
+body .gt_options {
+    right: 0;
+    min-width: 200px;
+}
+
+body .menu-item-gtranslate > div {
+    position: static !important;
+}
+.main-navigation .gt_float_switcher .gt_options {
+    position: absolute !important;
+    top: 100%;
+    font-size: 14px;
+}
+.main-navigation .gt_float_switcher .gt_options a {
+    background-color: #fff !important;
+    color: #444 !important;
+}
+.aft-light-mode #gt_float_wrapper .gt_float_switcher .gt_options a {
+    color: #444;
+}
+.gt_float_switcher {
+    overflow: visible !important;
+}
+#gt_float_wrapper {
+    z-index: 99 !important;
+}
+#gt_float_wrapper,
+.menu-item-gtranslate > div {
+    min-width: unset !important;
+}
+#gt_float_wrapper .gt_float_switcher .gt_options a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+}
+.top-navigation .menu li.menu-item.menu-item-gtranslate,
+.social-navigation .menu li.menu-item.menu-item-gtranslate,
+.footer-nav-wrapper .menu li.menu-item.menu-item-gtranslate {
+    display: inline-block !important;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.social-navigation .menu li.menu-item.menu-item-gtranslate{
+    margin-right: 0;
+}
+.social-navigation #gt_float_wrapper .gt_float_switcher .gt_options a{
+    background-color: #fff;
+}
+body .gt_float_switcher .gt-selected .gt-current-lang{
+    text-align: left;
+}
+body .gt_options.gt-open {
+    max-width: unset !important;
+}
+#gt_float_wrapper,
+li.menu-item.menu-item-gtranslate {
+    display: flex !important;
+    align-items: center;
+}
+.top-navigation li.menu-item.menu-item-gtranslate {
+    padding-left: 5px;
+}
+.footer-navigation li.menu-item.menu-item-gtranslate ,
+.social-navigation li.menu-item.menu-item-gtranslate {
+    padding-left: 0;
+}
+.aft-dark-mode .social-navigation #gt_float_wrapper .gt_float_switcher .gt_options a,
+.aft-dark-mode .gt_float_switcher {
+    background: #000;
+}
+
+
 /* ================== for site mode none ================== */
 .aft-section-layout-none .af-breadcrumbs {
     padding: 15px 0px;
@@ -11856,6 +11964,9 @@ article.latest-posts-grid .read-title h3,
     .aft-banner-layout-tiled-3 .af-main-banner-thumb-posts .af-sec-post:last-child{
         margin-top: 20px;
     }
+    .top-bar-flex .top-bar-left{
+        text-align: center;
+    }
     .aft-featured-category-section .featured-post-items-wrap .af-sec-post:not(.list-part) .read-img, 
     .chromenews_express_posts_list_widget .featured-post-items-wrap .af-sec-post:not(.list-part) .read-img,
     .archive-layout-list .af-double-column.list-style .read-bg-img, 
@@ -12276,15 +12387,19 @@ article.latest-posts-grid .read-title h3,
 --------------------------------------------------------------*/
 
 /* elementor css */
+.af-boxed-layout.elementor-page .container-wrapper, 
+.af-boxed-layout.elementor-default .container-wrapper {
+    max-width: 100%;
+}
 .af-wide-layout .elementor-section.elementor-section-boxed > .elementor-container,
 .af-boxed-layout .elementor-section.elementor-section-boxed > .elementor-container{
-    max-width: 1240px;
+    max-width: 1280px;
 }
 .af-boxed-layout.elementor-page #content.container-wrapper .af-breadcrumbs,
 .af-wide-layout.elementor-page #content.container-wrapper .af-breadcrumbs,
 .af-boxed-layout.elementor-default #content.container-wrapper .af-breadcrumbs,
 .af-wide-layout.elementor-default #content.container-wrapper .af-breadcrumbs {
-    max-width: 1240px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12292,7 +12407,7 @@ article.latest-posts-grid .read-title h3,
 .elementor-default .container-wrapper {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    max-width: 1240px;
+    max-width: 1280px;
 }
 
 .elementor-page .mailchimp-block .container-wrapper ,
@@ -12302,6 +12417,15 @@ article.latest-posts-grid .read-title h3,
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+/* for elespare */
+.elementor-page.af-boxed-layout .elespare-site-footer .elementor-section-wrap > section.elementor-section > .elementor-container,
+.elementor-default.af-boxed-layout .elespare-site-footer .elementor-section-wrap > section.elementor-section > .elementor-container,
+.elementor-page.af-boxed-layout .elespare-site-header .elementor-section-wrap > section.elementor-section > .elementor-container,
+.elementor-default.af-boxed-layout .elespare-site-header .elementor-section-wrap > section.elementor-section > .elementor-container{
+    max-width: 1280px;
+}
+/* for elespare */
 
 @media screen and (max-width: 820px) {
     .elementor-page .container-wrapper, .elementor-default .container-wrapper {
@@ -12344,8 +12468,8 @@ article.latest-posts-grid .read-title h3,
 /* for wide site elespare header and footer */
 .elementor-page.af-wide-layout .elementor-section-wrap > section.elementor-section > .elementor-container,
 .elementor-default.af-wide-layout .elementor-section-wrap > section.elementor-section > .elementor-container{
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 /* for wide site elespare header and footer*/
 
@@ -12369,7 +12493,7 @@ article.latest-posts-grid .read-title h3,
 
 body.full-width-content.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide,
 .aft-pagebuilder-blank-canvas .aft-pagebuilder-page-section>.alignwide {
-    max-width: 1240px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -12384,7 +12508,7 @@ body.full-width-content.aft-pagebuilder-blank-canvas .aft-pagebuilder-page-secti
     width: 100%;
 }
 .aft-pagebuilder-page-section > .vce-row-container{
-    max-width: 1240px;
+    max-width: 1280px;
 }
 .aft-pagebuilder-page-section > .elementor,
 .aft-pagebuilder-page-section > .fl-builder-content ,

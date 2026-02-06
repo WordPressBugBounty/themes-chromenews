@@ -16,7 +16,15 @@ if (!function_exists('chromenews_header_section')) :
 
     <header id="masthead" class="header-layout-centered chromenews-header">
       <?php
-      chromenews_get_block('layout-centered', 'header');
+
+      $chromenews_enable_header_builder = chromenews_get_option('athfb_show_checkbox_header');
+
+      if ($chromenews_enable_header_builder) {
+
+        athfb_render_header_builder();
+      } else {
+        chromenews_get_block('layout-centered', 'header');
+      }
 
 
       ?>

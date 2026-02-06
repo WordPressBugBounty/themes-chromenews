@@ -1,8 +1,8 @@
 === ChromeNews ===
 Contributors: AF themes
 Requires at least: 4.0
-Tested up to: 6.8
-Stable tag: 5.4.9
+Tested up to: 6.9
+Stable tag: 6.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -47,21 +47,56 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
-= 5.4.9 - Aug 21 2025 =
-* Update - Post navigation HTML structure updated for better styling
-* Update - Previous/Next post labels improved for translations (i18n)
-* Update - Screen reader text corrected to "Post navigation" for accessibility
+= 6.0.2 - Dec 30 2025 = 
+* Update - German language file
+* Update - Arabic language file
+* Update - French language file
+* Update - Italian language file
+* Update - Japanese language file
+* Update - Polish language file
+* Update - Portugese language file
+* Update - Spanish language file
+* Update - Dutch language file
+* Update - Russian language file
+* Update - Ukranian language file
+* Update - Swedish language file
 
-= 5.4.8 - Aug 11 2025 =
-* Update - PHP 8+ compatibility improvement
-* Update - Google SEO compatibility improvement
-* Update - Breadcrumbs notice improvement
-* Update - Admin notice improvement
-* Update - Post excerpt improvement
-* Update - Block Style improvement
-* Fixed - Some styling glitch
 
-= 5.4.6 - July 21 2025 =
+= 6.0.0 - Nov 14 2025 =
+* New - Header & Footer Builder with drag-and-drop support
+* New - Customizer options for builder elements (menus, social icons, search, logo, ads, promotion, banner slider, live text, etc.)
+* New - Footer Builder elements: navigation, widgets, custom HTML, dynamic text, LiveCoinWatch integration
+* New - Dark & Light Mode support with toggle and cookie persistence
+* New - Site Mode option to choose default display mode
+* New - Top Menu element and additional menu locations
+* New - Off-canvas post carousel and custom sidebars
+* New - Slider widget with font size customization and responsive support
+* New - RTL support for menus, close buttons, submenu arrows, and header/footer layouts
+* New - Badge customizer design for posts
+* New - Live Watch Online icon with customizable color
+* New - Custom HTML script placement for header and top menu builder
+* Option - Disable Sticky Header toggle in Customizer
+* Update - Responsive design improvements for header, footer, main navigation, banner promotion, site branding, and sticky header
+* Update - Builder CSS separated and optimized for frontend performance
+* Update - Improved Customizer live preview and real-time updates for builder elements
+* Update - Added secure cookie options for dark/light mode and site mode
+* Update - GTranslate compatible CSS for multilingual support
+* Update - Footer, header, and off-canvas custom color options for dark mode
+* Update - Elementor templates full-width support and improved widget layout
+* Update - Mailchimp form text color and footer bottom responsive design
+* Update - Search header mobile view and icon adjustments
+* Update - Slider and banner fonts, custom colors, and responsive display
+* Fixed - Sticky header and footer issues in Builder
+* Fixed - JavaScript conflicts with toggle/collapsed states, sidr off-canvas, and console errors
+* Fixed - Social menu dropdown, widget alignment, and RTL design issues
+* Fixed - Overflow issues on full-width containers and header/footer sections
+* Fixed - Customizer preview flickering, tab index problems, and responsive glitches
+* Fixed - Sprintf, sanitization, and undefined variable warnings
+* Fixed - Menu refresh, submenu arrows, mobile menu background color, and header/footer element alignment
+* Fixed - Thumbs display issues and live text/watch online display
+* Fixed - Double margin in block cover widget, post excerpt color on footer, and nav icon in site footer
+
+= 5.6.0 - July 25 2025 =
 * New - Option to disable WordPress emojis (disable_wp_emoji)
 * New - Global font family type option: Google Fonts or System Fonts
 * Update - Google Fonts now filtered for allowed variants (400, 700)

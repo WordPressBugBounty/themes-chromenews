@@ -10,13 +10,13 @@ $chromenews_default = chromenews_get_default_theme_options();
 
 
 /**
- * Frontpage options section
+ * Front-page options section
  *
  * @package ChromeNews
  */
 
 
-// Add Frontpage Options Panel.
+// Add Front-page Options Panel.
 $wp_customize->add_panel('main_banner_option_panel',
     array(
         'title' => esc_html__('Main Banner Options', 'chromenews'),
@@ -76,7 +76,7 @@ $wp_customize->add_control(
     new WP_Customize_Cropped_Image_Control($wp_customize, 'main_banner_background_section',
         array(
             'label' => esc_html__('Main Banner Background Image', 'chromenews'),
-            'description' => sprintf(esc_html__('Recommended Size %1$s px X %2$s px', 'chromenews'), 1024, 800),
+            'description' => esc_html(sprintf(__('Recommended Size %1$s px X %2$s px', 'chromenews'), 1024, 800)),
             'section' => 'frontpage_main_banner_section_settings',
             'width' => 1024,
             'height' => 800,
@@ -795,16 +795,16 @@ $wp_customize->add_control(new chromenews_Dropdown_Taxonomies_Control($wp_custom
     )));
 
 /**
- * Frontpage options section
+ * Front-page options section
  *
  * @package ChromeNews
  */
 
 
-// Add Frontpage Options Panel.
+// Add Front-page Options Panel.
 $wp_customize->add_panel('frontpage_option_panel',
     array(
-        'title' => esc_html__('Frontpage Options', 'chromenews'),
+        'title' => esc_html__('Front-page Options', 'chromenews'),
         'priority' => 30,
         'capability' => 'edit_theme_options',
     )
@@ -894,10 +894,10 @@ $wp_customize->add_panel('frontpage_option_panel',
 
 
 
-// Frontpage Layout Section.
+// Front-page Layout Section.
 $wp_customize->add_section('frontpage_layout_settings',
     array(
-        'title' => esc_html__('Frontpage Layout Settings', 'chromenews'),
+        'title' => esc_html__('Front-page Layout Settings', 'chromenews'),
         'priority' => 10,
         'capability' => 'edit_theme_options',
         'panel' => 'frontpage_option_panel',
@@ -916,7 +916,7 @@ $wp_customize->add_setting('frontpage_content_alignment',
 
 $wp_customize->add_control('frontpage_content_alignment',
     array(
-        'label' => esc_html__('Frontpage Content Alignment', 'chromenews'),
+        'label' => esc_html__('Front-page Content Alignment', 'chromenews'),
         'description' => esc_html__('Select frontpage content alignment', 'chromenews'),
         'section' => 'frontpage_layout_settings',
         'type' => 'select',

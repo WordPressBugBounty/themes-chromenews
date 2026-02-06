@@ -78,16 +78,17 @@ class ChromeNews_Theme_Review_Notice
             <p>
                 <?php
                 printf(
-                    /* Translators: %1$s current user display name. */
+                    /* translators: 1: current user display name, 2: theme name, 3: opening link tag, 4: closing link tag */
                     esc_html__(
                         'Howdy, %1$s! We\'ve noticed that you\'ve been using %2$s for some time now, we hope you are loving it! We would appreciate it if you can %3$sgive us a 5 star rating on WordPress.org%4$s! We\'ll continue to develop exciting new features for free in the future by sharing the love!',
                         'chromenews'
                     ),
-                    '<strong>' . esc_html($current_user->display_name) . '</strong>',
+                    '<strong>' . esc_html( $current_user->display_name ) . '</strong>',
                     'ChromeNews',
                     '<a href="https://wordpress.org/support/theme/chromenews/reviews/?filter=5#new-post" target="_blank">',
                     '</a>'
                 );
+                
                 ?>
             </p>
 

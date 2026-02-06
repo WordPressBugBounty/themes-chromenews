@@ -109,7 +109,7 @@ if (!function_exists('chromenews_render_layout_options_metabox')) :
                             </option>
                         </select>
                     </p>
-                    <small><?php esc_html_e('Please go to Customize>Frontpage Options for Homepage.', 'chromenews')?></small>
+                    <small><?php esc_html_e('Please go to Customize>Front-page Options for Homepage.', 'chromenews')?></small>
 
                 </div><!-- .chromenews-row-content -->
 

@@ -1,21 +1,24 @@
-# Translation of Themes - ChromeNews in Dutch
+# Translation of Themes - ChromeNews in Uighur
 # This file is distributed under the same license as the Themes - ChromeNews package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-15 11:05:04+0000\n"
+"PO-Revision-Date: 2025-11-25 18:40:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/4.0.3\n"
-"Language: nl\n"
+"Language: ug_CN\n"
 "Project-Id-Version: Themes - ChromeNews\n"
 
 #. Description of the theme
 #: style.css
 #, gp-priority: high
 msgid "ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/"
-msgstr "ChromeNews is een krachtig WordPress thema dat perfect is voor nieuws, blogs en tijdschriften. Het thema wordt geleverd met een aantal gratis startsites die gemakkelijk kunnen worden geïntegreerd om een fantastisch nieuws hub te bouwen. Het thema is volledig widgetized, met 9+ aangepaste widgets en widget secties, waardoor gebruikers de inhoud van de site kunnen aanpassen. Het biedt ook een lichte en donkere kleurmodus voor het bekijken van artikelen en blogberichten op een stijlvolle manier. Het bevat ook een verscheidenheid aan nuttige aanpassingsopties voor het maken van een esthetisch aantrekkelijke nieuwssite. U kunt het instellen zoals u wilt en bekijken hoe het eruitziet voordat uw wijzigingen aanbrengt met de live customizer. Het ondersteunt Gutenberg blokken en Elementor, evenals de WooCommerce plugin, waardoor uw een online winkel kunt combineren met ons kranten thema. Het RTL talen ondersteunde thema is geschikt voor een nieuws-, tijdschrift-, tijdschrift-, publicatie- of reviewsite, evenals bloggen. Het is goed ontworpen om de site hoger te laten scoren in zoekmachines, en gebruikers zullen uitstekende ondersteuning van het personeel ontvangen als ze problemen tegenkomen tijdens het gebruik ervan. Vind demo's: https://afthemes.com/products/chromenews/#aft-view-starter-sites Video's: https://www.youtube.com/@wpafthemes/ Documenten: https://docs.afthemes.com/chromenews/"
+msgstr ""
+"ChromeNews خەۋەر، بىلوگ ۋە ژۇرنال تور بېكىتىگە ماس كېلىدىغان كۈچلۈك WordPress ئۆرنىكى. بۇ ئۆرنەكتە نۇرغۇن ھەقسىز باشلىنىش تور بېكىتى بار بولۇپ، ئۇلارنى ئاسانلا بىرلەشتۈرۈپ، قالتىس خەۋەر مەركىزى قۇرغىلى بولىدۇ. ئۆرنەك 9 دىن كۆپ ئەپچە ۋە ئەپچە بۆلىكى ئارقىلىق تولۇق ئەپچىلەشتۈرۈلگەن بولۇپ، ئىشلەتكۈچىنىڭ تور بېكەت مەزمۇنىنى خاسلاشتۇرۇشىغا يول قويىدۇ. ئۇ يەنە ماقالە ۋە بىلوگ يازمىلىرىنى مودا ھالەتتە كۆرۈش ئۈچۈن يورۇق ۋە قاراڭغۇ رەڭ ھالىتى بىلەن تەمىنلەيدۇ. چىرايلىق خەۋەر تور بېكىتى قۇرۇش ئۈچۈن نۇرغۇن قولايلىق خاسلاشتۇرغۇچ تاللاشلىرىنى تەمىنلىگەن. ئۇنى شۇئان خاسلاشتۇرغۇچ ئارقىلىق خالىغان ۋاقىتتا ئۆزگەرتىشىڭىزنىڭ قانداق كۆرۈنىدىغانلىقىنى كۆرەلەيسىز. ئۇ Gutenberg بۆلەك ۋە Elementor شۇنداقلا WooCommerce قىستۇرمىنىمۇ قوللايدۇ، خەۋەر ئۆرنىكىنى توردىكى سودا دۇكىنى بىلەن بىرلەشتۈرۈشىڭىزگە يول قويىدۇ. ئوڭدىن سولغا يېزىلىدىغان تىلنى قوللايدىغان ئۆرنەك بولۇش سۈپىتى بىلەن خەۋەر، ژۇرنال، نەشرىيات ياكى ئوبزور تور بېكەت شۇنداقلا بىلوگقا ماس كېلىدۇ. ئۇ تور بېكەت دەرىجىسىنى ئىزدەش موتورى ئۈچۈن ئەلالاشتۇرۇپ لايىھەلەنگەن بولۇپ، ئىشلەتكۈچى ئۇنى ئىشلىتىش جەريانىدا ھەر قانداق مەسىلىگە يولۇقسا خىزمەتچىلىرىمىزنىڭ ياخشى قوللىشىغا ئېرىشەلەيدۇ. كۆرگەزمە بېكەتنى تۆۋەندىكى ئۇلانمىدىن كۆرەلەيسىز:\n"
+"https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos:\n"
+"https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/"
 
 #. Theme Name of the theme
 #: style.css inc/hooks/hook-patterns.php:13
@@ -25,25 +28,25 @@ msgstr "ChromeNews"
 
 #: inc/widgets/widgets-register-sidebars.php:39
 msgid "Header Widget 3"
-msgstr "Widget header 3"
+msgstr "ماۋزۇ ئەپچە 3"
 
 #: inc/widgets/widgets-register-sidebars.php:31
 msgid "Header Widget 2"
-msgstr "Widget header 2"
+msgstr "ماۋزۇ ئەپچە 2"
 
 #: inc/widgets/widgets-register-sidebars.php:24
 #: inc/widgets/widgets-register-sidebars.php:33
 #: inc/widgets/widgets-register-sidebars.php:41
 msgid "Add widgets for header section."
-msgstr "Widgets toevoegen voor header sectie."
+msgstr "ئەپچىنى ماۋزۇ بۆلەككە قوشىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:22
 msgid "Header Widget 1"
-msgstr "Widget header 1"
+msgstr "ماۋزۇ ئەپچە 1"
 
 #: inc/customizer/builder/options.php:587
 msgid "No menu assigned"
-msgstr "Geen menu toegekend"
+msgstr "تىزىملىك تەقسىملەنمىگەن"
 
 #: inc/customizer/builder/options.php:488
 #: inc/customizer/builder/options.php:503
@@ -51,31 +54,31 @@ msgstr "Geen menu toegekend"
 #: inc/customizer/builder/options.php:546
 #: inc/customizer/builder/options.php:567
 msgid "Beta"
-msgstr "Bèta"
+msgstr "سىناق"
 
 #: inc/customizer/builder/options.php:425
 #: inc/customizer/builder/options.php:443
 #: inc/customizer/builder/options.php:464
 msgid "Add widget to display . %s"
-msgstr "Widget toevoegen om te tonen . %s"
+msgstr "كۆرسىتىدىغان ئەپچە قوشىدۇ. %s"
 
 #: inc/customizer/builder/options.php:379
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "نەشر ھوقۇقى"
 
 #: inc/customizer/builder/options.php:341
 msgid "Navigation"
-msgstr "Navigatie"
+msgstr "يولباشچى"
 
 #: inc/customizer/builder/options.php:317
 #: inc/customizer/builder/options.php:453
 msgid "Widget 3"
-msgstr "Widget 3"
+msgstr "ئەپچە 3"
 
 #: inc/customizer/builder/options.php:301
 #: inc/customizer/builder/options.php:432
 msgid "Widget 2"
-msgstr "Widget 2"
+msgstr "ئەپچە 2"
 
 #: inc/customizer/builder/options.php:290
 #: inc/customizer/builder/options.php:306
@@ -84,47 +87,47 @@ msgstr "Widget 2"
 #: inc/customizer/builder/options.php:437
 #: inc/customizer/builder/options.php:458
 msgid "Select Widget"
-msgstr "Selecteer widget"
+msgstr "ئەپچە تاللىنىدۇ"
 
 #: inc/customizer/builder/options.php:285
 #: inc/customizer/builder/options.php:414
 msgid "Widget 1"
-msgstr "Widget 1"
+msgstr "ئەپچە 1"
 
 #: inc/customizer/builder/options.php:260
 msgid "live"
-msgstr "live"
+msgstr "توردا"
 
 #: inc/customizer/builder/options.php:257
 msgid "Custom link"
-msgstr "Aangepaste link"
+msgstr "ئىختىيارى ئۇلانما"
 
 #: inc/customizer/builder/options.php:252
 msgid "Custom Link"
-msgstr "Aangepaste link"
+msgstr "ئىختىيارى ئۇلانما"
 
 #: inc/customizer/builder/options.php:243
 msgid "Searc Form"
-msgstr "Zoek formulier"
+msgstr "ئىزدەش رامكىسى"
 
 #: inc/customizer/builder/options.php:238
 msgid "Search"
-msgstr "Zoeken"
+msgstr "ئىزدە"
 
 #: inc/customizer/builder/options.php:227
 #: inc/customizer/builder/options.php:367
 msgid "HTML Content"
-msgstr "HTML inhoud"
+msgstr "HTML مەزمۇن"
 
 #: inc/customizer/builder/options.php:222
 #: inc/customizer/builder/options.php:362
 msgid "Custom HTML"
-msgstr "Aangepaste HTML"
+msgstr "ئىختىيارى HTML"
 
 #: inc/customizer/builder/options.php:208
 #: inc/customizer/builder/options.php:213
 msgid "Site Mode"
-msgstr "Site modus"
+msgstr "تور بېكەت شەكلى"
 
 #: inc/customizer/builder/options.php:202
 #: inc/customizer/builder/options.php:232
@@ -132,29 +135,29 @@ msgstr "Site modus"
 #: inc/customizer/builder/options.php:312
 #: inc/customizer/builder/options.php:328
 msgid "pro"
-msgstr "pro"
+msgstr "كەسپىي"
 
 #: inc/customizer/builder/options.php:186
 #: inc/customizer/builder/options.php:551
 msgid "Top Navigation"
-msgstr "Top navigatie"
+msgstr "چوققا يولباشچى"
 
 #: inc/customizer/builder/options.php:180
 msgid "Manage Date"
-msgstr "Datum beheren"
+msgstr "چېسلا باشقۇرۇش"
 
 #. translators: %s is a link to manage menus
 #: inc/customizer/builder/options.php:179
 msgid "You can change date from general settings (Settings > General > Date Format). %s"
-msgstr "U kunt de datum wijzigen via algemene instellingen (Instellingen > Algemeen > Datumnotatie). %s"
+msgstr "ئادەتتىكى تەڭشەكتىن چېسلانى ئۆزگەرتەلەيسىز (تەڭشەك › ئادەتتىكى › چېسلا پىچىمى). %s"
 
 #: inc/customizer/builder/options.php:172
 msgid "Choose date format"
-msgstr "Kies datumnotatie"
+msgstr "چېسلا پىچىمى تاللىنىدۇ"
 
 #: inc/customizer/builder/options.php:167
 msgid "Date"
-msgstr "Datum"
+msgstr "چېسلا"
 
 #: inc/customizer/builder/options.php:161
 #: inc/customizer/builder/options.php:199
@@ -164,7 +167,7 @@ msgstr "Datum"
 #: inc/customizer/builder/options.php:543
 #: inc/customizer/builder/options.php:564
 msgid "Manage menu"
-msgstr "Menu beheren"
+msgstr "تىزىملىك باشقۇرۇش"
 
 #. translators: %s is a link to manage menus
 #. translators: %s is a link to manage menu
@@ -177,7 +180,7 @@ msgstr "Menu beheren"
 #: inc/customizer/builder/options.php:542
 #: inc/customizer/builder/options.php:563
 msgid "You can change Menu from menu panel. %s"
-msgstr "U kunt het menu wijzigen via het menu paneel. %s"
+msgstr "تىزىملىكنى تىزىملىك كۆزنەكچىسىدىن ئۆزگەرتەلەيسىز. %s"
 
 #: inc/customizer/builder/options.php:153
 #: inc/customizer/builder/options.php:191
@@ -186,12 +189,12 @@ msgstr "U kunt het menu wijzigen via het menu paneel. %s"
 #: inc/customizer/builder/options.php:556
 #: inc/customizer/builder/options.php:582
 msgid "Select Menu"
-msgstr "Menu selecteren"
+msgstr "تىزىملىك تاللىنىدۇ"
 
 #: inc/customizer/builder/options.php:148
 #: inc/customizer/builder/options.php:530
 msgid "Primary menu"
-msgstr "Primair menu"
+msgstr "ئاساسىي تىزىملىك"
 
 #: inc/customizer/builder/options.php:140
 #: inc/customizer/builder/options.php:426
@@ -199,277 +202,277 @@ msgstr "Primair menu"
 #: inc/customizer/builder/options.php:465
 #: inc/customizer/builder/options.php:522
 msgid "Manage widgets"
-msgstr "Beheer widgets"
+msgstr "ئەپچە باشقۇرۇش"
 
 #: inc/customizer/builder/options.php:139
 #: inc/customizer/builder/options.php:521
 msgid "This widget area is used in the mobile off-canvas panel. %s"
-msgstr "Deze widget gebied wordt gebruikt in het mobiele off-canvas paneel. %s"
+msgstr "بۇ ئەپچە يان تېلېفون يان كەرگە كۆزنەكچىسىدە ئىشلىتىلىدۇ. %s"
 
 #: inc/customizer/builder/options.php:109
 #: inc/customizer/builder/options.php:114
 #: inc/customizer/builder/options.php:493
 #: inc/customizer/builder/options.php:498
 msgid "Promotion"
-msgstr "Promotie"
+msgstr "تەشەببۇس"
 
 #. translators: %s is a link to Site Identity panel
 #: inc/customizer/builder/options.php:100
 #: inc/customizer/builder/options.php:484
 msgid "You can change Site Identity from %s."
-msgstr "U kunt site identiteit wijzigen via %s."
+msgstr "تور بېكەت كىملىكىنى %s دىن ئۆزگەرتەلەيسىز."
 
 #: inc/customizer/builder/options.php:95 inc/customizer/builder/options.php:101
 #: inc/customizer/builder/options.php:479
 #: inc/customizer/builder/options.php:485
 msgid "Site Identity"
-msgstr "Site identiteit"
+msgstr "بېكەت كىملىكى"
 
 #: inc/customizer/builder/options.php:89 inc/customizer/builder/options.php:473
 msgid "Site & Logo"
-msgstr "Site & logo"
+msgstr "بېكەت ۋە تۇغ"
 
 #: inc/customizer/builder/class-header-footer-builder.php:282
 msgid "Element Settings"
-msgstr "Element instellingen"
+msgstr "ئېلېمېنت تەڭشىكى"
 
 #: inc/customizer/builder/class-header-footer-builder.php:281
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "ئۈستەلئۈستى"
 
 #: inc/customizer/builder/class-header-footer-builder.php:280
 msgid "Configure Element"
-msgstr "Configureer element"
+msgstr "ئېلېمېنت سەپلىمىسى"
 
 #: inc/customizer/builder/class-header-footer-builder.php:279
 msgid "Remove Element"
-msgstr "Element verwijderen"
+msgstr "ئېلېمېنتنى چىقىرىۋەت"
 
 #: inc/customizer/builder/class-header-footer-builder.php:278
 msgid "Add Element"
-msgstr "Element toevoegen"
+msgstr "ئېلېمېنت قوش"
 
 #: inc/customizer/builder/class-header-footer-builder.php:115
 msgid "Enable %s Builder"
-msgstr "%s bouwer inschakelen"
+msgstr "%s قۇرغۇچنى قوزغىتىدۇ"
 
 #: inc/customizer/builder/class-header-footer-builder.php:98
 msgid "Create dynamic footer effortlessly with drag-and-drop builder."
-msgstr "Maak moeiteloos een dynamische footer met een verslepen bouwer."
+msgstr "سۆرەپ تاشلاش قۇرغۇچتا ھەرىكەتچان بەت ئاستى قۇرىدۇ."
 
 #: inc/customizer/builder/class-header-footer-builder.php:96
 msgid "Header"
-msgstr "Header"
+msgstr "بەت قاش"
 
 #: inc/customizer/builder/class-header-footer-builder.php:95
 msgid "Create dynamic header effortlessly with drag-and-drop builder."
-msgstr "Maak moeiteloos een dynamische header met een verslepen bouwer."
+msgstr "سۆرەپ تاشلاش قۇرغۇچتا ھەرىكەتچان بەت قاش قۇرىدۇ."
 
 #: inc/customizer/builder/class-header-footer-builder.php:82
 msgid "Footer Layout"
-msgstr "Footer lay-out"
+msgstr "بەت ئاستى جايلاشتۇرۇش"
 
 #: inc/customizer/builder/class-header-footer-builder.php:45
 msgid "Footer Builder"
-msgstr "Footer bouwer"
+msgstr "بەت ئاستى قۇرغۇچ"
 
 #: inc/customizer/builder/class-header-footer-builder.php:36
 msgid "Header Builder"
-msgstr "Header bouwer"
+msgstr "بەت قاش قۇرغۇچ"
 
 #: inc/customizer/builder/class-header-footer-builder-control.php:59
 msgid "Close choose element modal"
-msgstr "Sluit kies element modal"
+msgstr "ئېلېمېنت شەكلىنى تاللاشنى ياپىدۇ"
 
 #: inc/customizer/builder/class-header-footer-builder-control.php:57
 msgid "Choose an Element"
-msgstr "Kies een element"
+msgstr "بىر ئېلېمېنت تاللىنىدۇ"
 
 #: inc/customizer/builder/class-header-footer-builder-control.php:37
 msgid "Device view controls"
-msgstr "Apparaat weergave besturingen"
+msgstr "ئۈسكۈنە كۆرۈنۈش تىزگىنى"
 
 #: inc/customizer/builder/class-header-footer-builder-control.php:33
 msgid "Hide Builder"
-msgstr "Bouwer verbergen"
+msgstr "يوشۇرۇن قۇرغۇچ"
 
 #: inc/customizer/builder/class-header-footer-builder-control.php:31
 msgid "Hide builder panel"
-msgstr "Paneel van bouwer verbergen"
+msgstr "يوشۇرۇن قۇرغۇچ كۆزنەكچىسى"
 
 #: inc/customizer/builder/class-block-toggle.php:12
 msgid "Click the setting <span class=\"dashicons dashicons-admin-generic\"></span> on each element to customize its settings."
-msgstr "Klik op de instelling <span class=\"dashicons dashicons-admin-generic\"></span> op elk element om de instellingen aan te passen."
+msgstr "ھەر بىر ئېلېمېنتنىڭ تەڭشىكىنى خاسلاشتۇرۇشتا <span class=\"dashicons dashicons-admin-generic\"></span> تەڭشەكنى چېكىڭ."
 
 #. translators: Hidden heading for the post navigation section.
 #: template-parts/content.php:112
 msgid "Post navigation"
-msgstr "Bericht navigatie"
+msgstr "يازما يولباشچىسى"
 
 #: inc/customizer/font-color-options.php:288
 msgid "System Fonts"
-msgstr "Systeem lettertypen"
+msgstr "سىستېما خەت نۇسخا"
 
 #: inc/customizer/font-color-options.php:287
 msgid "Google Fonts"
-msgstr "Google Fonts"
+msgstr "Google خەت نۇسخا"
 
 #: inc/customizer/font-color-options.php:283
 msgid "Global Fonts Family"
-msgstr "Globale lettertypen familie"
+msgstr "ئومۇمىيەت خەت نۇسخا ئائىلىسى"
 
 #: inc/customizer/theme-options.php:422
 msgid "GDPR friendly & better performance"
-msgstr "AVG/GDPR vriendelijk & betere prestaties"
+msgstr "GDPR دوستانە ۋە ئۈنۈمى تېخىمۇ ياخشى"
 
 #: inc/customizer/theme-options.php:421
 msgid "Disable Emoji Script"
-msgstr "Emoji script uitschakelen"
+msgstr "چىراي ئىپادە قوليازمىسىنى چەكلەيدۇ"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:230
 msgid "Whether you're just starting or customizing your site."
-msgstr "Of u nu net begint of uw site aanpast."
+msgstr "تور بېكەتنى ھازىر باشلىدىڭىزمۇ ياكى خاسلاشتۇرۇۋاتامسىز."
 
 #: admin-dashboard/rest-api/class-admin-notice.php:229
 msgid "🤝 We're Here for You"
-msgstr "🤝 We zijn er voor u"
+msgstr "🤝 بىز سىزگە ياردەم بېرىشكە تەييار"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:198
 msgid ""
 "Choose from 100+ starter sites designed for blogs, magazines, businesses & more.\n"
 "      Setup is simple — no coding required."
 msgstr ""
-"Kies uit 100+ startsites ontworpen voor blogs, tijdschriften, bedrijven & meer.\n"
-"      Setup is eenvoudig - Geen codering vereist."
+"100 دىن كۆپ يېڭى باشلانغان بىلوگ، ژۇرنال، سودا ۋە باشقا تور بېكەت ئۈچۈن لايىھەلەنگەن.\n"
+"ئورنىتىش ئاددىي — كود يېزىش ھاجەتسىز."
 
 #: admin-dashboard/rest-api/class-admin-notice.php:197
 msgid "🚀 Start With One Click"
-msgstr "🚀 Begin met één klik"
+msgstr "🚀 بىر چېكىپلا باشلاڭ"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:165
 msgid "%s is now active. We're here to help you turn your ideas into a beautiful, professional website — quickly and confidently."
-msgstr "%s is nu actief. We zijn er om u te helpen uw ideeën om te zetten in een mooie, professionele site - Snel en vol vertrouwen."
+msgstr "ھازىر %s ئاكتىپلاندى. بىز ئىدىيەڭىزنى تېز ۋە ئىشەنچلىك ھالدا چىرايلىق، كەسپىي تور بېكەتكە ئايلاندۇرۇشقا ياردەم بېرىمىز."
 
 #: admin-dashboard/rest-api/class-admin-notice.php:163
 msgid "👋 Welcome, and Thank You!"
-msgstr "👋 Welkom, en dank u wel!"
+msgstr "👋 خۇش كەلدىڭىز، رەھمەت سىزگە!"
 
 #. Template Name of the theme
 msgid "Page Builder Full Width"
-msgstr "Pagina bouwer volledige breedte"
+msgstr "بەت ھاسىللىغۇچ تولۇق كەڭلىك"
 
 #. Template Name of the theme
 msgid "Blank Canvas"
-msgstr "Leeg canvas"
+msgstr "بوش كەرگە"
 
 #: admin-dashboard/admin_dashboard.php:546
 #: admin-dashboard/rest-api/class-admin-notice.php:149
 msgid "The \"Get Started\" action will install/activate the Templatespare and Blockspare plugins for Starter Sites and Templates."
-msgstr "De actie \"Aan de slag\" zal de Templatespare en Blockspare plugins installeren/activeren voor starter sites en templates."
+msgstr "«باشلاش» مەشغۇلاتى باشلاش تور بېكىتى ۋە قېلىپ ئۈچۈن Templatespare ۋە Blockspare قىستۇرمىنى ئورنىتىپ/ئاكتىپلايدۇ."
 
 #: admin-dashboard/admin_dashboard.php:366
 msgid "One-click Import, Header/Footer Builder, Multilingual Support! Powered by Elespare."
-msgstr "Eén-klik import, header/footer bouwer, meertalige ondersteuning! Aangedreven door Elespare."
+msgstr "بىر چېكىپلا ئەكىرىش، بەت قاش/بەت ئاستى قۇرغۇچ، كۆپ تىل قوللاش! Elespare بىلەن ياسالغان."
 
 #: admin-dashboard/admin_dashboard.php:365
 msgid "Elespare plugin version should be more than %s."
-msgstr "Elespare plugin versie moet meer dan %s zijn."
+msgstr "Elespare قىستۇرمىسىنىڭ نەشرى %s دىن يۇقىرى بولۇشى كېرەك."
 
 #: admin-dashboard/admin_dashboard.php:294
 msgid "One-click Demo Import, Block Editor Ready, No Code Required! Built with Blockspare."
-msgstr "Eén-klik demo import, blok-editor klaar, geen code vereist! Gebouwd met Blockspare."
+msgstr "بىر چېكىپلا كۆرگەزمە ئەكىرىش، بۆلەك تەھرىرلەشكە تەييار، كود يېزىش ھاجەتسىز! Blockspare بىلەن ياسالغان."
 
 #: admin-dashboard/admin_dashboard.php:289
 msgid "Blockspare plugin version should be more than %s."
-msgstr "Blockspare plugin versie moet meer dan %s zijn."
+msgstr "Blockspare قىستۇرمىسىنىڭ نەشرى %s دىن يۇقىرى بولۇشى كېرەك."
 
 #: admin-dashboard/admin_dashboard.php:220
 msgid "Import a Starter Site, Personalize, and Live it in 3 Easy Steps!"
-msgstr "Importeer een starter site, personaliseer, en leef het in 3 eenvoudige stappen!"
+msgstr "باشلاش تور بېكىتىنى ئەكىرىش، خاسلاشتۇرۇش ۋە شۇئان تارقىتىش 3 ئاسان باسقۇچتا تاماملىنىدۇ!"
 
 #: admin-dashboard/admin_dashboard.php:217
 msgid "The Templatespare plugin should be updated to the latest version"
-msgstr "De Templatespare plugin moet geüpdatet worden naar de nieuwste versie"
+msgstr "Templatespare قىستۇرمىسى ئەڭ يېڭى نەشرىگە يېڭىلىنىشى كېرەك"
 
 #: admin-dashboard/admin_dashboard.php:110
 #: admin-dashboard/admin_dashboard.php:111
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "باشقۇرۇش تاختىسى"
 
 #: admin-dashboard/admin_dashboard.php:144
 #: admin-dashboard/admin_dashboard.php:145
 msgid "Elementor Kits"
-msgstr "Elementor kits"
+msgstr "Elementor يۈرۈشلۈكى"
 
 #: admin-dashboard/admin_dashboard.php:154
 #: admin-dashboard/admin_dashboard.php:155
 msgid "Block Patterns"
-msgstr "Blokpatronen"
+msgstr "بۆلەك ئەندىزە"
 
 #: admin-dashboard/admin_dashboard.php:134
 #: admin-dashboard/admin_dashboard.php:135
 msgid "Starter Sites"
-msgstr "Starter sites"
+msgstr "باشلاش تور بېكىتى"
 
 #: inc/customizer/theme-options.php:474
 msgid "Enable "
-msgstr "Inschakelen "
+msgstr "قوزغات "
 
 #: inc/customizer/theme-options.php:470
 msgid "If there is no Post Featured image set"
-msgstr "Als er geen bericht uitgelicht afbeelding is ingesteld"
+msgstr "ئەگەر يازمىنىڭ تەۋسىيە سۈرەت توپلىمى بولمىسا"
 
 #: inc/customizer/theme-options.php:469
 msgid "Also Show Content Image in Archive"
-msgstr "Toon ook inhoud afbeelding in archief"
+msgstr "ئارخىپتىكى مەزمۇن سۈرىتىنىمۇ كۆرسىتىدۇ"
 
 #: inc/hooks/patterns/hybridnews.php:9
 msgid "HybridNews"
-msgstr "HybrideNews"
+msgstr "ئارىلاش خەۋەر"
 
 #: inc/hooks/patterns/hybridnews-section-8.php:9
 msgid "HybridNews Post Carousel"
-msgstr "HybridNews bericht carrousel"
+msgstr "ئارىلاش خەۋەر يازمىسىنى دەۋرىيلەيدۇ"
 
 #: inc/hooks/patterns/hybridnews-section-7.php:9
 msgid "HybridNews Three Columns Posts"
-msgstr "Hybrides drie kolommen berichten"
+msgstr "ئارىلاش خەۋەر ئۈچ رەت يازما"
 
 #: inc/hooks/patterns/hybridnews-section-6.php:9
 msgid "HybridNews Featured News"
-msgstr "HybridNews uitgelicht nieuws"
+msgstr "ئارىلاش خەۋەر تەۋسىيە خەۋەر"
 
 #: inc/hooks/patterns/hybridnews-section-5.php:9
 msgid "HybridNews Ticker News"
-msgstr "HybrideNews Ticker nieuws"
+msgstr "ئارىلاش خەۋەر سىيرىلما خەۋەر"
 
 #: inc/hooks/patterns/hybridnews-section-4.php:9
 msgid "HybridNews Secondary Section"
-msgstr "HybridNews secundaire sectie"
+msgstr "ئارىلاش خەۋەر ئىككىنچى بۆلەك"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:9
 msgid "HybridNews Primary Section"
-msgstr "HybridNews primaire sectie"
+msgstr "ئارىلاش خەۋەر ئاساسىي بۆلەك"
 
 #: inc/hooks/patterns/hybridnews-section-2.php:9
 msgid "HybridNews Express Posts"
-msgstr "HybridNews express berichten"
+msgstr "ئارىلاش خەۋەر تېز يازما"
 
 #: inc/hooks/patterns/hybridnews-section-1.php:9
 msgid "HybridNews Main Banner"
-msgstr "HybrideNews hoofd banner"
+msgstr "ئارىلاش خەۋەر ئاساسىي لەۋھە"
 
 #: inc/customizer/theme-options.php:67
 msgid "Site Light/Dark Mode"
-msgstr "Site licht/donker modus"
+msgstr "بېكەت يورۇق/قاراڭغۇ ھالەت"
 
 #: inc/upgrade.php:212
 msgid "Have Queries?"
-msgstr "Heeft u vragen?"
+msgstr "سوئال بارمۇ؟"
 
 #: inc/upgrade.php:202
 msgid "All Themes Plan"
-msgstr "Alle thema's abonnement"
+msgstr "ھەممە ئۆرنەك پىلانى"
 
 #: inc/upgrade.php:197
 msgid "Power Bundle"
@@ -477,104 +480,104 @@ msgstr "Power Bundle"
 
 #: inc/upgrade.php:207
 msgid "Maybe Later"
-msgstr "Misschien later"
+msgstr "بەلكىم كېيىن"
 
 #: inc/upgrade.php:192
 msgid "Claim Your Discount"
-msgstr "Claim uw korting"
+msgstr "ئېتىبارنى تەلەپ قىلىڭ"
 
 #. Translators: %1$s current user display name., %2$s this theme name., %3$s
 #. discount coupon code., %4$s discount percentage.
 #: inc/upgrade.php:177
 msgid "%1$s 🎁 Hope you're loving our free %2$s theme! Dive into the festive spirit with an exclusive gift: %4$s premium features! Use code %3$s at checkout. Wishing you a season filled with joyous holidays and even happier savings! 🎄✨"
-msgstr "%1$s 🎁 ik hoop dat u van ons gratis %2$s thema houdt! Duik in de feeststemming met een exclusief cadeau: %4$s premium functies! Gebruik code %3$s bij afrekenen. We wensen u een seizoen vol vreugdevolle feestdagen en nog betere besparingen! 🎄✨"
+msgstr "%1$s 🎁ھەقسىز %2$s ئۆرنىكىمىزنى ياقتۇرۇشىڭىزنى ئۈمىد قىلىمىز! ئالاھىدە سوۋغات بىلەن بايرام كەيپىياتىغا چۈمۈلۈڭ: %4$s كەسپىي نەشرىنىڭ ئىقتىدارى! ھېسابات قىلغاندا %3$s كودىنى ئىشلىتىڭ. بايراملىق خۇشاللىقتىن بەھرىمەن بولۇپ، تېخىمۇ تېجەشلىك بولۇشىڭىزغا تېلەكداشمىز! 🎄✨"
 
 #: inc/upgrade.php:73 inc/upgrade.php:93
 msgid "Cheatin&#8217; huh?"
-msgstr "Valsspelen, hè?"
+msgstr "ئالداۋاتامسىز؟"
 
 #: inc/upgrade.php:69 inc/upgrade.php:89
 msgid "Action failed. Please refresh the page and retry."
-msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+msgstr "مەشغۇلات مەغلۇپ بولدى. بەتنى يېڭىلاپ ئاندىن قايتا سىناڭ."
 
 #: inc/hooks/patterns/hybridnews-section-4.php:54
 #: inc/hooks/patterns/hybridnews.php:188
 msgid "Categories"
-msgstr "Categorieën"
+msgstr "سەھىپە"
 
 #: inc/hooks/patterns/hybridnews-section-4.php:26
 #: inc/hooks/patterns/hybridnews.php:160
 msgid "Single Column"
-msgstr "Enkele kolom"
+msgstr "يەككە رەت"
 
 #: inc/hooks/patterns/hybridnews-section-4.php:18
 #: inc/hooks/patterns/hybridnews.php:152
 msgid "Express Tile"
-msgstr "Express tegel"
+msgstr "تېز يېيىلما"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:83
 #: inc/hooks/patterns/hybridnews-section-4.php:36
 #: inc/hooks/patterns/hybridnews.php:130 inc/hooks/patterns/hybridnews.php:170
 msgid "Advertisement"
-msgstr "Advertering"
+msgstr "ئېلان"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:45
 #: inc/hooks/patterns/hybridnews.php:92
 msgid "Connect to Us"
-msgstr "Maak verbinding met ons"
+msgstr "بىز بىلەن ئالاقىلىشىڭ"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:37
 #: inc/hooks/patterns/hybridnews.php:84
 msgid "Post List"
-msgstr "Berichtlijst"
+msgstr "يازما تىزىمى"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:27
 #: inc/hooks/patterns/hybridnews-section-4.php:46
 #: inc/hooks/patterns/hybridnews.php:74 inc/hooks/patterns/hybridnews.php:180
 msgid "Post Grid"
-msgstr "Bericht raster"
+msgstr "يازما شادىسى"
 
 #: inc/hooks/patterns/hybridnews-section-3.php:19
 #: inc/hooks/patterns/hybridnews.php:66
 msgid "Post Slider"
-msgstr "Bericht slider"
+msgstr "يازما سىيىرىلمىسى"
 
 #: inc/hooks/patterns/hybridnews-section-2.php:35
 #: inc/hooks/patterns/hybridnews.php:47
 msgid "We mainly focus on quality code and elegant design with incredible support. Our WordPress themes and plugins empower you to create an elegant, professional, and easy-to-maintain website in no time at all. Even on mobile and tablet screens, your website will look great"
-msgstr "We richten ons vooral op kwaliteitscode en een elegant ontwerp met ongelofelijke ondersteuning. Met onze WordPress thema's en plugins maakt u in een handomdraai een elegante, professionele en eenvoudig te onderhouden site. Zelfs op mobiele en tabletschermen zie uw site er geweldig uit"
+msgstr "بىز دىققىتىمىزنى ئاساسلىقى سۈپەتلىك كود ۋە نەپىس لايىھە ئاساسىدىكى كىشىنىڭ ئىشەنگۈچى كەلمەيدىغان قوللاشقا مەركەزلەشتۈرىمىز. WordPress ئۆرنەك ۋە قىستۇرمىمىز ئارقىلىق قىسقا ۋاقىتتا نەپىس، كەسپىي، ئاسراش ئاسان تور بېكەت قۇرالايسىز. كۆچمە تېلېفون ۋە تاختا كومپيۇتېر ئېكرانىدىمۇ تور بېكىتىڭىز چىرايلىق كۆرۈنىدۇ."
 
 #: inc/hooks/patterns/hybridnews-section-2.php:19
 #: inc/hooks/patterns/hybridnews.php:31
 msgid "Express Grid"
-msgstr "Express raster"
+msgstr "تېز شادا"
 
 #: inc/hooks/patterns/hybridnews-section-8.php:16
 #: inc/hooks/patterns/hybridnews.php:142
 msgid "Post Carousel"
-msgstr "Bericht carrousel"
+msgstr "يازما دەۋرىيلىكى"
 
 #: inc/hooks/patterns/hybridnews-section-7.php:16
 #: inc/hooks/patterns/hybridnews.php:56
 msgid "Three Columns"
-msgstr "Drie kolommen"
+msgstr "ئۈچ رەت"
 
 #: inc/hooks/patterns/hybridnews-section-6.php:16
 #: inc/hooks/patterns/hybridnews.php:20
 msgid "Featured News"
-msgstr "Uitgelicht nieuws"
+msgstr "تەۋسىيە خەۋەر"
 
 #: inc/customizer/theme-options.php:983
 msgid "Show Tags under Content"
-msgstr "Toon tags onder inhoud"
+msgstr "مەزمۇن ئاستىدا بەلگە كۆرسىتىدۇ"
 
 #: inc/customizer/font-color-options.php:368
 msgid "Widgets, Archives, Search, etc."
-msgstr "Widgets, Archieven, Zoeken, enz."
+msgstr "ئەپچە، ئارخىپ، ئىزدەش قاتارلىق."
 
 #: inc/customizer/font-color-options.php:367
 msgid "Post Title Font"
-msgstr "Berichttitel lettertype"
+msgstr "يازما ماۋزۇسىنىڭ خەت نۇسخىسى"
 
 #: inc/hooks/hook-tgm.php:20
 msgid "Templatespare"
@@ -582,33 +585,33 @@ msgstr "Templatespare"
 
 #: inc/customizer/frontpage-options.php:111
 msgid "Vertical"
-msgstr "Verticaal"
+msgstr "بويىغا"
 
 #: inc/customizer/frontpage-options.php:110
 msgid "Tiled"
-msgstr "Tegels"
+msgstr "يېيىلغان"
 
 #: inc/customizer/frontpage-options.php:104
 msgid "Select Main Banner Layout"
-msgstr "Selecteer de lay-out van de hoofdbanner"
+msgstr "ئاساسىي لەۋھە جايلاشتۇرۇلۇشى تاللىنىدۇ"
 
 #: inc/customizer/builder/options.php:372
 msgid "Pro"
-msgstr "Pro"
+msgstr "كەسپىي"
 
 #: admin-dashboard/admin_dashboard.php:545
 #: admin-dashboard/rest-api/class-admin-notice.php:148
 msgid "Get Started"
-msgstr "Ga aan de slag"
+msgstr "باشلاش"
 
 #: inc/customizer/builder/options.php:134
 #: inc/customizer/builder/options.php:516
 msgid "Off Canvas Widget Area"
-msgstr "Off-canvas widget gebied"
+msgstr "يان كەرگە ئەپچە رايونى"
 
 #: inc/hooks/hook-tgm.php:30
 msgid "Blockspare"
-msgstr "Blockspare"
+msgstr "بۆلەك بوشلۇق"
 
 #: inc/hooks/hook-tgm.php:25
 msgid "Elespare"
@@ -618,379 +621,379 @@ msgstr "Elespare"
 #: inc/customizer/frontpage-options.php:452
 #: inc/customizer/frontpage-options.php:624
 msgid "Enable Autoplay"
-msgstr "Automatisch afspelen inschakelen"
+msgstr "ئۆزلۈكىدىن ياڭرىتىشنى قوزغىتىدۇ"
 
 #: admin-dashboard/rest-api/class-ajaxcall.php:72
 msgid "Sorry, you are not allowed to activate plugins on this site."
-msgstr "U heeft geen toestemming om plugins op deze site te activeren."
+msgstr "كەچۈرۈڭ، بۇ بېكەتتە قىستۇرما ئاكتىپلاش ئىجازىتىڭىز يوق."
 
 #: admin-dashboard/rest-api/class-ajaxcall.php:18
 #: admin-dashboard/rest-api/class-ajaxcall.php:79
 #: admin-dashboard/rest-api/class-ajaxcall.php:153
 msgid "Error - unable to verify nonce, please try again."
-msgstr "Fout - kan nonce niet verifiëren, probeer alstublieft opnieuw."
+msgstr "خاتالىق - توغرا ئەمەسلىكىنى دەلىللىيەلمەيدۇ، قايتا سىناڭ."
 
 #: admin-dashboard/rest-api/class-ajaxcall.php:10
 #: admin-dashboard/rest-api/class-ajaxcall.php:146
 msgid "Sorry, you are not allowed to install plugins on this site."
-msgstr "U heeft geen toestemming om plugins op deze site installeren."
+msgstr "كەچۈرۈڭ، بۇ بېكەتتە قىستۇرما ئورنىتىش ئىجازىتىڭىز يوق."
 
 #: admin-dashboard/rest-api/class-admin-notice.php:232
 msgid "Videos"
-msgstr "Video's"
+msgstr "سىن"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:231
 msgid "Documentation"
-msgstr "Documentatie"
+msgstr "قوللانما"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:205
 msgid "Theme dashboard"
-msgstr "Thema dashboard"
+msgstr "ئۆرنەك باشقۇرۇش تاختىسى"
 
 #: admin-dashboard/rest-api/api-request.php:126
 msgid "More Details"
-msgstr "Meer details"
+msgstr "تېخىمۇ كۆپ تەپسىلاتى"
 
 #: admin-dashboard/admin_dashboard.php:540
 #: admin-dashboard/rest-api/api-request.php:104
 #: admin-dashboard/rest-api/class-admin-notice.php:144
 msgid "Get Starter Sites"
-msgstr "Verkrijg starterssites"
+msgstr "باشلاش تور بېكىتىگە ئېرىشىش"
 
 #: admin-dashboard/rest-api/api-request.php:99
 msgid "By"
-msgstr "Door"
+msgstr "يازغۇچى"
 
 #: admin-dashboard/admin_dashboard.php:444
 #: admin-dashboard/rest-api/api-request.php:70
 msgid "Activated"
-msgstr "Geactiveerd"
+msgstr "ئاكتىپلاندى"
 
 #: admin-dashboard/admin_dashboard.php:442
 #: admin-dashboard/rest-api/api-request.php:29
 msgid "Install Now"
-msgstr "Installeer nu"
+msgstr "ھازىر ئورنات"
 
 #: admin-dashboard/admin_dashboard.php:441
 msgid "Are you sure you want to install this plugin?"
-msgstr "Weet u zeker dat u deze plugin wilt installeren?"
+msgstr "بۇ قىستۇرمىنى راستتىنلا ئورنىتامسىز؟"
 
 #: inc/hooks/hook-tgm.php:35
 msgid "Free Live Chat using 3CX"
-msgstr "Gratis livechat met 3CX"
+msgstr "3CX ئارقىلىق ھەقسىز شۇئان سۆھبەت"
 
 #: inc/customizer/font-color-options.php:23
 msgid "Site Title/Tagline Color (Dark Mode)"
-msgstr "Site titel/slogan kleur (donkere modus)"
+msgstr "بېكەت ماۋزۇ/شوئار رەڭگى (قاراڭغۇ ھالەت)"
 
 #: inc/customizer/theme-options.php:654
 msgid "Modified Date"
-msgstr "Datum aangepast"
+msgstr "ئۆزگەرتىلگەن چېسلا"
 
 #: inc/customizer/theme-options.php:653
 msgid "Published Date"
-msgstr "Publicatiedatum"
+msgstr "تارقىتىلغان چېسلا"
 
 #: inc/customizer/theme-options.php:649
 msgid "Post Date Type"
-msgstr "Type berichtdatum"
+msgstr "يازما چېسلا تۈرى"
 
 #: inc/customizer/customizer-default.php:179
 msgid "Read More"
-msgstr "Lees meer"
+msgstr "كۆپرەك ئوقۇش"
 
 #: inc/customizer/font-color-options.php:202
 msgid "Primary Navigation Section "
-msgstr "Primaire navigatiesectie "
+msgstr "ئاساسىي يولباشچى بۆلەك "
 
 #: inc/review.php:113
 msgid "Got any support queries?"
-msgstr "Heeft u vragen over ondersteuning?"
+msgstr "بىرەر قوللاش سۈرۈشتۈرۈشىگە ئېرىشتىڭىزمۇ؟"
 
 #: inc/review.php:108
 msgid "I've already done."
-msgstr "Heb ik al gedaan."
+msgstr "ئاللىبۇرۇن تاماملىدىم."
 
 #: inc/review.php:103
 msgid "Remind me later"
-msgstr "Herinner mij later"
+msgstr "كېيىنچە ئەسكەرت"
 
 #: inc/review.php:98
 msgid "Sure thing"
-msgstr "Zeker weten"
+msgstr "ئەلۋەتتە"
 
 #. translators: 1: current user display name, 2: theme name, 3: opening link
 #. tag, 4: closing link tag
 #: inc/review.php:82
 msgid "Howdy, %1$s! We've noticed that you've been using %2$s for some time now, we hope you are loving it! We would appreciate it if you can %3$sgive us a 5 star rating on WordPress.org%4$s! We'll continue to develop exciting new features for free in the future by sharing the love!"
-msgstr "Hallo, %1$s! We hebben gemerkt dat u %2$s al een tijdje gebruikt, we hopen dat u het geweldig vindt! We zouden het op prijs stellen als u ons %3$seen 5-sterren beoordeling kunt geven op WordPress.org%4$s! We zullen in de toekomst spannende nieuwe functies gratis blijven ontwikkelen door de liefde te delen!"
+msgstr "سالام، %1$s! سىز %2$s نى ئىشلىتىۋاتقىلى بىر مەزگىل بولدى، ئۇنى ياقتۇرۇشىڭىزنى ئۈمىد قىلىمىز! ئەگەر %3$sWordPress.org دا بىزگە 5 يۇلتۇز بەرسىڭىز%4$s ئىنتايىن مىننەتدار بولىمىز! ياقتۇرۇشنى ئورتاقلىشىپ كەلگۈسىدە تېخىمۇ قىزىقارلىق يېڭى ئىقتىدارنى ھەقسىز ئىجاد قىلىشنى داۋاملاشتۇرىمىز!"
 
 #. Template Name of the theme
 msgid "Front-page Widgets Template"
-msgstr "Voorpagina widgets template"
+msgstr "ئالدى بەت ئەپچە قېلىپى"
 
 #: template-parts/content.php:107
 msgid "Previous post:"
-msgstr "Vorig bericht:"
+msgstr "ئالدىنقى يازما:"
 
 #: template-parts/content.php:98
 msgid "Next post:"
-msgstr "Volgende bericht:"
+msgstr "كېيىنكى يازما:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:31
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Ga door met lezen van <span class=\"screen-reader-text\">\"%s\"</span>"
+msgstr "داۋامىنى ئوقۇي<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Het lijkt erop dat we niet kunnen vinden wat u zoekt. Misschien kunt zoeken helpen."
+msgstr "ئىزدەۋاتقىنىڭىزنى تاپالماسلىقىمىز مۇمكىن. بەلكىم ئىزدەش سىزگە ياردەم بېرەلىشى مۇمكىن."
 
 #: template-parts/content-none.php:38
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Er kwam niets overeen met uw zoektermen. Probeer het nog eens met wat andere keywords."
+msgstr "كەچۈرۈڭ، ئىزدەش شەرتىڭىزگە ماس كېلىدىغان مەزمۇن يوق. ئوخشىمايدىغان ھالقىلىق سۆز بىلەن قايتا ئىزدەپ بېقىڭ."
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:25
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Klaar om uw eerste bericht te publiceren? <a href=\"%1$s\">Ga hier aan de slag</a>."
+msgstr "تۇنجى يازمىڭىزنى يوللاشقا تەييار بولدىڭىزمۇ؟ <a href=\"%1$s\">بۇ يەردىن باشلاڭ</a>."
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Niets gevonden"
+msgstr "ھېچنېمە تېپىلمىدى"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Zoekresultaten voor: %s"
+msgstr "ئىزدەش نەتىجىسى:  %s"
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: lib/tgm/class-tgm-plugin-activation.php:3520
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Plugin %1$s (%2$d/%3$d) installeren"
+msgstr "%1$s قىستۇرمىنى ئورنىتىۋاتىدۇ (%2$d/%3$d)"
 
 #: lib/tgm/class-tgm-plugin-activation.php:3518
 msgid "All installations have been completed."
-msgstr "Alle installaties zijn afgerond."
+msgstr "بارلىق ئورنىتىش تاماملاندى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:3515
 msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "Het installatieproces begint. Dit proces kunt een tijdje duren op sommige hosts, dus wees alstublieft geduldig."
+msgstr "ئورنىتىش مەشغۇلاتى باشلاندى. بۇنىڭغا ئازراق ۋاقىت كېتىدۇ، سەۋرچانلىق بىلەن كۈتۈڭ."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: lib/tgm/class-tgm-plugin-activation.php:3512
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Installeren en activeren van plugin %1$s (%2$d/%3$d)"
+msgstr "قىستۇرما %1$s نى ئورنىتىۋاتىدۇ ۋە يېڭىلاۋاتىدۇ (%2$d/%3$d)"
 
 #: lib/tgm/class-tgm-plugin-activation.php:3510
 msgid "All installations and activations have been completed."
-msgstr "Alle installaties en activeringen zijn afgerond."
+msgstr "بارلىق ئورنىتىش ۋە ئاكتىپلاش تاماملاندى."
 
 #. translators: 1: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:3509
 #: lib/tgm/class-tgm-plugin-activation.php:3517
 msgid "%1$s done."
-msgstr "%1$s gedaan."
+msgstr "%1$s تامام."
 
 #: lib/tgm/class-tgm-plugin-activation.php:3507
 msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr "Het installatie en activering proces is begonnen. Dit proces kunt een tijdje duren op sommige hosts, dus wees alstublieft geduldig."
+msgstr "ئورنىتىش ۋە ئاكتىپلاش مەشغۇلاتى باشلاندى. بۇنىڭغا ئازراق ۋاقىت كېتىدۇ، سەۋرچانلىق بىلەن كۈتۈڭ."
 
 #. translators: 1: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:3503
 msgid "The installation of %1$s failed."
-msgstr "De installatie van %1$s is mislukt."
+msgstr "%1$s نى ئورنىتالمىدى."
 
 #. translators: 1: plugin name, 2: error message.
 #: lib/tgm/class-tgm-plugin-activation.php:3501
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "Er is een fout opgetreden tijdens het installeren van %1$s: <strong>%2$s</strong>."
+msgstr "%1$s نى ئورنىتىۋاتقاندا خاتالىق كۆرۈلدى: <strong>%2$s</strong>."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: lib/tgm/class-tgm-plugin-activation.php:3498
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr "Plugin %1$s (%2$d/%3$d) updaten"
+msgstr "قىستۇرما %1$s نى يېڭىلاۋاتىدۇ (%2$d/%3$d)"
 
 #: lib/tgm/class-tgm-plugin-activation.php:3158
 msgid "Plugin activation failed."
-msgstr "Activering van de plugin mislukt."
+msgstr "قىستۇرمىنى ئاكتىپلىيالمىدى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2934
 msgid "No plugins are available to be activated at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om te activeren."
+msgstr "نۆۋەتتە ئاكتىپلايدىغان ھېچقانداق قىستۇرما يوق."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2908
 msgid "No plugins were selected to be activated. No action taken."
-msgstr "Er werden geen plugins geselecteerd om geactiveerd te worden. Geen actie ondernomen."
+msgstr "ئاكتىپلايدىغان قىستۇرما تاللانمىغان. مەشغۇلات قىلىنمىدى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2802
 msgid "No plugins are available to be updated at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om te worden geüpdatet."
+msgstr "نۆۋەتتە يېڭىلايدىغان ھېچقانداق قىستۇرما يوق."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2800
 msgid "No plugins are available to be installed at this time."
-msgstr "Er zijn op dit moment geen plugins beschikbaar om te installeren."
+msgstr "نۆۋەتتە ئورنىتىدىغان ھېچقانداق قىستۇرما يوق."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2759
 msgid "No plugins were selected to be updated. No action taken."
-msgstr "Er zijn geen plugins geselecteerd om te worden geüpdatet. Geen actie ondernomen."
+msgstr "يېڭىلايدىغان قىستۇرما تاللانمىغان. مەشغۇلات قىلىنمىدى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2757
 msgid "No plugins were selected to be installed. No action taken."
-msgstr "Er werden geen plugins geselecteerd om te worden geïnstalleerd. Geen actie ondernomen."
+msgstr "ئورنىتىدىغان قىستۇرما تاللانمىغان. مەشغۇلات قىلىنمىدى."
 
 #: admin-dashboard/admin_dashboard.php:443
 #: admin-dashboard/rest-api/api-request.php:74
 #: lib/tgm/class-tgm-plugin-activation.php:2726
 msgid "Activate"
-msgstr "Activeer"
+msgstr "ئاكتىپلا"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2723
 msgid "Update"
-msgstr "Update"
+msgstr "يېڭىلا"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2717
 msgid "Install"
-msgstr "Installeer"
+msgstr "ئورنات"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2684
 msgid "Upgrade message from the plugin author:"
-msgstr "Upgrade bericht van de plugin auteur:"
+msgstr "قىستۇرما يازغۇچىدىن ئۇچۇرنى يۈكسەلدۈرىدۇ:"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: lib/tgm/class-tgm-plugin-activation.php:2614
 msgid "Activate %2$s"
-msgstr "Activeer %2$s"
+msgstr "%2$s نى ئاكتىپلا"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: lib/tgm/class-tgm-plugin-activation.php:2608
 msgid "Update %2$s"
-msgstr "Update %2$s"
+msgstr "%2$s يېڭىلا"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: lib/tgm/class-tgm-plugin-activation.php:2603
 msgid "Install %2$s"
-msgstr "Installeer %2$s"
+msgstr "%2$s نى ئورنات"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2554
 msgid "Status"
-msgstr "Status"
+msgstr "ھالىتى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2553
 msgid "Version"
-msgstr "Versie"
+msgstr "نەشرى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2549
 msgid "Type"
-msgstr "Type"
+msgstr "تۈرى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2548
 msgid "Source"
-msgstr "Bron"
+msgstr "مەنبە"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2547
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "قىستۇرما"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2533
 msgid "No plugins to install, update or activate."
-msgstr "Geen plugins te installeren, te updaten of te activeren."
+msgstr "ئورنىتىپ، يېڭىلاپ ياكى ئاكتىپلايدىغان قىستۇرما يوق."
 
 #: lib/tgm/class-tgm-plugin-activation.php:2510
 msgid "Available version:"
-msgstr "Beschikbare versie:"
+msgstr "بار نەشرى:"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2498
 msgid "Minimum required version:"
-msgstr "Minimaal vereiste versie:"
+msgstr "ئەڭ تۆۋەن نەشر تەلىپى:"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2490
 msgid "Installed version:"
-msgstr "Geïnstalleerde versie:"
+msgstr "ئورنىتىلغان نەشرى:"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2482
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
-msgstr "onbekend"
+msgstr "يوچۇن"
 
 #. translators: 1: number of plugins.
 #: lib/tgm/class-tgm-plugin-activation.php:2400
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] "Om er <span class=\"count\">(%s)</span> te activeren"
-msgstr[1] "Om er <span class=\"count\">(%s)</span> te activeren"
+msgstr[0] "<span class=\"count\">(%s)</span> ئاكتىپلايدۇ"
+msgstr[1] "<span class=\"count\">(%s)</span> ئاكتىپلايدۇ"
 
 #. translators: 1: number of plugins.
 #: lib/tgm/class-tgm-plugin-activation.php:2396
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
-msgstr[1] "Update beschikbaar <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> يېڭىلانما بار"
+msgstr[1] "<span class=\"count\">(%s)</span> يېڭىلانما بار"
 
 #. translators: 1: number of plugins.
 #: lib/tgm/class-tgm-plugin-activation.php:2392
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] "Om er <span class=\"count\">(%s)</span> te installeren"
-msgstr[1] "Om er <span class=\"count\">(%s)</span> te installeren"
+msgstr[0] "ئورنىتىدىغىنى <span class=\"count\">(%s)</span>"
+msgstr[1] "ئورنىتىدىغىنى <span class=\"count\">(%s)</span>"
 
 #. translators: 1: number of plugins.
 #: lib/tgm/class-tgm-plugin-activation.php:2388
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Alle <span class=\"count\">(%s)</span>"
-msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+msgstr[0] "ھەممىسى <span class=\"count\">(%s)</span>"
+msgstr[1] "ھەممىسى <span class=\"count\">(%s)</span>"
 
 #. translators: 1: install status, 2: update status
 #: lib/tgm/class-tgm-plugin-activation.php:2342
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
-msgstr "%1$s, %2$s"
+msgstr "%1$s، %2$s"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2333
 msgid "Update recommended"
-msgstr "Update aanbevolen"
+msgstr "يېڭىلاش تەۋسىيەسى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2330
 msgid "Requires Update"
-msgstr "Vereist update"
+msgstr "يېڭىلاش زۆرۈر"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2327
 msgid "Required Update not Available"
-msgstr "Vereiste update niet beschikbaar"
+msgstr "لازىملىق يېڭىلاشنى ئىشلەتكىلى بولمايدۇ"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2321
 msgid "Active"
-msgstr "Actief"
+msgstr "ئاكتىپ"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2319
 msgid "Installed But Not Activated"
-msgstr "Geinstalleerd maar niet geactiveerd"
+msgstr "ئورنىتىلدى ئەمما ئاكتىپلانمىدى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2315
 msgid "Not Installed"
-msgstr "Niet geïnstalleerd"
+msgstr "ئورنىتىلمىدى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2298
 msgid "Pre-Packaged"
-msgstr "Pre-Packaged"
+msgstr "ئالدىن بولاقلانغان"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2295
 msgid "External Source"
-msgstr "Externe bron"
+msgstr "سىرتقى مەنبە"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2292
 msgid "WordPress Repository"
-msgstr "WordPress repository"
+msgstr "WordPress خەزىنە"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2276
 msgid "Recommended"
-msgstr "Aanbevolen"
+msgstr "تەۋسىيە قىلىنغان"
 
 #: lib/tgm/class-tgm-plugin-activation.php:2273
 msgid "Required"
-msgstr "Vereist"
+msgstr "زۆرۈر"
 
 #. translators: %s: version number
 #: lib/tgm/class-tgm-plugin-activation.php:1982
@@ -1001,181 +1004,181 @@ msgstr "TGMPA v%s"
 #: lib/tgm/class-tgm-plugin-activation.php:2948
 msgctxt "plugin A *and* plugin B"
 msgid "and"
-msgstr "en"
+msgstr "ۋە"
 
 #: lib/tgm/class-tgm-plugin-activation.php:937
 msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
-msgstr "Het remote plugin pakket bestaat uit meer dan één bestand, maar de bestanden zijn niet verpakt in een map."
+msgstr "يىراقتىكى قىستۇرما بولىقى بىردىن كۆپ ھۆججەتتىن تەركىپ تاپىدۇ، ئەمما ھۆججەتلەر قىسقۇچتا بولاقلانمىغان."
 
 #: lib/tgm/class-tgm-plugin-activation.php:934
 #: lib/tgm/class-tgm-plugin-activation.php:937
 msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
-msgstr "Neem alstublieft contact op met de plugin provider en vraag hen om hun plugin te verpakken volgens de WordPress richtlijnen."
+msgstr "قىستۇرما تەمىنلىگۈچى بىلەن ئالاقىلىشىپ، WordPress يېتەكچىسىدىكى تەلەپ بويىچە بولاقلانغان قىستۇرمىنىڭ بولىقىنى ئۇلاردىن تەلەپ قىلىڭ."
 
 #: lib/tgm/class-tgm-plugin-activation.php:934
 msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
-msgstr "Het remote plugin pakket bevat geen map met de gewenste slug en het hernoemen werkte niet."
+msgstr "يىراقتىكى قىستۇرما بولىقىدىكى قىسقۇچتا كۈتكەن قىسقارتما يوق، ئىسىم ئۆزگەرتىش ئىشلىمىدى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:523
 msgid "Update Required"
-msgstr "Update vereist"
+msgstr "يېڭىلاش زۆرۈر"
 
 #: lib/tgm/class-tgm-plugin-activation.php:522
 msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr "Deze plugin moet worden geüpdatet om compatibel te zijn met uw thema."
+msgstr "ئۆرنىكىڭىز بىلەن ماسلىشىش ئۈچۈن بۇ قىستۇرمىنى يېڭىلاش كېرەك."
 
 #: lib/tgm/class-tgm-plugin-activation.php:397
 msgid "Please contact the administrator of this site for help."
-msgstr "Neem alstublieft voor hulp contact op met de beheerder van deze site."
+msgstr "ياردەمگە ئېرىشىش ئۈچۈن بۇ تور بېكەتنىڭ باشقۇرغۇچىسى بىلەن ئالاقىلىشىڭ."
 
 #: lib/tgm/class-tgm-plugin-activation.php:396
 msgid "There are one or more required or recommended plugins to install, update or activate."
-msgstr "Er zijn een of meer vereiste of aanbevolen plugins om te installeren, te updaten of te activeren."
+msgstr "ئورنىتىپ، يېڭىلاپ ياكى ئاكتىپلايدىغان بىر ياكى بىر قانچە زۆرۈر ياكى تەۋسىيە قىلىنغان قىستۇرما بار."
 
 #. translators: 1: dashboard link.
 #: lib/tgm/class-tgm-plugin-activation.php:394
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr "Alle plugins geïnstalleerd en met succes geactiveerd. %1$s"
+msgstr "بارلىق قىستۇرما ئورنىتىلدى ۋە مۇۋەپپەقىيەتلىك ئاكتىپلاندى. %1$s"
 
 #. translators: 1: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:392
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
-msgstr "Plugin niet geactiveerd. Voor dit thema is een hogere versie van %s nodig. Update alstublieft de plugin."
+msgstr "قىستۇرما ئاكتىپلانمىدى. بۇ ئۆرنەككە %s نىڭ يۇقىرىراق نەشرى كېرەك. قىستۇرمىنى يېڭىلاڭ."
 
 #. translators: 1: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:390
 msgid "No action taken. Plugin %1$s was already active."
-msgstr "Geen actie ondernomen. Plugin %1$s was al actief."
+msgstr "ھېچقانداق مەشغۇلات قىلىنمىدى. قىستۇرما %1$s ئاكتىپ ئىكەن."
 
 #: lib/tgm/class-tgm-plugin-activation.php:388
 #: lib/tgm/class-tgm-plugin-activation.php:2952
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] "De volgende plugin is succesvol geactiveerd:"
-msgstr[1] "De volgende plugins zijn succesvol geactiveerd:"
+msgstr[0] "تۆۋەندىكى قىستۇرما مۇۋەپپەقىيەتلىك ئاكتىپلاندى."
+msgstr[1] "تۆۋەندىكى قىستۇرما مۇۋەپپەقىيەتلىك ئاكتىپلاندى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:387
 #: lib/tgm/class-tgm-plugin-activation.php:3159
 msgid "Plugin activated successfully."
-msgstr "Plugin succesvol geactiveerd."
+msgstr "قىستۇرما مۇۋەپپەقىيەتلىك ئاكىتپلاندى."
 
 #: lib/tgm/class-tgm-plugin-activation.php:386
 #: lib/tgm/class-tgm-plugin-activation.php:827
 #: lib/tgm/class-tgm-plugin-activation.php:2533
 #: lib/tgm/class-tgm-plugin-activation.php:3580
 msgid "Return to the Dashboard"
-msgstr "Terug naar het dashboard"
+msgstr "باشقۇرۇش تاختاغا قايت"
 
 #: lib/tgm/class-tgm-plugin-activation.php:385
 msgid "Return to Required Plugins Installer"
-msgstr "Terug naar vereiste plugins installer"
+msgstr "زۆرۈر قىستۇرما ئورناتقۇچقا قايتىدۇ"
 
 #: lib/tgm/class-tgm-plugin-activation.php:380
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "Begin met het activeren van de plugin"
-msgstr[1] "Begin met het activeren van de plugins"
+msgstr[0] "قىستۇرما ئاكتىپلاشنى باشلىدى"
+msgstr[1] "قىستۇرما ئاكتىپلاشنى باشلىدى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:375
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
-msgstr[0] "Begin met updaten van plugin"
-msgstr[1] "Begin met het updaten van plugins"
+msgstr[0] "قىستۇرما يېڭىلاشنى باشلىدى"
+msgstr[1] "قىستۇرما يېڭىلاشنى باشلىدى"
 
 #: lib/tgm/class-tgm-plugin-activation.php:370
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] "Begin met het installeren van de plugin"
-msgstr[1] "Begin met het installeren van de plugins"
+msgstr[0] "قىستۇرما ئورنىتىشنى باشلىدى"
+msgstr[1] "قىستۇرما ئورنىتىشنى باشلىدى"
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:364
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s."
-msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
+msgstr[0] "تۆۋەندىكى تەۋسىيەلىك قىستۇرما ئاكتىپ ئەمەس: %1$s."
+msgstr[1] "تۆۋەندىكى تەۋسىيەلىك قىستۇرما ئاكتىپ ئەمەس: %1$s."
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:358
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
-msgstr[1] "De volgende vereiste plugins zijn momenteel inactief: %1$s."
+msgstr[0] "تۆۋەندىكى زۆرۈر قىستۇرما ئاكتىپ ئەمەس: %1$s."
+msgstr[1] "تۆۋەندىكى زۆرۈر قىستۇرما ئاكتىپ ئەمەس: %1$s."
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:352
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] "Er is een update beschikbaar voor: %1$s."
-msgstr[1] "Er zijn updates beschikbaar voor de volgende plugins: %1$s."
+msgstr[0] "تۆۋەندىكى قىستۇرما ئۈچۈن يېڭىلانما بار: %1$s"
+msgstr[1] "تۆۋەندىكى قىستۇرما ئۈچۈن يېڭىلانما بار: %1$s"
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:346
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
-msgstr[0] "De volgende plugin moet worden geüpdatet naar de nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
-msgstr[1] "De volgende plugins moeten worden geüpdatet naar hun nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
+msgstr[0] "بۇ ئۆرنەكنىڭ ئەڭ يۇقىرى دەرىجىدە ماسلىشىشچانلىقىنى ساقلاپ قېلىش ئۈچۈن تۆۋەندىكى قىستۇرمىنىڭ ئەڭ يېڭى نەشرىگە يېڭىلاش كېرەك: %1$s."
+msgstr[1] "بۇ ئۆرنەكنىڭ ئەڭ يۇقىرى دەرىجىدە ماسلىشىشچانلىقىنى ساقلاپ قېلىش ئۈچۈن تۆۋەندىكى قىستۇرمىنىڭ ئەڭ يېڭى نەشرىگە يېڭىلاش كېرەك: %1$s."
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:340
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] "Dit thema beveelt de volgende plugin aan: %1$s."
-msgstr[1] "Dit thema beveelt de volgende plugins aan: %1$s."
+msgstr[0] "بۇ ئۆرنەك تۆۋەندىكى قىستۇرمىنى تەۋسىيە قىلىدۇ: %1$s."
+msgstr[1] "بۇ ئۆرنەك تۆۋەندىكى قىستۇرمىنى تەۋسىيە قىلىدۇ: %1$s."
 
 #. translators: 1: plugin name(s).
 #: lib/tgm/class-tgm-plugin-activation.php:334
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
-msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
+msgstr[0] "بۇ ئۆرنەك تۆۋەندىكى قىستۇرمىنى تەلەپ قىلىدۇ: %1$s."
+msgstr[1] "بۇ ئۆرنەك تۆۋەندىكى قىستۇرمىنى تەلەپ قىلىدۇ: %1$s."
 
 #: lib/tgm/class-tgm-plugin-activation.php:333
 msgid "Something went wrong with the plugin API."
-msgstr "Er ging iets mis met de plugin API."
+msgstr "قىستۇرما قوللىنىشچان پىروگرامما ئارايۈزى (API) كاشىلىغا يولۇقتى."
 
 #. translators: %s: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:332
 msgid "Updating Plugin: %s"
-msgstr "Updaten plugin: %s"
+msgstr "يېڭىلىنىۋاتقان قىستۇرما: %s"
 
 #. translators: %s: plugin name.
 #: lib/tgm/class-tgm-plugin-activation.php:330
 msgid "Installing Plugin: %s"
-msgstr "Installeren plugin: %s"
+msgstr "ئورنىتىلىۋاتقان قىستۇرما: %s"
 
 #: lib/tgm/class-tgm-plugin-activation.php:328
 msgid "Install Plugins"
-msgstr "Installeer plugins"
+msgstr "قىستۇرما ئورنات"
 
 #: lib/tgm/class-tgm-plugin-activation.php:327
 msgid "Install Required Plugins"
-msgstr "Installeer vereiste plugins"
+msgstr "زۆرۈر قىستۇرما ئورنات"
 
 #: admin-dashboard/admin_dashboard.php:122
 #: admin-dashboard/admin_dashboard.php:123
 msgid "Customize"
-msgstr "Aanpassen"
+msgstr "خاسلاشتۇر"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:234
 msgid "⭐ Rate This Theme"
-msgstr "⭐ Waardeer dit thema"
+msgstr "⭐ بۇ ئۆرنەككە باھا"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:203
 msgid "View Demos"
-msgstr "Bekijk demo's"
+msgstr "كۆرگەزمە كۆرسەت"
 
 #: admin-dashboard/admin_dashboard.php:167
 msgid "Upgrade to Pro"
-msgstr "Upgraden naar Pro"
+msgstr "كەسپىي نەشرىگە يۈكسەلدۈر"
 
 #: admin-dashboard/rest-api/class-admin-notice.php:233
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "قوللاش"
 
 #: lib/tgm/class-tgm-plugin-activation.php:395
 msgid "Dismiss this notice"
-msgstr "Dit bericht negeren"
+msgstr "ئۇقتۇرۇشقا پەرۋا قىلما"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:875
 msgctxt "weekly archives date format"
@@ -1186,14 +1189,14 @@ msgstr "W"
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:1293
 msgctxt "daily archives date format"
 msgid "j"
-msgstr "j"
+msgstr "j-كۈنى"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:845
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:903
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:1289
 msgctxt "monthly archives date format"
 msgid "F"
-msgstr "F"
+msgstr "F-ئاينىڭ"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:844
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:874
@@ -1202,12 +1205,12 @@ msgstr "F"
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:1285
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "J"
+msgstr "Y-يىلى"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:827
 msgctxt "hour archives time format"
 msgid "g a"
-msgstr "g a"
+msgstr "H"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:809
 msgctxt "minute archives time format"
@@ -1217,130 +1220,130 @@ msgstr "i"
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:791
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
-msgstr "g:i a"
+msgstr "H:i"
 
 #. Translators: Weekly archive title. %s is the week date format.
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:318
 msgid "Week %s"
-msgstr "Week %s"
+msgstr "%s ھەپتە"
 
 #. Translators: Minute archive title. %s is the minute time format.
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:316
 msgid "Minute %s"
-msgstr "Minuut %s"
+msgstr "%s مىنۇت"
 
 #. Translators: %s is the page number.
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:314
 msgid "Comment Page %s"
-msgstr "Reactiepagina %s"
+msgstr "%s ئىنكاس بەت"
 
 #. Translators: %s is the page number.
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:312
 msgid "Page %s"
-msgstr "Pagina %s"
+msgstr "%s-بەت"
 
 #. Translators: %s is the search query.
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:310
 msgid "Search results for: %s"
-msgstr "Zoekresultaten voor: %s"
+msgstr "ئىزدەش نەتىجىسى: %s"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:308
 msgid "Archives"
-msgstr "Archieven"
+msgstr "ئارخىپ"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:307
 msgid "404 Not Found"
-msgstr "404 niet gevonden"
+msgstr "404 تېپىلمىدى"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:306
 msgid "Home"
-msgstr "Home"
+msgstr "باش بەت"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:305
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
-msgstr "Kruimelpaden"
+msgstr "بەلگە ئىزى"
 
 #: lib/breadcrumb-trail/inc/breadcrumbs.php:304
 msgid "Browse:"
-msgstr "Bladeren:"
+msgstr "كۆز يۈگۈرت:"
 
 #. translators: number of items in the mini cart.
 #: inc/woocommerce.php:258
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d item"
-msgstr[1] "%d items"
+msgstr[0] "%d تۈر"
+msgstr[1] "%d تۈر"
 
 #: inc/woocommerce.php:254
 msgid "View your shopping cart"
-msgstr "Bekijk uw winkelwagen"
+msgstr "مال ھارۋىڭىزنى كۆرسىتىدۇ"
 
 #: inc/widgets/widgets-register-sidebars.php:100
 msgid "Displays items on footer third column."
-msgstr "Toont items in de derde footer kolom."
+msgstr "بەت ئاستى ئۈچىنچى رەتتە تۈرنى كۆرسىتىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:98
 msgid "Footer Third Section"
-msgstr "Footer derde sectie"
+msgstr "بەت ئاستى ئۈچىنچى بۆلەك"
 
 #: inc/widgets/widgets-register-sidebars.php:90
 msgid "Displays items on footer second column."
-msgstr "Toont items in footer tweede kolom."
+msgstr "بەت ئاستى ئىككىنچى رەتتە تۈرنى كۆرسىتىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:88
 msgid "Footer Second Section"
-msgstr "Footer tweede sectie"
+msgstr "بەت ئاستى ئىككىنچى بۆلەك"
 
 #: inc/widgets/widgets-register-sidebars.php:79
 msgid "Displays items on footer first column."
-msgstr "Toont items in de eerste kolom van de footer."
+msgstr "بەت ئاستى بىرىنچى رەتتە تۈرنى كۆرسىتىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:77
 msgid "Footer First Section"
-msgstr "Footer eerste sectie"
+msgstr "بەت ئاستى بىرىنچى بۆلەك"
 
 #: inc/widgets/widgets-register-sidebars.php:69
 msgid "Add widgets for off-canvas section."
-msgstr "Widgets toevoegen voor off-canvas sectie."
+msgstr "يان كەرگە بۆلىكىگە ئەپچە قوشىدۇ."
 
 #: inc/customizer/builder/options.php:129
 #: inc/customizer/builder/options.php:511
 #: inc/widgets/widgets-register-sidebars.php:67
 msgid "Off Canvas"
-msgstr "Off canvas"
+msgstr "يان كەرگە"
 
 #: inc/widgets/widgets-register-sidebars.php:59
 msgid "Add widgets to front-page sidebar section."
-msgstr "Voeg widgets toe aan de zijbalk sectie op de voorpagina."
+msgstr "ئالدى بەت يان بالداق بۆلەككە ئەپچە قوشىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:57
 msgid "Front-page Sidebar Section"
-msgstr "Zijbalk sectie op de voorpagina"
+msgstr "ئالدى بەت يان بالداق بۆلەك"
 
 #: inc/widgets/widgets-register-sidebars.php:49
 msgid "Add widgets to front-page contents section."
-msgstr "Widgets toevoegen aan de inhoud sectie op de voorpagina."
+msgstr "ئالدى بەت مەزمۇن بۆلەككە ئەپچە قوشىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:47
 msgid "Front-page Content Section"
-msgstr "Inhoudssectie op de voorpagina"
+msgstr "ئالدى بەت مەزمۇن بۆلەك"
 
 #: inc/widgets/widgets-register-sidebars.php:15
 msgid "Add widgets for main sidebar."
-msgstr "Voeg widgets toe voor de hoofdzijbalk."
+msgstr "ئاساسىي يان بالداققا ئەپچە قوشىدۇ."
 
 #: inc/widgets/widgets-register-sidebars.php:13
 msgid "Main Sidebar"
-msgstr "Hoofd zijbalk"
+msgstr "ئاساسىي يان بالداق"
 
 #: inc/widgets/widgets-common-functions.php:84
 msgid "Recent"
-msgstr "Recent"
+msgstr "يېقىنقى"
 
 #: inc/widgets/widgets-common-functions.php:25
 msgid "Select"
-msgstr "Selecteer"
+msgstr "تاللا"
 
 #: inc/widgets/widgets-base.php:235
 msgctxt "Remove"
@@ -1349,89 +1352,89 @@ msgstr "X"
 
 #: inc/widgets/widgets-base.php:224
 msgid "Choose Image"
-msgstr "Kies afbeelding"
+msgstr "سۈرەت تاللىنىدۇ"
 
 #: inc/widgets/widgets-base.php:223
 msgid "Select Image"
-msgstr "Selecteer afbeelding"
+msgstr "سۈرەت تاللىنىدۇ"
 
 #: inc/widgets/widgets-base.php:222
 msgid "Upload"
-msgstr "Upload"
+msgstr "يۈكلە"
 
 #: inc/widgets/widget-trending-posts.php:34
 msgid "AFTA Trending News"
-msgstr "AFTA trending nieuws"
+msgstr "AFTA ۋەزىيەت خەۋەرلىرى"
 
 #: inc/widgets/widget-social-contacts.php:67
 msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
-msgstr "Sociaal menu is niet ingesteld. U moet een menu maken en dit toewijzen aan sociaal menu in menu instellingen."
+msgstr "ئىجتىمائىي ئالاقە تىزىملىكى تەڭشەلمىدى. سىز تىزىملىك قۇرۇپ، تىزىملىك تەڭشىكىدە ئىجتىمائىي تاراتقۇ تىزىملىكىنى بەلگىلىشىڭىز كېرەك."
 
 #: inc/widgets/widget-social-contacts.php:41
 msgid "Connect with Us"
-msgstr "Verbind u met ons"
+msgstr "بىز بىلەن ئالاقىلىشىڭ"
 
 #: inc/widgets/widget-social-contacts.php:24
 msgid "AFTA Social Contacts"
-msgstr "AFTA sociale contacten"
+msgstr "AFTA ئىجتىمائىي تاراتقۇ ئالاقە"
 
 #: inc/widgets/widget-social-contacts.php:20
 msgid "Displays social contacts lists from selected settings."
-msgstr "Toont lijsten met sociale contacten van geselecteerde instellingen."
+msgstr "تاللانغان تەڭشەكتىن ئىجتىمائىي ئالاقە ئالاقىلىشىش تىزىمىنى كۆرسىتىدۇ."
 
 #: inc/widgets/widget-posts-slider.php:116
 msgid "Select category"
-msgstr "Selecteer categorie"
+msgstr "سەھىپە تاللىنىدۇ"
 
 #: inc/widgets/widget-posts-slider.php:24
 msgid "AFTA Posts Slider"
-msgstr "AFTA berichten slider"
+msgstr "AFTA يازما سىيرىلغۇچ"
 
 #: inc/widgets/widget-posts-slider.php:20
 msgid "Displays posts slider from selected category."
-msgstr "Toont de berichten slider van de geselecteerde categorie."
+msgstr "تاللانغان سەھىپىدىن يازما سىيرىلغۇچنى كۆرسىتىدۇ."
 
 #: inc/widgets/widget-posts-single-column.php:32
 msgid "AFTA Post Single Column"
-msgstr "AFTA bericht enkele kolom"
+msgstr "AFTA يازما يەككە رەت"
 
 #: inc/widgets/widget-posts-single-column.php:28
 msgid "Displays posts single column from selected categories."
-msgstr "Toont berichten in één kolom uit geselecteerde categorieën."
+msgstr "تاللانغان سەھىپىدىن يازمىنى يەككە رەتتە كۆرسىتىدۇ."
 
 #: inc/widgets/widget-posts-list.php:32
 msgid "AFTA Post List"
-msgstr "AFTA bericht lijst"
+msgstr "AFTA يازما تىزىمى"
 
 #: inc/widgets/widget-posts-grid.php:32
 msgid "AFTA Post Grid"
-msgstr "AFTA bericht raster"
+msgstr "AFTA يازما شادىسى"
 
 #: inc/widgets/widget-posts-double-column.php:144
 msgid "Select Category 2"
-msgstr "Selecteer categorie 2"
+msgstr "سەھىپە 2 تاللىنىدۇ"
 
 #: inc/widgets/widget-posts-double-column.php:143
 msgid "Select Category 1"
-msgstr "Selecteer categorie 1"
+msgstr "سەھىپە 1 تاللىنىدۇ"
 
 #: inc/widgets/widget-posts-double-column.php:34
 msgid "AFTA Post Double Columns"
-msgstr "AFTA bericht dubbele kolommen"
+msgstr "AFTA يازما قوش رەت"
 
 #: inc/widgets/widget-posts-double-column.php:30
 #: inc/widgets/widget-posts-grid.php:28 inc/widgets/widget-posts-list.php:28
 #: inc/widgets/widget-trending-posts.php:30
 msgid "Displays grid from selected categories."
-msgstr "Toont een raster weer van geselecteerde categorieën."
+msgstr "تاللانغان سەھىپىدىن شادىنى كۆرسىتىدۇ."
 
 #: inc/widgets/widget-express-posts-list.php:32
 msgid "AFTA Express Posts List"
-msgstr "AFTA Express berichtenlijst"
+msgstr "AFTA تېز يازما تىزىمى"
 
 #: inc/widgets/widget-express-posts-list.php:28
 msgid "Displays Express Posts from selected categories."
-msgstr "Toont Express berichten uit geselecteerde categorieën."
+msgstr "تاللانغان سەھىپىدىن تېز يازمىنى كۆرسىتىدۇ."
 
 #: inc/widgets/widget-author-info.php:147
 msgid "Twitter"
@@ -1447,252 +1450,252 @@ msgstr "Facebook"
 
 #: inc/widgets/widget-author-info.php:144
 msgid "Descriptions"
-msgstr "Beschrijvingen"
+msgstr "چۈشەندۈرۈش"
 
 #: inc/widgets/widget-author-info.php:143
 msgid "Name"
-msgstr "Naam"
+msgstr "ئاتى"
 
 #: inc/widgets/widget-author-info.php:142
 msgid "Profile image"
-msgstr "Profiel afbeelding"
+msgstr "تەرجىمىھال سۈرەت"
 
 #: inc/hooks/patterns/hybridnews-section-2.php:29
 #: inc/hooks/patterns/hybridnews.php:41 inc/widgets/widget-author-info.php:140
 msgid "About Author"
-msgstr "Over auteur"
+msgstr "يازغۇچى ھەققىدە"
 
 #: inc/widgets/widget-author-info.php:24
 msgid "AFTA Author Info"
-msgstr "AFTA auteur info"
+msgstr "AFTA يازغۇچى ئۇچۇرى"
 
 #: inc/widgets/widget-author-info.php:20
 msgid "Displays author info."
-msgstr "Toont auteursinfo."
+msgstr "يازغۇچى ئۇچۇرىنى كۆرسىتىدۇ."
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:185 template-parts/content-page.php:41
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Bewerk <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> تەھرىر"
 
 #: inc/template-tags.php:149 inc/template-tags.php:155
 msgid "ago"
-msgstr "geleden"
+msgstr "ئىلگىرى"
 
 #: inc/template-functions.php:620
 msgid "%s min read"
-msgstr "%s min. lezen"
+msgstr "%s مىنۇت ئوقۇدى"
 
 #: inc/template-functions.php:591 template-parts/content.php:97
 msgid "Next"
-msgstr "Volgende"
+msgstr "كېيىنكى"
 
 #: inc/template-functions.php:590 template-parts/content.php:106
 msgid "Previous"
-msgstr "Vorige"
+msgstr "ئالدىنقى"
 
 #: inc/hooks/hook-tgm.php:40
 msgid "WP Post Author"
-msgstr "WP bericht auteur"
+msgstr "WP يازما يازغۇچى"
 
 #: inc/hooks/hook-meta.php:199 inc/hooks/hook-meta.php:237
 msgid "Select category color class. You can set appropriate categories color on \"Categories\" section of the theme customizer."
-msgstr "Selecteer categorie kleurklasse. U kunt de juiste categoriekleur instellen in het sectie \"Categorieën\" Van de thema Customizer."
+msgstr "سەھىپە رەڭ خىلى تاللىنىدۇ. سىز ئۆرنەك خاسلاشتۇرغۇچنىڭ «سەھىپە» بۆلىكىدە مۇناسىپ سەھىپەنىڭ رەڭگىنى تەڭشىيەلەيسىز."
 
 #: inc/hooks/hook-meta.php:193 inc/hooks/hook-meta.php:221
 msgid "Color Class"
-msgstr "Kleurklasse"
+msgstr "رەڭ خىلى"
 
 #: inc/hooks/hook-meta.php:187 inc/hooks/hook-meta.php:227
 msgid "Category Color 3"
-msgstr "Categorie kleur 3"
+msgstr "سەھىپە رەڭگى 3"
 
 #: inc/hooks/hook-meta.php:186 inc/hooks/hook-meta.php:226
 msgid "Category Color 2"
-msgstr "Categorie kleur 2"
+msgstr "سەھىپە رەڭگى 2"
 
 #: inc/hooks/hook-meta.php:185 inc/hooks/hook-meta.php:225
 msgid "Category Color 1"
-msgstr "Categorie kleur 1"
+msgstr "سەھىپە رەڭگى 1"
 
 #: inc/hooks/hook-meta.php:112
 msgid "Please go to Customize>Front-page Options for Homepage."
-msgstr "Ga alstublieft naar Aanpassen>Voorpagina opties voor homepage."
+msgstr "خاسلاشتۇر›باش بەتنىڭ ئالدى بەت تاللانمىسىغا يۆتكىلىڭ."
 
 #: inc/hooks/hook-meta.php:108
 msgid "No Sidebar"
-msgstr "Geen zijbalk"
+msgstr "يان بالداق يوق"
 
 #: inc/hooks/hook-meta.php:105
 msgid "Primary Sidebar - Content"
-msgstr "Primaire zijbalk - Inhoud"
+msgstr "ئاساسىي يان بالداق - مەزمۇن"
 
 #: inc/hooks/hook-meta.php:102
 msgid "Content - Primary Sidebar"
-msgstr "Inhoud - Primaire zijbalk"
+msgstr "مەزمۇن - ئاساسىي يان بالداق"
 
 #: inc/hooks/hook-meta.php:94
 msgid "Sidebar Options"
-msgstr "Zijbalk opties"
+msgstr "يان بالداق تاللانمىسى"
 
 #: inc/hooks/hook-meta.php:89
 msgid "Please go to Customize>Themes Options for Single Post/Page."
-msgstr "Ga alstublieft naar Aanpassen>Thema opties voor enkelvoudige bericht/pagina."
+msgstr "يەككە يازما/بەت ئۈچۈن خاسلاشتۇر›ئۆرنەك تاللانمىسىغا يۆتكىلىڭ."
 
 #: inc/hooks/hook-meta.php:77 inc/hooks/hook-meta.php:99
 msgid "Set as global layout"
-msgstr "Instellen als globale lay-out"
+msgstr "ئومۇمىيەت جايلاشتۇرۇشتەك تەڭشەيدۇ"
 
 #: inc/hooks/hook-meta.php:72
 msgid "Content Options"
-msgstr "Inhoud opties"
+msgstr "مەزمۇن تاللانمىسى"
 
 #: inc/hooks/hook-meta.php:23
 msgid "Layout Options"
-msgstr "Lay-out opties"
+msgstr "جايلاشتۇرۇش تاللانمىسى"
 
 #: inc/hooks/hook-header-section.php:150
 msgid "Light/Dark Button"
-msgstr "Licht/donker knop"
+msgstr "يورۇق/قاراڭغۇ توپچە"
 
 #: inc/hooks/blocks/block-archive-grid.php:43
 #: inc/hooks/blocks/block-archive-list.php:20
 #: template-parts/content-page.php:27 template-parts/content.php:119
 msgid "Pages:"
-msgstr "Pagina's:"
+msgstr "بەت:"
 
 #: inc/customizer/theme-options.php:1354
 msgid "Hide footer Menu Section"
-msgstr "Verberg footer menusectie"
+msgstr "بەت ئاستى تىزىملىك بۆلىكىنى يوشۇرىدۇ"
 
 #: inc/customizer/theme-options.php:1332
 msgid "Copyright Text"
-msgstr "Copyright tekst"
+msgstr "نەشر ھوقۇقى تېكىستى"
 
 #: inc/customizer/theme-options.php:1306
 msgid "Footer Background Image"
-msgstr "Footer achtergrondafbeelding"
+msgstr "تەگلىك سۈرەت بەت ئاستى"
 
 #: inc/customizer/builder/class-header-footer-builder.php:99
 #: inc/customizer/theme-options.php:1282
 msgid "Footer"
-msgstr "Footer"
+msgstr "بەت ئاستى"
 
 #: inc/customizer/theme-options.php:1265
 msgid "Posts Section Title"
-msgstr "Berichten sectie titel"
+msgstr "يازما بۆلىكىنىڭ ماۋزۇسى"
 
 #: inc/customizer/theme-options.php:1245
 msgid "Show Above Footer"
-msgstr "Toon boven footer"
+msgstr "ئۈستىدىكى بەت ئاستىنى كۆرسەت"
 
 #: inc/customizer/theme-options.php:1226
 msgid "You May Have Missed"
-msgstr "U heeft misschien gemist"
+msgstr "دىققىتىڭىزدىن قاچتى"
 
 #: inc/customizer/theme-options.php:1213
 msgid "Bottom"
-msgstr "Onderkant"
+msgstr "ئاستى"
 
 #: inc/customizer/theme-options.php:1212
 msgid "Top"
-msgstr "Boven"
+msgstr "ئۈستى"
 
 #: inc/customizer/theme-options.php:1207
 msgid "Sidebar Sticky Position"
-msgstr "Zijbalk sticky positie"
+msgstr "يان بالداق يېپىشقاق ئورۇن"
 
 #: inc/customizer/theme-options.php:1186
 msgid "Make Sidebar Sticky"
-msgstr "Zijbalk sticky maken"
+msgstr "يان بالداقنى يېپىشقاقلاشتۇرىدۇ"
 
 #: inc/customizer/theme-options.php:1165
 msgid "Sidebar Settings"
-msgstr "Zijbalk instellingen"
+msgstr "يان بالداق تەڭشەك"
 
 #: inc/customizer/theme-options.php:1150
 msgid "List"
-msgstr "Lijst"
+msgstr "تىزىم"
 
 #: inc/customizer/theme-options.php:1149
 msgid "Grid"
-msgstr "Raster"
+msgstr "شادا"
 
 #: inc/customizer/theme-options.php:1144
 msgid "Select layout for archive"
-msgstr "Selecteer lay-out voor archief"
+msgstr "ئارخىپنىڭ جايلاشتۇرۇلۇشى تاللىنىدۇ"
 
 #: inc/customizer/theme-options.php:1143
 msgid "Archive layout"
-msgstr "Archief lay-out"
+msgstr "ئارخىپ جايلاشتۇرۇلۇشى"
 
 #: inc/customizer/theme-options.php:1122
 msgid "Disable Main Banner on Blog"
-msgstr "Hoofd banner op blog uitschakelen"
+msgstr "بىلوگدىكى ئاساسىي لەۋھەنى چەكلەيدۇ"
 
 #: inc/customizer/theme-options.php:1101
 msgid "Archive Settings"
-msgstr "Archiefinstellingen"
+msgstr "ئارخىپ تەڭشەك"
 
 #: inc/customizer/theme-options.php:1058
 msgid "Enable Related Posts"
-msgstr "Gerelateerde berichten inschakelen"
+msgstr "مۇناسىۋەتلىك يازمىنى قوزغىتىدۇ"
 
 #: inc/customizer/theme-options.php:1037
 msgid "Related Posts Settings"
-msgstr "Instellingen voor gerelateerde berichten"
+msgstr "مۇناسىۋەتلىك يازما تەڭشىكى"
 
 #: inc/customizer/theme-options.php:1014
 msgid "After Content"
-msgstr "Na inhoud"
+msgstr "مەزمۇندىن كېيىن"
 
 #: inc/customizer/theme-options.php:1013
 msgid "Before Title"
-msgstr "Voor titel"
+msgstr "ماۋزۇدىن ئىلگىرى"
 
 #: inc/customizer/theme-options.php:1012
 msgid "After Title"
-msgstr "Na titel"
+msgstr "ماۋزۇدىن كېيىن"
 
 #: inc/customizer/theme-options.php:1008
 msgid "Social Share from Jetpack plugin"
-msgstr "Sociale delen van Jetpack plugin"
+msgstr "Jetpack قىستۇرمىدىن ئىجتىمائىي تاراتقۇغا ھەمبەھىر"
 
 #: inc/customizer/theme-options.php:1007
 msgid "Social Share Option"
-msgstr "Optie voor sociaal delen"
+msgstr "ئىجتىمائىي تاراتقۇ ھەمبەھىر تاللانمىسى"
 
 #: inc/customizer/theme-options.php:963 inc/hooks/hook-meta.php:83
 msgid "Compact"
-msgstr "Compact"
+msgstr "ئىخچام"
 
 #: inc/customizer/theme-options.php:962 inc/hooks/hook-meta.php:80
 msgid "Spacious"
-msgstr "Ruim"
+msgstr "ئازادە"
 
 #: inc/customizer/theme-options.php:957
 msgid "Single Content"
-msgstr "Enkelvoudige inhoud"
+msgstr "يەككە مەزمۇن"
 
 #: inc/customizer/theme-options.php:934
 msgid "Title below image"
-msgstr "Titel onder afbeelding"
+msgstr "سۈرەت ئاستىدىكى ماۋزۇ"
 
 #: inc/customizer/theme-options.php:928
 msgid "Featured Image Position"
-msgstr "Uitgelichte afbeeldingspositie"
+msgstr "تەۋسىيەلىك سۈرەت ئورنى"
 
 #: inc/customizer/theme-options.php:907
 msgid "Show Featured Image"
-msgstr "Toon uitgelichte afbeelding"
+msgstr "تەۋسىيەلىك سۈرەتنى كۆرسەت"
 
 #: inc/customizer/theme-options.php:887
 msgid "Single Post"
-msgstr "Enkelvoudig bericht"
+msgstr "يەككە يازما"
 
 #: inc/customizer/theme-options.php:870
 msgid "Link"
-msgstr "Link"
+msgstr "ئۇلانما"
 
 #: inc/customizer/theme-options.php:849 inc/customizer/theme-options.php:1078
 #: inc/widgets/widget-author-info.php:140
@@ -1704,140 +1707,140 @@ msgstr "Link"
 #: inc/widgets/widget-posts-slider.php:114
 #: inc/widgets/widget-trending-posts.php:139
 msgid "Title"
-msgstr "Titel"
+msgstr "ماۋزۇ"
 
 #: inc/customizer/theme-options.php:827
 msgid "User"
-msgstr "Gebruiker"
+msgstr "ئىشلەتكۈچى"
 
 #: inc/customizer/theme-options.php:826
 msgid "Play"
-msgstr "Afspelen"
+msgstr "ياڭرات"
 
 #: inc/customizer/theme-options.php:825
 msgid "Bell"
-msgstr "Bel"
+msgstr "قوڭغۇراق"
 
 #: inc/customizer/theme-options.php:821
 msgid "Icon"
-msgstr "Icoon"
+msgstr "سىنبەلگە"
 
 #: inc/customizer/theme-options.php:801
 msgid "Enable Custom Menu Section"
-msgstr "Aangepaste menu sectie Inschakelen"
+msgstr "ئىختىيارى تىزىملىك بۆلىكىنى قوزغىتىدۇ"
 
 #: inc/customizer/theme-options.php:781
 msgid "Custom Menu Section"
-msgstr "Aangepaste menu sectie"
+msgstr "ئىختىيارى تىزىملىك بۆلىكى"
 
 #: inc/customizer/theme-options.php:758
 msgid "Global Excerpt Read More"
-msgstr "Globaal samenvatting lees meer"
+msgstr "ئومۇمىيەت ئۈزۈندە تەپسىلاتى"
 
 #: inc/customizer/theme-options.php:737
 msgid "Excerpt Settings"
-msgstr "Samenvatting instellingen"
+msgstr "ئۈزۈندە تەڭشىكى"
 
 #: inc/customizer/theme-options.php:697 inc/customizer/theme-options.php:718
 msgid "Minutes Read Count"
-msgstr "Aantal minuten gelezen"
+msgstr "ئوقۇش ۋاقتى مىنۇت سانى"
 
 #: inc/customizer/theme-options.php:681
 msgid "Ago Date Format"
-msgstr "Geleden datumformat"
+msgstr "ئىلگىرى چېسلا پىچىمى"
 
 #: inc/customizer/theme-options.php:680
 msgid "WordPress Default Date Format"
-msgstr "WordPress standaard datumnotatie"
+msgstr "WordPress كۆڭۈلدىكى چېسلا پىچىمى"
 
 #: inc/customizer/theme-options.php:676
 msgid "Date Format"
-msgstr "Datumnotatie"
+msgstr "چېسلا پىچىمى"
 
 #: inc/customizer/theme-options.php:629
 msgid "None"
-msgstr "Geen"
+msgstr "يوق"
 
 #: inc/customizer/theme-options.php:628
 msgid "Show Icon"
-msgstr "Toon icoon"
+msgstr "سىنبەلگە كۆرسەت"
 
 #: inc/customizer/theme-options.php:627
 msgid "Show Gravatar"
-msgstr "Toon gravatar"
+msgstr "Gravatar كۆرسەت"
 
 #: inc/customizer/theme-options.php:623
 msgid "Author Icon/Gravatar"
-msgstr "Auteur icoon/gravatar"
+msgstr "يازغۇچى سىنبەلگىسى/Gravatar"
 
 #: inc/customizer/theme-options.php:599
 msgid "For List"
-msgstr "Voor lijst"
+msgstr "تىزىمى"
 
 #: inc/customizer/theme-options.php:574
 msgid "For Small Grid"
-msgstr "Voor klein raster"
+msgstr "كىچىك شادا"
 
 #: inc/customizer/theme-options.php:554 inc/customizer/theme-options.php:580
 #: inc/customizer/theme-options.php:604
 msgid "Hide All"
-msgstr "Alles verbergen"
+msgstr "ھەممىنى يوشۇر"
 
 #: inc/customizer/theme-options.php:553
 msgid "Show Date Only"
-msgstr "Toon alleen datum"
+msgstr "چېسلانىلا كۆرسىتىدۇ"
 
 #: inc/customizer/theme-options.php:552 inc/customizer/theme-options.php:578
 msgid "Show Date and Author"
-msgstr "Toon datum en auteur"
+msgstr "چېسلا ۋە يازغۇچىنى كۆرسىتىدۇ"
 
 #: inc/customizer/theme-options.php:548
 msgid "For Spotlight Posts"
-msgstr "Voor spotlight berichten"
+msgstr "قىزىق نۇقتا يازمىسى ئۈچۈن"
 
 #: inc/customizer/theme-options.php:527
 msgid "Author and Date Settings"
-msgstr "Instellingen voor auteur en datum"
+msgstr "يازغۇچى ۋە چېسلا تەڭشىكى"
 
 #: inc/customizer/theme-options.php:513 inc/customizer/theme-options.php:723
 msgid "Hide"
-msgstr "Verberg"
+msgstr "يوشۇر"
 
 #: inc/customizer/theme-options.php:512 inc/customizer/theme-options.php:722
 msgid "Show"
-msgstr "Toon"
+msgstr "كۆرسەت"
 
 #: inc/customizer/theme-options.php:508
 msgid "Post Categories"
-msgstr "Bericht categorieën"
+msgstr "يازما سەھىپىسى"
 
 #: inc/customizer/theme-options.php:488
 msgid "Categories Settings"
-msgstr "Categorieën instellingen"
+msgstr "سەھىپە تەڭشىكى"
 
 #: inc/customizer/theme-options.php:449
 msgid "Full width content"
-msgstr "Inhoud over de volledige breedte"
+msgstr "تولۇق كەڭلىكتىكى مەزمۇن"
 
 #: inc/customizer/theme-options.php:448
 msgid "Primary sidebar - Content"
-msgstr "Primaire zijbalk - Inhoud"
+msgstr "ئاساسىي يان بالداق - مەزمۇن"
 
 #: inc/customizer/theme-options.php:447
 msgid "Content - Primary sidebar"
-msgstr "Inhoud - Primaire zijbalk"
+msgstr "مەزمۇن - ئاساسىي يان بالداق"
 
 #: inc/customizer/theme-options.php:443
 msgid "Global Content Alignment"
-msgstr "Globale inhoud uitlijning"
+msgstr "ئومۇمىيەت مەزمۇننىڭ توغرىلىنىشى"
 
 #: inc/customizer/theme-options.php:401
 msgid "Enable Preloader"
-msgstr "Vooraf laden inschakelen"
+msgstr "ئالدىن يۈكلىگۈچنى قوزغىتىدۇ"
 
 #: inc/customizer/theme-options.php:380
 msgid "Global Settings"
-msgstr "Algemene instellingen"
+msgstr "ئومۇمىي تەڭشەك"
 
 #: inc/customizer/theme-options.php:361
 msgid "NavXT"
@@ -1849,178 +1852,178 @@ msgstr "Rank Math"
 
 #: inc/customizer/theme-options.php:359
 msgid "Yoast SEO"
-msgstr "Yoast SEO"
+msgstr "Yoast ئىزدەش موتورىغا ئەلالاشتۇرۇش"
 
 #: inc/customizer/frontpage-options.php:109
 #: inc/customizer/theme-options.php:358 inc/customizer/theme-options.php:933
 msgid "Default"
-msgstr "Standaard"
+msgstr "كۆڭۈلدىكى"
 
 #: inc/customizer/theme-options.php:353
 msgid "Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default"
-msgstr "Alstublieft zorg ervoor dat u het kruimelpad van de plugin heeft ingeschakeld voordat u iets anders dan standaard kiest"
+msgstr "كۆڭۈلدىكىدىن باشقا قىممەتنى تاللاشتىن ئىلگىرى قىستۇرمىنىڭ بەلگە ئىزى ئىقتىدارىنى قوزغاتقانلىقىڭىزنى جەزملەڭ"
 
 #: inc/customizer/theme-options.php:352
 msgid "Select Breadcrumbs"
-msgstr "Selecteer kruimelpaden"
+msgstr "بەلگە ئىزى تاللىنىدۇ"
 
 #: inc/customizer/theme-options.php:332
 msgid "Show breadcrumbs"
-msgstr "Toon kruimelpaden"
+msgstr "بەلگە ئىزىنى كۆرسىتىدۇ"
 
 #: inc/customizer/theme-options.php:311
 msgid "Breadcrumb Options"
-msgstr "Kruimelpad opties"
+msgstr "بەلگە ئىزى تاللانمىسى"
 
 #: inc/customizer/theme-options.php:297
 msgid "Theme Options"
-msgstr "Thema opties"
+msgstr "ئۆرنەك تاللانمىسى"
 
 #: inc/customizer/theme-options.php:286
 msgid "URL Link"
-msgstr "URL link"
+msgstr "تور ئادرېس ئۇلانمىسى"
 
 #: inc/customizer/theme-options.php:262
 msgid "Header Section Advertisement"
-msgstr "Header sectie advertentie"
+msgstr "ماۋزۇ بۆلىكى ئېلانى"
 
 #: inc/customizer/theme-options.php:238
 msgid "Header Advertisement"
-msgstr "Header advertentie"
+msgstr "ماۋزۇ ئېلانى"
 
 #: inc/customizer/theme-options.php:217
 msgid "From WordPress Settings"
-msgstr "Van WordPress instellingen"
+msgstr "WordPress تەڭشىكىدىن"
 
 #: inc/customizer/theme-options.php:216
 msgid "24 hours"
-msgstr "24 uur"
+msgstr "24 سائەت"
 
 #: inc/customizer/theme-options.php:215
 msgid "12 hours"
-msgstr "12 uur"
+msgstr "12 سائەت"
 
 #: inc/customizer/theme-options.php:210
 msgid "Time Format"
-msgstr "Tijdnotatie"
+msgstr "ۋاقىت پىچىمى"
 
 #: inc/customizer/theme-options.php:189
 msgid "Show Time"
-msgstr "Toon tijd"
+msgstr "ۋاقىت كۆرسەت"
 
 #: inc/customizer/theme-options.php:164 inc/customizer/theme-options.php:579
 #: inc/customizer/theme-options.php:603
 msgid "Show Date"
-msgstr "Toon datum"
+msgstr "چېسلا كۆرسەت"
 
 #: inc/customizer/theme-options.php:137
 msgid "Show Social Menu"
-msgstr "Sociaal menu weergeven"
+msgstr "ئىجتىمائىي تاراتقۇ كۆرسەت"
 
 #: inc/customizer/theme-options.php:116
 msgid "Show Top Header"
-msgstr "Toon top header"
+msgstr "چوققا ماۋزۇنى كۆرسەت"
 
 #: inc/customizer/theme-options.php:94
 msgid "Top Header Section"
-msgstr "Bovenste headersectie"
+msgstr "چوققا ماۋزۇ بۆلىكى"
 
 #: inc/customizer/theme-options.php:73 inc/customizer/theme-options.php:475
 msgid "Disable"
-msgstr "Uitschakelen"
+msgstr "چەكلە"
 
 #: inc/customizer/theme-options.php:72
 msgid "Enable"
-msgstr "Inschakelen"
+msgstr "قوزغات"
 
 #: inc/customizer/theme-options.php:47
 msgid "Header Settings"
-msgstr "Header instellingen"
+msgstr "ماۋزۇ تەڭشىكى"
 
 #: inc/customizer/theme-options.php:31
 msgid "Header Options"
-msgstr "Header opties"
+msgstr "ماۋزۇ تاللانمىسى"
 
 #: inc/customizer/frontpage-options.php:926
 msgid "Only Home Content"
-msgstr "Alleen home inhoud"
+msgstr "پەقەت باش بەت مەزمۇنىلا"
 
 #: inc/customizer/frontpage-options.php:925
 msgid "Home Sidebar - Home Content"
-msgstr "Home zijbalk - Home inhoud"
+msgstr "باش بەت يان بالداق - باش بەت مەزمۇنى"
 
 #: inc/customizer/frontpage-options.php:924
 msgid "Home Content - Home Sidebar"
-msgstr "Home inhoud - Home zijbalk"
+msgstr "باش بەت مەزمۇنى - باش بەت يان بالداق"
 
 #: inc/customizer/frontpage-options.php:920
 msgid "Select frontpage content alignment"
-msgstr "Selecteer voorpagina inhoud uitlijning"
+msgstr "ئالدى بەتتىكى مەزمۇننىڭ توغرىلىنىشى تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:919
 msgid "Front-page Content Alignment"
-msgstr "Voorpagina inhoud uitlijning"
+msgstr "ئالدى بەتتىكى مەزمۇننىڭ توغرىلىنىشى"
 
 #: inc/customizer/frontpage-options.php:900
 msgid "Front-page Layout Settings"
-msgstr "Instellingen voorpagina lay-out"
+msgstr "ئالدى بەت جايلاشتۇرۇش تەڭشىكى"
 
 #: inc/customizer/frontpage-options.php:884
 msgid "Select category to be shown on featured section "
-msgstr "Selecteer categorie om te worden weergegeven in de uitgelichte sectie "
+msgstr "تەۋسىيە بۆلىكىدە كۆرۈنىدىغان سەھىپە تاللىنىدۇ "
 
 #: inc/customizer/frontpage-options.php:883
 msgid "Select "
-msgstr "Selecteer "
+msgstr "تاللا "
 
 #: inc/customizer/frontpage-options.php:842
 msgid "Enable Featured Post Section"
-msgstr "Inschakelen uitgelichte bericht sectie"
+msgstr "تەۋسىيە يازما بۆلىكىنى قوزغىتىدۇ"
 
 #: inc/customizer/frontpage-options.php:807
 msgid "Front-page Options"
-msgstr "Voorpagina opties"
+msgstr "ئالدى بەت تاللانمىسى"
 
 #: inc/customizer/frontpage-options.php:789
 msgid "Select category to be shown on trending posts "
-msgstr "Selecteer categorie om te worden weergegeven op trending berichten "
+msgstr "ۋەزىيەت يازمىدا كۆرۈنىدىغان سەھىپە تاللىنىدۇ "
 
 #: inc/customizer/frontpage-options.php:788
 msgid "Flash Posts Category"
-msgstr "Flash berichten categorie"
+msgstr "چاقماق يازما سەھىپىسى"
 
 #: inc/customizer/frontpage-options.php:749
 msgid "Enable Exclusive News"
-msgstr "Exclusief nieuws inschakelen"
+msgstr "مەخسۇس خەۋەرنى قوزغىتىدۇ"
 
 #: inc/customizer/frontpage-options.php:723
 msgid "Exclusive News"
-msgstr "Exclusief nieuws"
+msgstr "مەخسۇس خەۋەر"
 
 #: inc/customizer/customizer-default.php:112
 #: inc/customizer/frontpage-options.php:713
 msgid "Latest"
-msgstr "Nieuwste"
+msgstr "ئەڭ يېڭى"
 
 #: inc/customizer/frontpage-options.php:712
 msgid "Popularity"
-msgstr "Populariteit"
+msgstr "ئاۋاتلىقى"
 
 #: inc/customizer/frontpage-options.php:708
 msgid "Order Tags By"
-msgstr "Rangschikken labels per"
+msgstr "تەرتىپ بەلگىسى سالغۇچى"
 
 #: inc/customizer/frontpage-options.php:668
 msgid "Enable Trending Tags"
-msgstr "Trending tags inschakelen"
+msgstr "ۋەزىيەت بەلگىسىنى قوزغىتىدۇ"
 
 #: inc/customizer/frontpage-options.php:642
 msgid "Popular Tags"
-msgstr "Populaire tags"
+msgstr "ئاۋات بەلگە"
 
 #: inc/customizer/frontpage-options.php:480
 msgid "Trending Section"
-msgstr "Trending sectie"
+msgstr "ۋەزىيەت بۆلىكى"
 
 #: inc/customizer/frontpage-options.php:338
 #: inc/customizer/frontpage-options.php:504
@@ -2028,33 +2031,33 @@ msgstr "Trending sectie"
 #: inc/customizer/frontpage-options.php:766
 #: inc/customizer/frontpage-options.php:860
 msgid "Section Title "
-msgstr "Sectietitel "
+msgstr "بۆلەك ماۋزۇسى "
 
 #: inc/customizer/frontpage-options.php:315
 msgid "Editor's Picks Section"
-msgstr "Editor keuze sectie"
+msgstr "تەھرىرنىڭ تاللاش بۆلىكى"
 
 #: inc/customizer/frontpage-options.php:266
 msgid "Accepts any postive number."
-msgstr "Accepteert elk positief nummer."
+msgstr "ھەر قانداق مۇسبەت ساننى قوللايدۇ."
 
 #: inc/customizer/frontpage-options.php:265
 msgid "Number of Posts"
-msgstr "Aantal berichten"
+msgstr "يازما سانى"
 
 #: inc/customizer/frontpage-options.php:240
 msgid "Select tag to be shown on main slider section"
-msgstr "Selecteer de tag die moet worden getoond op de hoofd slider sectie"
+msgstr "ئاساسىي سىيرىلما بۆلىكىدە كۆرۈنىدىغان بەلگە تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:239
 #: inc/customizer/frontpage-options.php:425
 #: inc/customizer/frontpage-options.php:594
 msgid "Select Tag"
-msgstr "Selecteer tag"
+msgstr "بەلگە تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:211
 msgid "Select category to be shown on main slider section"
-msgstr "Selecteer de categorie die moet worden getoond in de hoofd slider sectie"
+msgstr "ئاساسىي سىيرىلما بۆلىكىدە كۆرۈنىدىغان سەھىپە تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:210
 #: inc/customizer/frontpage-options.php:396
@@ -2064,70 +2067,70 @@ msgstr "Selecteer de categorie die moet worden getoond in de hoofd slider sectie
 #: inc/widgets/widget-posts-single-column.php:118
 #: inc/widgets/widget-trending-posts.php:140
 msgid "Select Category"
-msgstr "Selecteer categorie"
+msgstr "سەھىپە تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:190
 #: inc/customizer/frontpage-options.php:371
 #: inc/customizer/frontpage-options.php:538
 msgid "Tag"
-msgstr "Tag"
+msgstr "بەلگە"
 
 #: inc/customizer/frontpage-options.php:189
 #: inc/customizer/frontpage-options.php:370
 #: inc/customizer/frontpage-options.php:537
 msgid "Category"
-msgstr "Categorie"
+msgstr "سەھىپە"
 
 #: inc/customizer/frontpage-options.php:185
 #: inc/customizer/frontpage-options.php:366
 #: inc/customizer/frontpage-options.php:533
 msgid "Filter Posts By"
-msgstr "Filter berichten op"
+msgstr "يازما سۈزگۈچى"
 
 #: inc/customizer/frontpage-options.php:165
 msgid "Main News Section "
-msgstr "Hoofd nieuwssectie "
+msgstr "ئاساسي خەۋەر بۆلىكى "
 
 #: inc/customizer/frontpage-options.php:135
 msgid "Order 2"
-msgstr "Rangschikken 2"
+msgstr "تەرتىپ 2"
 
 #: inc/customizer/frontpage-options.php:134
 msgid "Order 1"
-msgstr "Rangschikken 1"
+msgstr "تەرتىپ 1"
 
 #: inc/customizer/frontpage-options.php:130
 msgid "Select Main Banner Order"
-msgstr "Selecteer hoofd banner volgorde"
+msgstr "ئاساسىي لەۋھە تەرتىپى تاللىنىدۇ"
 
 #: inc/customizer/frontpage-options.php:79 inc/customizer/theme-options.php:263
 #: inc/customizer/theme-options.php:1307
 msgid "Recommended Size %1$s px X %2$s px"
-msgstr "Aanbevolen grootte %1$s px X %2$s px"
+msgstr "تەۋسىيە چوڭلۇقى %1$spxX%2$spx"
 
 #: inc/customizer/frontpage-options.php:78
 msgid "Main Banner Background Image"
-msgstr "Hoofd banner achtergrondafbeelding"
+msgstr "ئاساسىي لەۋھە تەگلىكىنىڭ سۈرىتى"
 
 #: inc/customizer/frontpage-options.php:55
 msgid "Enable Main Banner Section"
-msgstr "Hoofd banner sectie inschakelen"
+msgstr "ئاساسىي لەۋھە بۆلىكىنى قوزغات"
 
 #: inc/customizer/frontpage-options.php:36
 msgid "Main Banner"
-msgstr "Hoofdbanner"
+msgstr "ئاساسىي لەۋھە"
 
 #: inc/customizer/frontpage-options.php:22
 msgid "Main Banner Options"
-msgstr "Hoofd banner opties"
+msgstr "ئاساسىي لەۋھە تاللانمىسى"
 
 #: inc/customizer/font-color-options.php:460
 msgid "Global Section Title Size"
-msgstr "Globale sectie titel grootte"
+msgstr "ئومۇمىيەت بۆلىكىنىڭ ماۋزۇ چوڭلۇقى"
 
 #: inc/customizer/font-color-options.php:440
 msgid "Font Size Section"
-msgstr "Sectie lettertype grootte"
+msgstr "خەت چوڭلۇقى بۆلىكى"
 
 #: inc/customizer/font-color-options.php:420
 msgid "700"
@@ -2140,226 +2143,226 @@ msgstr "500"
 #: inc/customizer/font-color-options.php:414
 #: inc/customizer/font-color-options.php:461
 msgid "Default Value: %d"
-msgstr "Standaardwaarde: %d"
+msgstr "كۆڭۈلدىكى قىممىتى: %d"
 
 #: inc/customizer/font-color-options.php:413
 msgid "Title Font Weight"
-msgstr "Titel lettertype gewicht"
+msgstr "ماۋزۇ خەت نۇسخا سالمىقى"
 
 #: inc/customizer/font-color-options.php:393
 msgid "Texts Formatting Section"
-msgstr "Tekst formattering sectie"
+msgstr "تېكىست پىچىم بۆلىكى"
 
 #: inc/customizer/font-color-options.php:346
 #: inc/customizer/font-color-options.php:373
 msgid "Secondary Font"
-msgstr "Secundair lettertype"
+msgstr "ئىككىنچى خەت نۇسخا"
 
 #: inc/customizer/font-color-options.php:326
 #: inc/customizer/font-color-options.php:372
 msgid "Primary Font"
-msgstr "Primair lettertype"
+msgstr "ئاساسىي خەت نۇسخا"
 
 #: inc/customizer/font-color-options.php:306
 msgid "Site Title Font"
-msgstr "Site titel lettertype"
+msgstr "بېكەت ماۋزۇسىنىڭ خەت نۇسخىسى"
 
 #: inc/customizer/font-color-options.php:261
 msgid "Font Family Section"
-msgstr "Sectie lettertypefamilie"
+msgstr "خەت نۇسخا ئائىلىسى بۆلىكى"
 
 #: inc/customizer/font-color-options.php:239
 msgid "Fonts & Typography"
-msgstr "Lettertypen & typografie"
+msgstr "خەت نۇسخا ۋە بەتچىلىك"
 
 #: inc/customizer/font-color-options.php:181
 msgid "Texts over Secondary Color"
-msgstr "Teksten over secundaire kleur"
+msgstr "ئىككىلەمچى تېكىست رەڭگى"
 
 #: inc/customizer/font-color-options.php:157
 msgid "Secondary Color"
-msgstr "Secundaire kleur"
+msgstr "ئىككىلەمچى رەڭ"
 
 #: inc/customizer/font-color-options.php:133
 msgid "Secondary Color Section "
-msgstr "Secundaire kleur sectie "
+msgstr "ئىككىلەمچى رەڭ بۆلىكى "
 
 #: inc/customizer/font-color-options.php:109
 msgid "Background Color (Dark Mode) will be applied for this mode."
-msgstr "Achtergrondkleur (donkere modus) wordt toegepast voor deze modus."
+msgstr "بۇ ھالەتتە تەگلىك رەڭگى (قاراڭغۇ ھالەت) قوللىنىلىدۇ."
 
 #: inc/customizer/font-color-options.php:86
 msgid "Background Color (Dark Mode)"
-msgstr "Achtergrondkleur (donkere modus)"
+msgstr "تەگلىك رەڭگى (قاراڭغۇ ھالەت)"
 
 #: inc/customizer/font-color-options.php:64
 msgid "Primary Color Section "
-msgstr "Primaire kleur sectie "
+msgstr "ئاساسىي رەڭ بۆلىكى "
 
 #: inc/customizer/font-color-options.php:45
 msgid "Dark"
-msgstr "Donker"
+msgstr "قاراڭغۇ"
 
 #: inc/customizer/font-color-options.php:44
 msgid "Light"
-msgstr "Licht"
+msgstr "يورۇق"
 
 #: inc/customizer/font-color-options.php:40
 msgid "Site Color Mode"
-msgstr "Site kleurmodus"
+msgstr "بېكەت رەڭ ھالىتى"
 
 #: admin-dashboard/admin_dashboard.php:168 inc/customizer/customizer.php:195
 msgid "Upgrade Now"
-msgstr "Upgrade nu"
+msgstr "ھازىر يۈكسەلت"
 
 #: inc/customizer/customizer.php:194
 msgid "ChromeNews Pro"
-msgstr "ChromeNews Pro"
+msgstr "ChromeNews كەسپىي نەشرى"
 
 #: inc/customizer/customizer.php:173
 msgid "Enable Image Tint/Overlay"
-msgstr "Afbeelding tint/overlay inschakelen"
+msgstr "سۈرەتنى سۇسلاشتۇرۇش/قاپلاشنى قوزغىتىدۇ"
 
 #: inc/customizer/customizer.php:153
 msgid "Show Full Image"
-msgstr "Toon volledige afbeelding"
+msgstr "تولۇق سۈرەتنى كۆرسىتىدۇ"
 
 #: inc/customizer/customizer.php:152
 msgid "Set as Background"
-msgstr "Instellen als achtergrond"
+msgstr "تەگلىككە تەڭشەيدۇ"
 
 #: inc/customizer/customizer.php:147
 msgid "Image visibility may vary as per the mode"
-msgstr "De zichtbaarheid van afbeeldingen kunt variëren volgens de modus"
+msgstr "سۈرەتنىڭ كۆرۈنۈشچانلىقى پەرقلىق ھالەتتە ئوخشىماسلىقى مۇمكىن"
 
 #: inc/customizer/customizer.php:146
 msgid "Header Image Mode"
-msgstr "Kopafbeelding modus"
+msgstr "بەت قاش سۈرەت شەكلى"
 
 #: inc/customizer/customizer.php:127
 msgid "Site Title/Tagline Color"
-msgstr "Site titel/slogan kleur"
+msgstr "بېكەت ماۋزۇ/شوئار رەڭگى"
 
 #: inc/customizer/customizer.php:116
 msgid "Uppercase Site Title and Tagline"
-msgstr "Titel en slogan van de site met hoofdletters"
+msgstr "چوڭ ھەرپلىك بېكەت ماۋزۇسى ۋە شوئارى"
 
 #: inc/customizer/customizer.php:96
 msgid "Site Title Size"
-msgstr "Grootte van de sitetitel"
+msgstr "بېكەت ماۋزۇسىنىڭ چوڭلۇقى"
 
 #: inc/customizer/customizer.php:68 inc/customizer/font-color-options.php:225
 msgid "Background Color"
-msgstr "Achtergrondkleur"
+msgstr "تەگلىك رەڭگى"
 
 #: inc/customizer/customizer-default.php:223
 msgid "Copyright &copy; All rights reserved."
-msgstr "Copyright © Alle rechten voorbehouden."
+msgstr "نەشر ھوقۇقى &copy; نەشر ھوقۇقى ساقلاپ قېلىنىدۇ."
 
 #: inc/customizer/customizer-default.php:219
 msgid "You may have missed"
-msgstr "Misschien heeft u het gemist"
+msgstr "دىققىتىڭىزدىن قاچتى"
 
 #: inc/customizer/customizer-default.php:208
 msgid "Related News"
-msgstr "Gerelateerd nieuws"
+msgstr "ئالاقىدار خەۋەر"
 
 #: inc/customizer/customizer-default.php:154
 #: inc/customizer/frontpage-options.php:821
 msgid "Featured Posts"
-msgstr "Uitgelichte berichten"
+msgstr "تەۋسىيەلىك يازما"
 
 #: inc/customizer/customizer-default.php:149
 msgid "Trending Story"
-msgstr "Trending verhaal"
+msgstr "ۋەزىيەت خەۋىرى"
 
 #: inc/customizer/customizer-default.php:134
 #: inc/customizer/customizer-default.php:146
 msgid "Editor's Picks"
-msgstr "Favorieten van de redactie"
+msgstr "تەھرىرنىڭ تاللىشى"
 
 #: inc/customizer/customizer-default.php:106
 #: inc/widgets/widgets-common-functions.php:90
 msgid "Popular"
-msgstr "Populair"
+msgstr "ئاۋات"
 
 #: inc/customizer/customizer-default.php:97
 msgid "Trending Now"
-msgstr "Nu trending"
+msgstr "ھازىرقى ۋەزىيەت"
 
 #: inc/customizer/customizer-default.php:92
 msgid "Main News"
-msgstr "Belangrijkste nieuws"
+msgstr "ئاساسىي خەۋەر"
 
 #: inc/customizer/customizer-default.php:73
 msgid "Breaking News"
-msgstr "Allerlaatste nieuws"
+msgstr "ئەڭ يېڭى خەۋەر"
 
 #: inc/customizer/customizer-default.php:65
 msgid "Trending"
-msgstr "Trending"
+msgstr "يۈزلىنىش"
 
 #: inc/customizer/customizer-default.php:49
 msgid "Subscribe"
-msgstr "Abonneren"
+msgstr "خەتلىنىش"
 
 #: inc/customizer/customizer-control.php:186
 msgid "-- Select --"
-msgstr "-- Selecteer --"
+msgstr "- تاللاڭ -"
 
 #: header.php:43
 msgid "Skip to content"
-msgstr "Ga naar de inhoud"
+msgstr "مەزمۇنغا ئاتلايدۇ"
 
 #: functions.php:214
 msgctxt "%s font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "ئوچۇق"
 
 #: functions.php:83
 msgid "Footer Menu"
-msgstr "Footer menu"
+msgstr "بەت ئاستى تىزىملىك"
 
 #: functions.php:82 inc/customizer/builder/options.php:266
 #: inc/customizer/builder/options.php:271
 #: inc/customizer/builder/options.php:392
 #: inc/customizer/builder/options.php:397
 msgid "Social Menu"
-msgstr "Sociaal menu"
+msgstr "ئىجتىمائىي تاراتقۇ تىزىملىكى"
 
 #: functions.php:81 inc/hooks/hook-header-section.php:53
 msgid "Primary Menu"
-msgstr "Primair menu"
+msgstr "ئاساسىي تىزىملىك"
 
 #. translators: 1: Theme name, 2: Theme author.
 #: footer.php:147 inc/customizer/builder/builder-structure.php:358
 msgid "%1$s by %2$s."
-msgstr "%1$s door %2$s."
+msgstr "%1$s نىڭ يازغۇچىسى %2$s."
 
 #: comments.php:64
 msgid "Comments are closed."
-msgstr "Reacties zijn gesloten."
+msgstr "ئىنكاس يېزىش چەكلەنگەن."
 
 #. translators: 1: number of comments, 2: post title
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s gedachte over &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s gedachten over &ldquo;%2$s&rdquo;"
+msgstr[0] "«%2$s» دا %1$s ئىنكاس بار"
+msgstr[1] "«%2$s» دا %1$s ئىنكاس بار"
 
 #. translators: 1: title.
 #: comments.php:34
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Eén gedachte over &ldquo;%1$s&rdquo;"
+msgstr "«%1$s» دا بىر ئىنكاس بار"
 
 #: 404.php:23
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Het lijkt erop dat er niets is gevonden op deze locatie. Misschien een van de onderstaande links proberen of een zoekopdracht?"
+msgstr "بۇ جايدىن ھېچنېمە تاپالمىغاندەك قىلىدۇ. تۆۋەندىكى ئۇلانمىدىن بىرنى ياكى ئىزدەشنى سىناپ باقامسىز؟"
 
 #: 404.php:19
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Die pagina kunt niet worden gevonden."
+msgstr "ئاپلا! ئۇ بەت تېپىلمىدى."
 
 #. Author URI of the theme
 #: style.css

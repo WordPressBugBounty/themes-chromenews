@@ -1,5 +1,5 @@
 <?php
-// Frontpage
+// Front-page
 
 $wp_customize->selective_refresh->add_partial('aft_custom_link', array(
     'selector' => 'div.custom-menu-link i',     
