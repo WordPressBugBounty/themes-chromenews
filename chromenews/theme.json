@@ -12,8 +12,8 @@
             "full": true
         },
         "layout": {
-            "contentSize": "700px",
-            "wideSize": "1240px"
+            "contentSize": "720px",
+            "wideSize": "1160px"
         }
     },
     "styles": {
@@ -31,12 +31,7 @@
                 "border": {
                     "radius": "0"
                 }
-            },
-            "core/heading": {
-                "typography": {
-                  "lineHeight": "1.3"
-                }
-              }
+            }
         },
         "elements": {
             "link": {

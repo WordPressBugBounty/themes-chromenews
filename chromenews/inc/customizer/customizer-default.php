@@ -220,7 +220,7 @@ if (!function_exists('chromenews_get_default_theme_options')):
         $defaults['frontpage_latest_posts_category'] = 0;
         $defaults['number_of_frontpage_latest_posts'] = 6;
 
-        $defaults['footer_copyright_text'] = esc_html__('Copyright &copy; All rights reserved.', 'chromenews');
+        $defaults['footer_copyright_text'] = __('Copyright &copy; All rights reserved.', 'chromenews');
         $defaults['hide_footer_menu_section'] = 0;
         $defaults['hide_footer_copyright_credits'] = 0;
         $defaults['number_of_footer_widget'] = 3;

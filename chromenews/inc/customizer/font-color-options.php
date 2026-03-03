@@ -20,7 +20,7 @@ $wp_customize->add_setting('header_textcolor_dark_mode',
 
 $wp_customize->add_control('header_textcolor_dark_mode',
     array(
-        'label' => esc_html__('Site Title/Tagline Color (Dark Mode)', 'chromenews'),
+        'label' => __('Site Title/Tagline Color (Dark Mode)', 'chromenews'),
         'section' => 'colors',
         'type' => 'color',
         'priority' => 5,
@@ -37,12 +37,12 @@ $wp_customize->add_setting('global_site_mode_setting',
 
 $wp_customize->add_control('global_site_mode_setting',
     array(
-        'label' => esc_html__('Site Color Mode', 'chromenews'),
+        'label' => __('Site Color Mode', 'chromenews'),
         'section' => 'colors',
         'type' => 'select',
         'choices' => array(
-            'aft-light-mode' => esc_html__('Light', 'chromenews'),
-            'aft-dark-mode' => esc_html__('Dark', 'chromenews'),
+            'aft-light-mode' => __('Light', 'chromenews'),
+            'aft-dark-mode' => __('Dark', 'chromenews'),
         ),
         'priority' => 5,
     ));
@@ -61,7 +61,7 @@ $wp_customize->add_control(
         $wp_customize,
         'site_background_color_section_title',
         array(
-            'label' => esc_html__('Primary Color Section ', 'chromenews'),
+            'label' => __('Primary Color Section ', 'chromenews'),
             'section' => 'colors',
             'priority' => 5,
             
@@ -83,7 +83,7 @@ $wp_customize->add_control(
         $wp_customize,
         'dark_background_color',
         array(
-            'label' => esc_html__('Background Color (Dark Mode)', 'chromenews'),
+            'label' => __('Background Color (Dark Mode)', 'chromenews'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 5,
@@ -106,7 +106,7 @@ $wp_customize->add_control(
         $wp_customize,
         'global_color_section_notice',
         array(
-            'description' => esc_html__('Background Color (Dark Mode) will be applied for this mode.', 'chromenews'),
+            'description' => __('Background Color (Dark Mode) will be applied for this mode.', 'chromenews'),
             'section' => 'colors',
             'priority' => 5,
             'active_callback' => 'chromenews_global_site_mode_dark_status'
@@ -130,7 +130,7 @@ $wp_customize->add_control(
         $wp_customize,
         'secondary_color_section_title',
         array(
-            'label' => esc_html__('Secondary Color Section ', 'chromenews'),
+            'label' => __('Secondary Color Section ', 'chromenews'),
             'section' => 'colors',
             'priority' => 10,
             
@@ -154,7 +154,7 @@ $wp_customize->add_control(
         $wp_customize,
         'secondary_color',
         array(
-            'label' => esc_html__('Secondary Color', 'chromenews'),
+            'label' => __('Secondary Color', 'chromenews'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -178,7 +178,7 @@ $wp_customize->add_control(
         $wp_customize,
         'text_over_secondary_color',
         array(
-            'label' => esc_html__('Texts over Secondary Color', 'chromenews'),
+            'label' => __('Texts over Secondary Color', 'chromenews'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 10,
@@ -199,7 +199,7 @@ $wp_customize->add_control(
         $wp_customize,
         'global_primay_menu_color_section_title',
         array(
-            'label' => esc_html__('Primary Navigation Section ', 'chromenews'),
+            'label' => __('Primary Navigation Section ', 'chromenews'),
             'section' => 'colors',
             'priority' => 100,
             //'active_callback' => 'chromenews_global_site_mode_status'
@@ -222,7 +222,7 @@ $wp_customize->add_control(
         $wp_customize,
         'main_navigation_custom_background_color',
         array(
-            'label' => esc_html__('Background Color', 'chromenews'),
+            'label' => __('Background Color', 'chromenews'),
             'section' => 'colors',
             'type' => 'color',
             'priority' => 100,
@@ -236,7 +236,7 @@ $wp_customize->add_control(
 // font Section.
 $wp_customize->add_section('font_typo_section',
     array(
-        'title' => esc_html__('Fonts & Typography', 'chromenews'),
+        'title' => __('Fonts & Typography', 'chromenews'),
         'priority' => 5,
         'capability' => 'edit_theme_options',
         'panel' => 'theme_option_panel',
@@ -258,7 +258,7 @@ $wp_customize->add_control(
         $wp_customize,
         'site_title_font_section_title',
         array(
-            'label' => esc_html__("Font Family Section", 'chromenews'),
+            'label' => __("Font Family Section", 'chromenews'),
             'section' => 'font_typo_section',
             'priority' => 100,
 
@@ -280,12 +280,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
     'global_font_family_type',
     array(
-        'label' => esc_html__('Global Fonts Family', 'chromenews'),
+        'label' => __('Global Fonts Family', 'chromenews'),
         'section' => 'font_typo_section',
         'type' => 'select',
         'choices' => array(
-            'google' => esc_html__('Google Fonts', 'chromenews'),
-            'system' => esc_html__('System Fonts', 'chromenews')
+            'google' => __('Google Fonts', 'chromenews'),
+            'system' => __('System Fonts', 'chromenews')
         ),
         'priority' => 100,
     )
@@ -303,7 +303,7 @@ $wp_customize->add_setting('site_title_font',
 );
 $wp_customize->add_control('site_title_font',
     array(
-        'label' => esc_html__('Site Title Font', 'chromenews'),
+        'label' => __('Site Title Font', 'chromenews'),
 
         'section' => 'font_typo_section',
         'type' => 'select',
@@ -323,7 +323,7 @@ $wp_customize->add_setting('primary_font',
 );
 $wp_customize->add_control('primary_font',
     array(
-        'label' => esc_html__('Primary Font', 'chromenews'),
+        'label' => __('Primary Font', 'chromenews'),
 
         'section' => 'font_typo_section',
         'type' => 'select',
@@ -343,7 +343,7 @@ $wp_customize->add_setting('secondary_font',
 );
 $wp_customize->add_control('secondary_font',
     array(
-        'label' => esc_html__('Secondary Font', 'chromenews'),
+        'label' => __('Secondary Font', 'chromenews'),
 
         'section' => 'font_typo_section',
         'type' => 'select',
@@ -364,13 +364,13 @@ $wp_customize->add_setting('post_title_font',
 );
 $wp_customize->add_control('post_title_font',
     array(
-        'label' => esc_html__('Post Title Font', 'chromenews'),
-        'description' => sprintf(esc_html__('Widgets, Archives, Search, etc.', 'chromenews')),
+        'label' => __('Post Title Font', 'chromenews'),
+        'description' => sprintf(__('Widgets, Archives, Search, etc.', 'chromenews')),
         'section' => 'font_typo_section',
         'type' => 'select',
         'choices' => array(
-            'primary' => esc_html__('Primary Font', 'chromenews'),
-            'secondary' => esc_html__('Secondary Font', 'chromenews'),            
+            'primary' => __('Primary Font', 'chromenews'),
+            'secondary' => __('Secondary Font', 'chromenews'),            
         ),
         'priority' => 110,
         'active_callback' => 'global_font_family_type_status'
@@ -390,7 +390,7 @@ $wp_customize->add_control(
         $wp_customize,
         'font_formatting_section_title',
         array(
-            'label' => esc_html__("Texts Formatting Section", 'chromenews'),
+            'label' => __("Texts Formatting Section", 'chromenews'),
             'section' => 'font_typo_section',
             'priority' => 110,
 
@@ -410,14 +410,14 @@ $wp_customize->add_setting('title_font_weight',
 
 $wp_customize->add_control('title_font_weight',
     array(
-        'label' => esc_html__('Title Font Weight', 'chromenews'),
-        'description' => sprintf(esc_html__('Default Value: %d', 'chromenews'), $chromenews_default['title_font_weight']),
+        'label' => __('Title Font Weight', 'chromenews'),
+        'description' => sprintf(__('Default Value: %d', 'chromenews'), $chromenews_default['title_font_weight']),
         'section' => 'font_typo_section',
         'type' => 'select',
         'choices' => array(           
             
-            '500' => esc_html__('500', 'chromenews'),            
-            '700' => esc_html__('700', 'chromenews'),
+            '500' => __('500', 'chromenews'),            
+            '700' => __('700', 'chromenews'),
             
         ),
         'priority' => 110,
@@ -437,7 +437,7 @@ $wp_customize->add_control(
         $wp_customize,
         'font_size_section_title',
         array(
-            'label' => esc_html__("Font Size Section", 'chromenews'),
+            'label' => __("Font Size Section", 'chromenews'),
             'section' => 'font_typo_section',
             'priority' => 110,
 
@@ -457,8 +457,8 @@ $wp_customize->add_setting('chromenews_section_title_font_size',
 
 $wp_customize->add_control('chromenews_section_title_font_size',
     array(
-        'label' => esc_html__('Global Section Title Size', 'chromenews'),
-        'description' => sprintf(esc_html__('Default Value: %d', 'chromenews'), $chromenews_default['chromenews_section_title_font_size']),
+        'label' => __('Global Section Title Size', 'chromenews'),
+        'description' => sprintf(__('Default Value: %d', 'chromenews'), $chromenews_default['chromenews_section_title_font_size']),
         'section' => 'font_typo_section',
         'type' => 'number',
         'priority' => 110,

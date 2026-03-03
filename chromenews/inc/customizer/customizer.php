@@ -93,7 +93,7 @@ function chromenews_customize_register($wp_customize)
   $wp_customize->add_control(
     'site_title_font_size',
     array(
-      'label'    => esc_html__('Site Title Size', 'chromenews'),
+      'label'    => __('Site Title Size', 'chromenews'),
       'section'  => 'title_tagline',
       'type'     => 'number',
       'priority' => 50,
@@ -113,7 +113,7 @@ function chromenews_customize_register($wp_customize)
   $wp_customize->add_control(
     'site_title_uppercase',
     array(
-      'label'    => esc_html__('Uppercase Site Title and Tagline', 'chromenews'),
+      'label'    => __('Uppercase Site Title and Tagline', 'chromenews'),
       'section'  => 'title_tagline',
       'type'     => 'checkbox',
       'priority' => 50,
@@ -143,14 +143,14 @@ function chromenews_customize_register($wp_customize)
   $wp_customize->add_control(
     'select_header_image_mode',
     array(
-      'label'       => esc_html__('Header Image Mode', 'chromenews'),
-      'description'       => esc_html__('Image visibility may vary as per the mode', 'chromenews'),
+      'label'       => __('Header Image Mode', 'chromenews'),
+      'description'       => __('Image visibility may vary as per the mode', 'chromenews'),
       'section'     => 'header_image',
       'settings'  => 'headeer_builder',
       'type'        => 'select',
       'choices'               => array(
-        'default' => esc_html__("Set as Background", 'chromenews'),
-        'full' => esc_html__("Show Full Image", 'chromenews'),
+        'default' => __("Set as Background", 'chromenews'),
+        'full' => __("Show Full Image", 'chromenews'),
       ),
       'priority'    => 50
     )
@@ -170,7 +170,7 @@ function chromenews_customize_register($wp_customize)
   $wp_customize->add_control(
     'enable_header_image_tint_overlay',
     array(
-      'label'    => esc_html__('Enable Image Tint/Overlay', 'chromenews'),
+      'label'    => __('Enable Image Tint/Overlay', 'chromenews'),
       'section'  => 'header_builder',
       'type'     => 'checkbox',
       'priority' => 50,
@@ -191,8 +191,8 @@ function chromenews_customize_register($wp_customize)
       $wp_customize,
       'theme_upsell',
       array(
-        'title'    => esc_html__('ChromeNews Pro', 'chromenews'),
-        'pro_text' => esc_html__('Upgrade Now', 'chromenews'),
+        'title'    => __('ChromeNews Pro', 'chromenews'),
+        'pro_text' => __('Upgrade Now', 'chromenews'),
         'pro_url'  => 'https://www.afthemes.com/products/chromenews-pro/',
         'priority'  => 1,
       )

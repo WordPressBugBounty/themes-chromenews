@@ -28,7 +28,7 @@ require get_template_directory() . '/inc/customizer/customizer-refresh.php';
 $wp_customize->add_panel(
   'site_header_option_panel',
   array(
-    'title' => esc_html__('Header Options', 'chromenews'),
+    'title' => __('Header Options', 'chromenews'),
     'priority' => 29,
     'capability' => 'edit_theme_options',
   )
@@ -44,7 +44,7 @@ $wp_customize->add_panel(
 $wp_customize->add_section(
   'header_options_settings',
   array(
-    'title' => esc_html__('Header Settings', 'chromenews'),
+    'title' => __('Header Settings', 'chromenews'),
     'priority' => 49,
     'capability' => 'edit_theme_options',
     'panel' => 'site_header_option_panel',
@@ -64,13 +64,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'enable_site_mode_switch',
   array(
-    'label' => esc_html__('Site Light/Dark Mode', 'chromenews'),
+    'label' => __('Site Light/Dark Mode', 'chromenews'),
     'section' => 'header_builder',
     'settings' => 'enable_site_mode_switch',
     'type' => 'select',
     'choices' => array(
-      'aft-enable-mode-switch' => esc_html__('Enable', 'chromenews'),
-      'aft-disable-mode-switch' => esc_html__('Disable', 'chromenews'),
+      'aft-enable-mode-switch' => __('Enable', 'chromenews'),
+      'aft-disable-mode-switch' => __('Disable', 'chromenews'),
     ),
     'priority' => 5,
   )
@@ -91,7 +91,7 @@ $wp_customize->add_control(
     $wp_customize,
     'show_top_header_section_title',
     array(
-      'label' => esc_html__("Top Header Section", 'chromenews'),
+      'label' => __("Top Header Section", 'chromenews'),
       'section' => 'header_builder',
       'priority' => 10,
 
@@ -113,7 +113,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_top_header_section',
   array(
-    'label' => esc_html__('Show Top Header', 'chromenews'),
+    'label' => __('Show Top Header', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 10,
@@ -134,7 +134,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_social_menu_section',
   array(
-    'label' => esc_html__('Show Social Menu', 'chromenews'),
+    'label' => __('Show Social Menu', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 10,
@@ -161,7 +161,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_date_section',
   array(
-    'label' => esc_html__('Show Date', 'chromenews'),
+    'label' => __('Show Date', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 10,
@@ -186,7 +186,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_time_section',
   array(
-    'label' => esc_html__('Show Time', 'chromenews'),
+    'label' => __('Show Time', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 10,
@@ -207,14 +207,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'top_header_time_format',
   array(
-    'label' => esc_html__('Time Format', 'chromenews'),
+    'label' => __('Time Format', 'chromenews'),
     'section' => 'header_builder',
     'settings' => 'top_header_time_format',
     'type' => 'select',
     'choices' => array(
-      'en-US' => esc_html__('12 hours', 'chromenews'),
-      'en-GB' => esc_html__('24 hours', 'chromenews'),
-      'en-WP' => esc_html__('From WordPress Settings', 'chromenews'),
+      'en-US' => __('12 hours', 'chromenews'),
+      'en-GB' => __('24 hours', 'chromenews'),
+      'en-WP' => __('From WordPress Settings', 'chromenews'),
     ),
     'priority' => 10,
     'active_callback' => function ($control) {
@@ -235,7 +235,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'frontpage_advertisement_settings',
   array(
-    'title' => esc_html__('Header Advertisement', 'chromenews'),
+    'title' => __('Header Advertisement', 'chromenews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'site_header_option_panel',
@@ -259,8 +259,8 @@ $wp_customize->add_control(
     $wp_customize,
     'banner_advertisement_section',
     array(
-      'label' => esc_html__('Header Section Advertisement', 'chromenews'),
-      'description' => sprintf(esc_html__('Recommended Size %1$s px X %2$s px', 'chromenews'), 930, 110),
+      'label' => __('Header Section Advertisement', 'chromenews'),
+      'description' => sprintf(__('Recommended Size %1$s px X %2$s px', 'chromenews'), 930, 110),
       'section' => 'header_builder',
       'width' => 930,
       'height' => 110,
@@ -283,7 +283,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'banner_advertisement_section_url',
   array(
-    'label' => esc_html__('URL Link', 'chromenews'),
+    'label' => __('URL Link', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'text',
     'priority' => 130,
@@ -294,7 +294,7 @@ $wp_customize->add_control(
 $wp_customize->add_panel(
   'theme_option_panel',
   array(
-    'title' => esc_html__('Theme Options', 'chromenews'),
+    'title' => __('Theme Options', 'chromenews'),
     'priority' => 30,
     'capability' => 'edit_theme_options',
   )
@@ -308,7 +308,7 @@ $wp_customize->add_panel(
 $wp_customize->add_section(
   'site_breadcrumb_settings',
   array(
-    'title' => esc_html__('Breadcrumb Options', 'chromenews'),
+    'title' => __('Breadcrumb Options', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -329,7 +329,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'enable_breadcrumb',
   array(
-    'label' => esc_html__('Show breadcrumbs', 'chromenews'),
+    'label' => __('Show breadcrumbs', 'chromenews'),
     'section' => 'site_breadcrumb_settings',
     'type' => 'checkbox',
     'priority' => 10,
@@ -349,16 +349,16 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'select_breadcrumb_mode',
   array(
-    'label' => esc_html__('Select Breadcrumbs', 'chromenews'),
-    'description' => esc_html__("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'chromenews'),
+    'label' => __('Select Breadcrumbs', 'chromenews'),
+    'description' => __("Please ensure that you have enabled the plugin's breadcrumbs before choosing other than Default", 'chromenews'),
     'section' => 'site_breadcrumb_settings',
     'settings' => 'select_breadcrumb_mode',
     'type' => 'select',
     'choices' => array(
-      'default' => esc_html__('Default', 'chromenews'),
-      'yoast' => esc_html__('Yoast SEO', 'chromenews'),
-      'rankmath' => esc_html__('Rank Math', 'chromenews'),
-      'bcn' => esc_html__('NavXT', 'chromenews'),
+      'default' => __('Default', 'chromenews'),
+      'yoast' => __('Yoast SEO', 'chromenews'),
+      'rankmath' => __('Rank Math', 'chromenews'),
+      'bcn' => __('NavXT', 'chromenews'),
     ),
     'priority' => 100,
   )
@@ -377,7 +377,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_layout_settings',
   array(
-    'title' => esc_html__('Global Settings', 'chromenews'),
+    'title' => __('Global Settings', 'chromenews'),
     'priority' => 9,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -398,7 +398,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'enable_site_preloader',
   array(
-    'label' => esc_html__('Enable Preloader', 'chromenews'),
+    'label' => __('Enable Preloader', 'chromenews'),
     'section' => 'site_layout_settings',
     'type' => 'checkbox',
     'priority' => 10,
@@ -418,8 +418,8 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'disable_wp_emoji',
   array(
-    'label'    => esc_html__('Disable Emoji Script', 'chromenews'),
-    'description'       => esc_html__('GDPR friendly & better performance', 'chromenews'),
+    'label'    => __('Disable Emoji Script', 'chromenews'),
+    'description'       => __('GDPR friendly & better performance', 'chromenews'),
     'section'  => 'site_layout_settings', // Use your preferred section.
     'type'     => 'checkbox',
     'priority' => 10,
@@ -440,13 +440,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_content_alignment',
   array(
-    'label' => esc_html__('Global Content Alignment', 'chromenews'),
+    'label' => __('Global Content Alignment', 'chromenews'),
     'section' => 'site_layout_settings',
     'type' => 'select',
     'choices' => array(
-      'align-content-left' => esc_html__('Content - Primary sidebar', 'chromenews'),
-      'align-content-right' => esc_html__('Primary sidebar - Content', 'chromenews'),
-      'full-width-content' => esc_html__('Full width content', 'chromenews')
+      'align-content-left' => __('Content - Primary sidebar', 'chromenews'),
+      'align-content-right' => __('Primary sidebar - Content', 'chromenews'),
+      'full-width-content' => __('Full width content', 'chromenews')
     ),
     'priority' => 130,
   )
@@ -466,13 +466,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_fetch_content_image_setting',
   array(
-    'label'       => esc_html__('Also Show Content Image in Archive', 'chromenews'),
-    'description' => esc_html__('If there is no Post Featured image set', 'chromenews'),
+    'label'       => __('Also Show Content Image in Archive', 'chromenews'),
+    'description' => __('If there is no Post Featured image set', 'chromenews'),
     'section'     => 'site_layout_settings',
     'type'        => 'select',
     'choices'               => array(
-      'enable' => esc_html__('Enable ', 'chromenews'),
-      'disable' => esc_html__('Disable', 'chromenews'),
+      'enable' => __('Enable ', 'chromenews'),
+      'disable' => __('Disable', 'chromenews'),
 
     ),
     'priority'    => 130,
@@ -485,7 +485,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_categories_settings',
   array(
-    'title' => esc_html__('Categories Settings', 'chromenews'),
+    'title' => __('Categories Settings', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -505,12 +505,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_show_categories',
   array(
-    'label' => esc_html__('Post Categories', 'chromenews'),
+    'label' => __('Post Categories', 'chromenews'),
     'section' => 'site_categories_settings',
     'type' => 'select',
     'choices' => array(
-      'yes' => esc_html__('Show', 'chromenews'),
-      'no' => esc_html__('Hide', 'chromenews'),
+      'yes' => __('Show', 'chromenews'),
+      'no' => __('Hide', 'chromenews'),
 
     ),
     'priority' => 130,
@@ -524,7 +524,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_author_and_date_settings',
   array(
-    'title' => esc_html__('Author and Date Settings', 'chromenews'),
+    'title' => __('Author and Date Settings', 'chromenews'),
     'priority' => 9,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -545,13 +545,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_post_date_author_setting',
   array(
-    'label' => esc_html__('For Spotlight Posts', 'chromenews'),
+    'label' => __('For Spotlight Posts', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'show-date-author' => esc_html__('Show Date and Author', 'chromenews'),
-      'show-date-only' => esc_html__('Show Date Only', 'chromenews'),
-      'hide-date-author' => esc_html__('Hide All', 'chromenews'),
+      'show-date-author' => __('Show Date and Author', 'chromenews'),
+      'show-date-only' => __('Show Date Only', 'chromenews'),
+      'hide-date-author' => __('Hide All', 'chromenews'),
     ),
     'priority' => 130,
   )
@@ -571,13 +571,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'small_grid_post_date_author_setting',
   array(
-    'label' => esc_html__('For Small Grid', 'chromenews'),
+    'label' => __('For Small Grid', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'show-date-author' => esc_html__('Show Date and Author', 'chromenews'),
-      'show-date-only' => esc_html__('Show Date', 'chromenews'),
-      'hide-date-author' => esc_html__('Hide All', 'chromenews'),
+      'show-date-author' => __('Show Date and Author', 'chromenews'),
+      'show-date-only' => __('Show Date', 'chromenews'),
+      'hide-date-author' => __('Hide All', 'chromenews'),
     ),
     'priority' => 130,
   )
@@ -596,12 +596,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'list_post_date_author_setting',
   array(
-    'label' => esc_html__('For List', 'chromenews'),
+    'label' => __('For List', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'show-date-only' => esc_html__('Show Date', 'chromenews'),
-      'hide-date-author' => esc_html__('Hide All', 'chromenews'),
+      'show-date-only' => __('Show Date', 'chromenews'),
+      'hide-date-author' => __('Hide All', 'chromenews'),
     ),
     'priority' => 130,
   )
@@ -620,13 +620,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_author_icon_gravatar_display_setting',
   array(
-    'label' => esc_html__('Author Icon/Gravatar', 'chromenews'),
+    'label' => __('Author Icon/Gravatar', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'display-gravatar' => esc_html__('Show Gravatar', 'chromenews'),
-      'display-icon' => esc_html__('Show Icon', 'chromenews'),
-      'display-none' => esc_html__('None', 'chromenews'),
+      'display-gravatar' => __('Show Gravatar', 'chromenews'),
+      'display-icon' => __('Show Icon', 'chromenews'),
+      'display-none' => __('None', 'chromenews'),
     ),
     'priority' => 130,
     'active_callback' => 'chromenews_display_author_status'
@@ -646,12 +646,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_date_display_type',
   array(
-    'label' => esc_html__('Post Date Type', 'chromenews'),
+    'label' => __('Post Date Type', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'published' => esc_html__('Published Date', 'chromenews'),
-      'modified' => esc_html__('Modified Date', 'chromenews'),
+      'published' => __('Published Date', 'chromenews'),
+      'modified' => __('Modified Date', 'chromenews'),
 
 
     ),
@@ -673,12 +673,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_date_display_setting',
   array(
-    'label' => esc_html__('Date Format', 'chromenews'),
+    'label' => __('Date Format', 'chromenews'),
     'section' => 'site_author_and_date_settings',
     'type' => 'select',
     'choices' => array(
-      'default-date' => esc_html__('WordPress Default Date Format', 'chromenews'),
-      'theme-date' => esc_html__('Ago Date Format', 'chromenews'),
+      'default-date' => __('WordPress Default Date Format', 'chromenews'),
+      'theme-date' => __('Ago Date Format', 'chromenews'),
 
 
     ),
@@ -694,7 +694,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_min_read_settings',
   array(
-    'title' => esc_html__('Minutes Read Count', 'chromenews'),
+    'title' => __('Minutes Read Count', 'chromenews'),
     'priority' => 9,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -715,12 +715,12 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_show_min_read',
   array(
-    'label' => esc_html__('Minutes Read Count', 'chromenews'),
+    'label' => __('Minutes Read Count', 'chromenews'),
     'section' => 'site_min_read_settings',
     'type' => 'select',
     'choices' => array(
-      'yes' => esc_html__('Show', 'chromenews'),
-      'no' => esc_html__('Hide', 'chromenews'),
+      'yes' => __('Show', 'chromenews'),
+      'no' => __('Hide', 'chromenews'),
 
     ),
     'priority' => 130,
@@ -734,7 +734,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_excerpt_settings',
   array(
-    'title' => esc_html__('Excerpt Settings', 'chromenews'),
+    'title' => __('Excerpt Settings', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -778,7 +778,7 @@ $wp_customize->add_control(
     $wp_customize,
     'show_watch_online_section_section_title',
     array(
-      'label' => esc_html__("Custom Menu Section", 'chromenews'),
+      'label' => __("Custom Menu Section", 'chromenews'),
       'section' => 'header_builder',
       'priority' => 100,
 
@@ -798,7 +798,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'show_watch_online_section',
   array(
-    'label' => esc_html__('Enable Custom Menu Section', 'chromenews'),
+    'label' => __('Enable Custom Menu Section', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'checkbox',
     'priority' => 100,
@@ -818,13 +818,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'aft_custom_icon_preset',
   array(
-    'label' => esc_html__('Icon', 'chromenews'),
+    'label' => __('Icon', 'chromenews'),
     'section' => 'header_builder',
     'type' => 'select',
     'choices' => array(
-      'fas fa-bell' => esc_html__('Bell', 'chromenews'),
-      'fas fa-play' => esc_html__('Play', 'chromenews'),
-      'fas fa-user' => esc_html__('User', 'chromenews'),
+      'fas fa-bell' => __('Bell', 'chromenews'),
+      'fas fa-play' => __('Play', 'chromenews'),
+      'fas fa-user' => __('User', 'chromenews'),
     ),
     'priority' => 100,
     'active_callback' => 'chromenews_show_watch_online_section_status'
@@ -884,7 +884,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_single_posts_settings',
   array(
-    'title' => esc_html__('Single Post', 'chromenews'),
+    'title' => __('Single Post', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -925,13 +925,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'single_post_title_view',
   array(
-    'label' => esc_html__('Featured Image Position', 'chromenews'),
+    'label' => __('Featured Image Position', 'chromenews'),
     'section' => 'site_single_posts_settings',
 
     'type' => 'select',
     'choices' => array(
-      'boxed' => esc_html__('Default', 'chromenews'),
-      'title-below-image' => esc_html__('Title below image', 'chromenews'),
+      'boxed' => __('Default', 'chromenews'),
+      'title-below-image' => __('Title below image', 'chromenews'),
 
 
     ),
@@ -954,13 +954,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'global_single_content_mode',
   array(
-    'label'       => esc_html__('Single Content', 'chromenews'),
+    'label'       => __('Single Content', 'chromenews'),
     'section'     => 'site_single_posts_settings',
     'settings'     => 'global_single_content_mode',
     'type'        => 'select',
     'choices'               => array(
-      'single-content-mode-boxed' => esc_html__('Spacious', 'chromenews'),
-      'single-content-mode-compact' => esc_html__('Compact', 'chromenews'),
+      'single-content-mode-boxed' => __('Spacious', 'chromenews'),
+      'single-content-mode-compact' => __('Compact', 'chromenews'),
     ),
     'priority'    => 100,
   )
@@ -1004,14 +1004,14 @@ if (class_exists('Jetpack') && Jetpack::is_module_active('sharedaddy')) :
   $wp_customize->add_control(
     'single_post_social_share_view',
     array(
-      'label' => esc_html__('Social Share Option', 'chromenews'),
-      'description' => esc_html__('Social Share from Jetpack plugin', 'chromenews'),
+      'label' => __('Social Share Option', 'chromenews'),
+      'description' => __('Social Share from Jetpack plugin', 'chromenews'),
       'section' => 'site_single_posts_settings',
       'type' => 'select',
       'choices' => array(
-        'after-title-default' => esc_html__('After Title', 'chromenews'),
-        'before-title' => esc_html__('Before Title', 'chromenews'),
-        'after-content' => esc_html__('After Content', 'chromenews'),
+        'after-title-default' => __('After Title', 'chromenews'),
+        'before-title' => __('Before Title', 'chromenews'),
+        'after-content' => __('After Content', 'chromenews'),
       ),
       'priority' => 100,
     )
@@ -1034,7 +1034,7 @@ $wp_customize->add_control(
     $wp_customize,
     'single_related_posts_section_title',
     array(
-      'label' => esc_html__("Related Posts Settings", 'chromenews'),
+      'label' => __("Related Posts Settings", 'chromenews'),
       'section' => 'site_single_posts_settings',
       'priority' => 100,
 
@@ -1098,7 +1098,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_archive_settings',
   array(
-    'title' => esc_html__('Archive Settings', 'chromenews'),
+    'title' => __('Archive Settings', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -1119,7 +1119,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'disable_main_banner_on_blog_archive',
   array(
-    'label'    => esc_html__('Disable Main Banner on Blog', 'chromenews'),
+    'label'    => __('Disable Main Banner on Blog', 'chromenews'),
     'section'  => 'site_archive_settings',
     'type'     => 'checkbox',
     'priority' => 50,
@@ -1140,14 +1140,14 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'archive_layout',
   array(
-    'label' => esc_html__('Archive layout', 'chromenews'),
-    'description' => esc_html__('Select layout for archive', 'chromenews'),
+    'label' => __('Archive layout', 'chromenews'),
+    'description' => __('Select layout for archive', 'chromenews'),
     'section' => 'site_archive_settings',
     'settings' => 'archive_layout',
     'type' => 'select',
     'choices' => array(
-      'archive-layout-grid' => esc_html__('Grid', 'chromenews'),
-      'archive-layout-list' => esc_html__('List', 'chromenews'),
+      'archive-layout-grid' => __('Grid', 'chromenews'),
+      'archive-layout-list' => __('List', 'chromenews'),
 
     ),
     'priority' => 130,
@@ -1162,7 +1162,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'sidebar_block_settings',
   array(
-    'title' => esc_html__('Sidebar Settings', 'chromenews'),
+    'title' => __('Sidebar Settings', 'chromenews'),
     'priority' => 10,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -1183,7 +1183,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_sticky_sidebar',
   array(
-    'label' => esc_html__('Make Sidebar Sticky', 'chromenews'),
+    'label' => __('Make Sidebar Sticky', 'chromenews'),
     'section' => 'sidebar_block_settings',
     'type' => 'checkbox',
     'priority' => 100,
@@ -1204,13 +1204,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_sticky_sidebar_position',
   array(
-    'label' => esc_html__('Sidebar Sticky Position', 'chromenews'),
+    'label' => __('Sidebar Sticky Position', 'chromenews'),
     'section' => 'sidebar_block_settings',
     'settings' => 'frontpage_sticky_sidebar_position',
     'type' => 'select',
     'choices' => array(
-      'sidebar-sticky-top' => esc_html__('Top', 'chromenews'),
-      'sidebar-sticky-bottom' => esc_html__('Bottom', 'chromenews'),
+      'sidebar-sticky-top' => __('Top', 'chromenews'),
+      'sidebar-sticky-bottom' => __('Bottom', 'chromenews'),
     ),
     'priority' => 100,
     'active_callback' => 'chromenews_frontpage_sticky_sidebar_status'
@@ -1223,7 +1223,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'frontpage_latest_posts_settings',
   array(
-    'title' => esc_html__('You May Have Missed', 'chromenews'),
+    'title' => __('You May Have Missed', 'chromenews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -1262,7 +1262,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   'frontpage_latest_posts_section_title',
   array(
-    'label' => esc_html__('Posts Section Title', 'chromenews'),
+    'label' => __('Posts Section Title', 'chromenews'),
     'section' => 'frontpage_latest_posts_settings',
     'settings' => 'frontpage_latest_posts_section_title',
     'type' => 'text',
@@ -1279,7 +1279,7 @@ $wp_customize->add_control(
 $wp_customize->add_section(
   'site_footer_settings',
   array(
-    'title' => esc_html__('Footer', 'chromenews'),
+    'title' => __('Footer', 'chromenews'),
     'priority' => 50,
     'capability' => 'edit_theme_options',
     'panel' => 'theme_option_panel',
@@ -1303,8 +1303,8 @@ $wp_customize->add_control(
     $wp_customize,
     'footer_background_image',
     array(
-      'label' => esc_html__('Footer Background Image', 'chromenews'),
-      'description' => sprintf(esc_html__('Recommended Size %1$s px X %2$s px', 'chromenews'), 1024, 800),
+      'label' => __('Footer Background Image', 'chromenews'),
+      'description' => sprintf(__('Recommended Size %1$s px X %2$s px', 'chromenews'), 1024, 800),
       'section' => 'footer_builder',
       'settings' => 'footer_background_image',
       'width' => 1024,

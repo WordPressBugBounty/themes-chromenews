@@ -595,39 +595,132 @@ if (!function_exists('chromenews_numeric_pagination')) :
 endif;
 
 
-/* Word read count Pagination */
+// /* Word read count Pagination */
+// if (!function_exists('chromenews_count_content_words')) :
+//     /**
+//      * @param $content
+//      *
+//      * @return string
+//      */
+//     function chromenews_count_content_words($post_id)
+//     {
+//         $chromenews_show_read_mins = chromenews_get_option('global_show_min_read');
+//         if ($chromenews_show_read_mins == 'yes') {
+//             // $content = apply_filters('the_content', get_post_field('post_content', $post_id));
+//             $content = get_post_field('post_content', $post_id);
+//             $chromenews_read_words = chromenews_get_option('global_show_min_read_number');
+//             $chromenews_decode_content = html_entity_decode($content);
+//             $chromenews_filter_shortcode = do_shortcode($chromenews_decode_content);
+//             $chromenews_strip_tags = wp_strip_all_tags($chromenews_filter_shortcode, true);
+//             $chromenews_count = str_word_count($chromenews_strip_tags);
+//             $chromenews_word_per_min = (absint($chromenews_count) / $chromenews_read_words);
+//             $chromenews_word_per_min = ceil($chromenews_word_per_min);
+
+//             if (absint($chromenews_word_per_min) > 0) {
+//                 $word_count_strings = sprintf(__("%s min read", 'chromenews'), number_format_i18n($chromenews_word_per_min));
+//                 if ('post' == get_post_type($post_id)) :
+//                     echo '<span class="min-read">';
+//                     echo esc_html($word_count_strings);
+//                     echo '</span>';
+//                 endif;
+//             }
+//         }
+//     }
+
+// endif;
 if (!function_exists('chromenews_count_content_words')) :
-    /**
-     * @param $content
-     *
-     * @return string
-     */
+
     function chromenews_count_content_words($post_id)
     {
         $chromenews_show_read_mins = chromenews_get_option('global_show_min_read');
-        if ($chromenews_show_read_mins == 'yes') {
-            // $content = apply_filters('the_content', get_post_field('post_content', $post_id));
+        if ($chromenews_show_read_mins == 'no') {
+            return;
+        }
+        
+        // Posts only
+        if ('post' !== get_post_type($post_id)) {
+            return;
+        }
+    
+        // Get pre-saved reading time
+        $read_time = absint(get_post_meta($post_id, '_aft_read_time', true));
+    
+        // If not available (older posts), fallback ONCE
+        if (!$read_time) {
+    
             $content = get_post_field('post_content', $post_id);
-            $chromenews_read_words = chromenews_get_option('global_show_min_read_number');
-            $chromenews_decode_content = html_entity_decode($content);
-            $chromenews_filter_shortcode = do_shortcode($chromenews_decode_content);
-            $chromenews_strip_tags = wp_strip_all_tags($chromenews_filter_shortcode, true);
-            $chromenews_count = str_word_count($chromenews_strip_tags);
-            $chromenews_word_per_min = (absint($chromenews_count) / $chromenews_read_words);
-            $chromenews_word_per_min = ceil($chromenews_word_per_min);
-
-            if (absint($chromenews_word_per_min) > 0) {
-                $word_count_strings = sprintf(__("%s min read", 'chromenews'), number_format_i18n($chromenews_word_per_min));
-                if ('post' == get_post_type($post_id)) :
-                    echo '<span class="min-read">';
-                    echo esc_html($word_count_strings);
-                    echo '</span>';
-                endif;
+    
+            // Fast cleanup
+            $clean_text = wp_strip_all_tags(strip_shortcodes($content), true);
+    
+            // Word count
+            $word_count = str_word_count($clean_text);
+    
+            // WPM
+            $wpm = absint(chromenews_get_option('global_show_min_read_number'));
+            if (!$wpm) {
+                $wpm = 200;
             }
+    
+            $read_time = ceil($word_count / $wpm);
+    
+            // Store once
+            update_post_meta($post_id, '_aft_read_time', $read_time);
+        }
+    
+        if ($read_time > 0) {
+    
+            // Translation-ready singular/plural
+            $output = sprintf(
+                _n('%s minute read', '%s minutes read', $read_time, 'chromenews'),
+                number_format_i18n($read_time)
+            );
+    
+            echo '<span class="min-read">' . esc_html($output) . '</span>';
         }
     }
+    
+    endif;
+    
+    add_action('save_post', 'chromenews_save_reading_time_meta');
 
-endif;
+    function chromenews_save_reading_time_meta($post_id)
+    {
+        
+        $chromenews_show_read_mins = chromenews_get_option('global_show_min_read');
+        if ($chromenews_show_read_mins == 'no') {
+            return;
+        }
+        
+        // Avoid autosave & revisions
+        if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
+        if (wp_is_post_revision($post_id)) return;
+    
+        // Posts only
+        if (get_post_type($post_id) !== 'post') return;
+    
+        // Raw content (fastest)
+        $content = get_post_field('post_content', $post_id);
+    
+        // Strip tags + shortcodes (light + safe)
+        $clean_text = wp_strip_all_tags(strip_shortcodes($content), true);
+    
+        // Count words
+        $word_count = str_word_count($clean_text);
+    
+        // Words per minute
+        $wpm = absint(chromenews_get_option('global_show_min_read_number'));
+        if (!$wpm) {
+            $wpm = 200;
+        }
+    
+        // Calculate minutes
+        $minutes = ceil($word_count / $wpm);
+    
+        // Store
+        update_post_meta($post_id, '_aft_read_time', $minutes);
+    }
+        
 
 
 /**
