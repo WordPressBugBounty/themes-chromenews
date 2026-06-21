@@ -48,11 +48,16 @@ if (!function_exists('chromenews_main_menu_nav_section')) :
       <nav class="main-navigation clearfix">
 
         <span class="toggle-menu" aria-controls="primary-menu" aria-expanded="false">
-          <a href="javascript:void(0)" class="aft-void-menu">
+          <a
+            role="button"
+            class="aft-void-menu"
+            aria-label="<?php esc_attr_e('Toggle Primary Menu', 'chromenews'); ?>"
+            aria-controls="primary-menu"
+            aria-expanded="false">
             <span class="screen-reader-text">
               <?php esc_html_e('Primary Menu', 'chromenews'); ?>
             </span>
-            <i class="ham"></i>
+            <i class="ham" aria-hidden="true"></i>
           </a>
         </span>
 
@@ -83,8 +88,14 @@ if (!function_exists('chromenews_load_search_form_section')) :
   ?>
     <div class="af-search-wrap">
       <div class="search-overlay">
-        <a href="#" title="Search" class="search-icon">
-          <i class="fa fa-search"></i>
+        <a href="#"
+          title="Search"
+          class="search-icon"
+          role="button"
+          aria-label="Open search"
+          aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fa fa-search" aria-hidden="true"></i>
         </a>
         <div class="af-search-form">
           <?php get_search_form(); ?>
