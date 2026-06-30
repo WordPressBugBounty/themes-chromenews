@@ -37,6 +37,16 @@ if ( ! function_exists( 'chromenews_recommended_plugins' ) ) :
                 'required' => false,
             ),
             array(
+                'name'     => esc_html__( 'AF Translate', 'chromenews' ),
+                'slug'     => 'af-translate',
+                'required' => false,
+            ),
+            array(
+                'name'     => esc_html__( 'AF Companion', 'chromenews' ),
+                'slug'     => 'af-companion',
+                'required' => false,
+            ),
+            array(
                 'name'     => esc_html__( 'WP Post Author', 'chromenews' ),
                 'slug'     => 'wp-post-author',
                 'required' => false,
