@@ -340,7 +340,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
   'select_breadcrumb_mode',
   array(
-    'default' => $default['select_breadcrumb_mode'],
+    'default' => $chromenews_default['select_breadcrumb_mode'],
     'capability' => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_select',
   )
@@ -945,7 +945,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
   'global_single_content_mode',
   array(
-    'default'           => $default['global_single_content_mode'],
+    'default'           => $chromenews_default['global_single_content_mode'],
     'capability'        => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_select',
   )
@@ -971,7 +971,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
   'single_show_tags_list',
   array(
-    'default' => $default['single_show_tags_list'],
+    'default' => $chromenews_default['single_show_tags_list'],
     'capability' => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_checkbox',
   )
@@ -1110,7 +1110,7 @@ $wp_customize->add_section(
 $wp_customize->add_setting(
   'disable_main_banner_on_blog_archive',
   array(
-    'default'           => $default['disable_main_banner_on_blog_archive'],
+    'default'           => $chromenews_default['disable_main_banner_on_blog_archive'],
     'capability'        => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_checkbox',
   )
@@ -1174,7 +1174,7 @@ $wp_customize->add_section(
 $wp_customize->add_setting(
   'frontpage_sticky_sidebar',
   array(
-    'default' => $default['frontpage_sticky_sidebar'],
+    'default' => $chromenews_default['frontpage_sticky_sidebar'],
     'capability' => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_checkbox',
   )
@@ -1195,7 +1195,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
   'frontpage_sticky_sidebar_position',
   array(
-    'default' => $default['frontpage_sticky_sidebar_position'],
+    'default' => $chromenews_default['frontpage_sticky_sidebar_position'],
     'capability' => 'edit_theme_options',
     'sanitize_callback' => 'chromenews_sanitize_select',
   )
@@ -1291,7 +1291,7 @@ $wp_customize->add_section(
 $wp_customize->add_setting(
   'footer_background_image',
   array(
-    'default' => $default['footer_background_image'],
+    'default' => $chromenews_default['footer_background_image'],
     'capability' => 'edit_theme_options',
     'sanitize_callback' => 'absint',
   )
