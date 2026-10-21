@@ -1,3 +1,18 @@
+### 6.3.0 - Oct 21 2026
+* Improved CSS optimization and reduced unnecessary custom styling.
+* Improved category text colors and link colors in light and dark modes.
+* Fixed spacing issues with post comments, post views, and popular posts.
+* Improved RTL styling and navigation menu design.
+* Improved block spacing and social sharing icon styles.
+* Improved Mailchimp form styling.
+* Improved translation support and text domain consistency.
+* Updated language files and translation functions.
+* Improved single post title styling.
+* Improved AF Companion dashboard menu integration.
+* Updated Freemius integration.
+* Updated build configuration and minified CSS files.
+* Updated theme readme and changelog.
+
 ### 6.0.6 - Mar 03 2026
 * Update - Customizer optimization
 * Update - German language file

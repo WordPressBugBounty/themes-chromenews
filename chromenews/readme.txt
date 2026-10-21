@@ -1,8 +1,8 @@
 === ChromeNews ===
 Contributors: AF themes
 Requires at least: 4.0
-Tested up to: 7.0
-Stable tag: 6.2.4
+Tested up to: 7.1
+Stable tag: 6.3.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 ChromeNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-ChromeNews WordPress Theme, Copyright 2026 AF themes
+ChromeNews WordPress Theme, Copyright 2024 AF themes
 ChromeNews is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
@@ -47,6 +47,21 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
+= 6.3.0 - Oct 21 2026 =
+* Improved CSS optimization and reduced unnecessary custom styling.
+* Improved category text colors and link colors in light and dark modes.
+* Fixed spacing issues with post comments, post views, and popular posts.
+* Improved RTL styling and navigation menu design.
+* Improved block spacing and social sharing icon styles.
+* Improved Mailchimp form styling.
+* Improved translation support and text domain consistency.
+* Updated language files and translation functions.
+* Improved single post title styling.
+* Improved AF Companion dashboard menu integration.
+* Updated Freemius integration.
+* Updated build configuration and minified CSS files.
+* Updated theme readme and changelog.
+
 = 6.0.6 - Mar 03 2026 =
 * Update - Customizer optimization
 * Update - German language file

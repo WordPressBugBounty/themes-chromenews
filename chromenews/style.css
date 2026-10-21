@@ -4,10 +4,10 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 6.2.13
+Version: 6.3.0
 Requires at least: 4.0
 Requires PHP: 5.0
-Tested up to: 7.1
+Tested up to: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: chromenews
@@ -1131,6 +1131,10 @@ body footer .secondary-footer .aft-small-social-menu ul li a:hover {color: #fff;
 :is(.chromenews_author_info_widget .aft-small-social-menu,.social-widget-menu.af-widget-body) ul li a[href*="stackoverflow.com"]{background-color: #ef8236;}
 :is(header,footer) .aft-small-social-menu ul li a[href*="telegram.com"]:hover,
 :is(.chromenews_author_info_widget .aft-small-social-menu,.social-widget-menu.af-widget-body) ul li a[href*="telegram.com"]{background-color: #24a1de;}
+:is(header,footer) .aft-small-social-menu ul li a[href*="bsky.app"]:hover,
+:is(.chromenews_author_info_widget .aft-small-social-menu,.social-widget-menu.af-widget-body) ul li a[href*="bsky.app"]{background-color: #0f73ff;}
+:is(header,footer) .aft-small-social-menu ul li a[href*="linktr.ee"]:hover,
+:is(.chromenews_author_info_widget .aft-small-social-menu,.social-widget-menu.af-widget-body) ul li a[href*="linktr.ee"]{background-color: #42E661;}
 
 .aft-small-social-menu ul a:after,.social-widget-menu ul a:before {content: "\f35d";}
 .aft-small-social-menu ul a[href*="buffer.com"]:after,.social-widget-menu ul a[href*="buffer.com"]:before {content: "\e925";}
@@ -1169,6 +1173,10 @@ body footer .secondary-footer .aft-small-social-menu ul li a:hover {color: #fff;
 .aft-small-social-menu ul a[href*="stackoverflow.com"]:after,.social-widget-menu ul a[href*="stackoverflow.com"]:before {content: "\f16c";}
 .aft-small-social-menu ul a[href*="slack.com"]:after,.social-widget-menu ul a[href*="slack.com"]:before {content: "\f198";}
 .aft-small-social-menu ul a[href*="telegram.com"]:after,.social-widget-menu ul a[href*="telegram.com"]:before {content: "\f2c6";}
+.aft-small-social-menu ul a[href*="bsky.app"]:after,.social-widget-menu ul a[href*="bsky.app"]:before {content: "\e930";}
+.aft-small-social-menu ul a[href*="linktr.ee"]:after,.social-widget-menu ul a[href*="linktr.ee"]:before {content: "\e931";}
+.aft-small-social-menu ul a[href*="medium.com"]:after,.social-widget-menu ul a[href*="medium.com"]:before {content: "\e934";}
+
 
 body footer.site-footer .aft-small-social-menu ul li a,
 body header .aft-small-social-menu ul li a{
@@ -3420,13 +3428,13 @@ body .widget .read-single:not(.af-cat-widget-carousel) .cat-links li a:hover{
     padding: 2px 8px;
     font-weight: 700;
 }
-.af-cat-widget-carousel a.chromenews-categories.category-color-1{background-color: #ffcc00;color: #202020;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-2{background-color: #0987f5;color: #ffffff;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-3{background-color: #202020;color: #ffffff;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-4{background-color: #46af4b;color: #ffffff;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-5{background-color: #ea8d03;color: #ffffff;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-6{background-color: #ff5722;color: #ffffff;}
-.af-cat-widget-carousel a.chromenews-categories.category-color-7{background-color: #9c27b0;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-1{background-color: #ffcc00;color: #202020;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-2{background-color: #0987f5;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-3{background-color: #202020;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-4{background-color: #46af4b;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-5{background-color: #ea8d03;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-6{background-color: #ff5722;color: #ffffff;}
+body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-7{background-color: #9c27b0;color: #ffffff;}
 /*cat links background color*/
 .af-post-format{
     display: inline-block;
@@ -5596,6 +5604,7 @@ div.wp-block-categories.wp-block-categories-dropdown label {
 .wp-block-latest-comments.aligncenter article {padding: 0 3px;}
 .wp-block-latest-comments.aligncenter .wp-block-latest-comments__comment-excerpt {text-align: center;}
 .wp-block-latest-posts.wp-block-latest-posts__list {list-style: none;}
+.wp-block-latest-posts.wp-block-latest-posts__list li{margin-top:0;}
 .comments-area .comments-title {margin-bottom: 20px;}
 /** === Block latest comments=== */
 /** === Block columns=== */
