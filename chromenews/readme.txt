@@ -2,7 +2,7 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 7.1
-Stable tag: 6.3.0
+Stable tag: 6.4.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -47,6 +47,18 @@ https://afthemes.com/supports/
 ChromeNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
+= 6.4.0 - Oct 25 2026 =
+* Added local font support for Jost, Noto Serif, Open Sans, Oswald, and Roboto.
+* Local fonts now load directly from your theme folder for faster page speed and zero external Google requests.
+* Automatic GDPR compliance when using locally hosted fonts.
+* Fixed heading line-height layout shifts and text flickers during page load for smoother visual rendering.
+* Added comprehensive fallback font stacks (including Noto Sans CJK and system-ui) to prevent layout shifts.
+* Updated Gutenberg button block styling with transparent border compatibility.
+* Improved block editor font matching to mirror the live front-end typography accurately.
+* Cleaned up custom style font variable parsing to strip raw weight tags and unnecessary variants.
+* Reduced inline dynamic CSS payload for faster page rendering.
+* Updated theme readme and changelog.
+
 = 6.3.0 - Oct 21 2026 =
 * Improved CSS optimization and reduced unnecessary custom styling.
 * Improved category text colors and link colors in light and dark modes.

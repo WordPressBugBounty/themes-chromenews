@@ -1,3 +1,15 @@
+### 6.4.0 - Oct 25 2026
+* Added local font support for Jost, Noto Serif, Open Sans, Oswald, and Roboto.
+* Local fonts now load directly from your theme folder for faster page speed and zero external Google requests.
+* Automatic GDPR compliance when using locally hosted fonts.
+* Fixed heading line-height layout shifts and text flickers during page load for smoother visual rendering.
+* Added comprehensive fallback font stacks (including Noto Sans CJK and system-ui) to prevent layout shifts.
+* Updated Gutenberg button block styling with transparent border compatibility.
+* Improved block editor font matching to mirror the live front-end typography accurately.
+* Cleaned up custom style font variable parsing to strip raw weight tags and unnecessary variants.
+* Reduced inline dynamic CSS payload for faster page rendering.
+* Updated theme readme and changelog.
+
 ### 6.3.0 - Oct 21 2026
 * Improved CSS optimization and reduced unnecessary custom styling.
 * Improved category text colors and link colors in light and dark modes.

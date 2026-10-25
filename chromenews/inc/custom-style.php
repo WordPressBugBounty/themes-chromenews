@@ -22,16 +22,76 @@ if (!function_exists('chromenews_custom_style')) {
         $dark_background_color = chromenews_get_option('dark_background_color');
         $secondary_color = chromenews_get_option('secondary_color');
         $text_over_secondary_color = chromenews_get_option('text_over_secondary_color');
+        // $global_font_family_type = chromenews_get_option('global_font_family_type');
+        // if ($global_font_family_type == 'google') {
+        //     $site_title_font = $chromenews_google_fonts[chromenews_get_option('site_title_font')];
+        //     $primary_font = $chromenews_google_fonts[chromenews_get_option('primary_font')];
+        //     $secondary_font = $chromenews_google_fonts[chromenews_get_option('secondary_font')];
+        // } else {
+        //     $site_title_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+        //     $primary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+        //     $secondary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+        // }
+
         $global_font_family_type = chromenews_get_option('global_font_family_type');
-        if ($global_font_family_type == 'google') {
-            $site_title_font = $chromenews_google_fonts[chromenews_get_option('site_title_font')];
-            $primary_font = $chromenews_google_fonts[chromenews_get_option('primary_font')];
-            $secondary_font = $chromenews_google_fonts[chromenews_get_option('secondary_font')];
+
+        /**
+         * Universal fallbacks:
+         * - Noto Sans / CJK: Broad multilingual & regional coverage (Asian, Cyrillic, etc.)
+         * - system-ui chain: Native platform rendering for maximum speed
+         * - Emoji stack: Prevents emoji rendering glitches
+         */
+        $universal_fallbacks = "'Noto Sans', 'Noto Sans CJK SC', 'Noto Sans JP', 'Noto Sans KR', " .
+                               "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, " .
+                               "'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'";
+
+        /**
+         * Optimized system stack used when global_font_family_type = system.
+         */
+        $system_stack = 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, ' .
+                        '"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+
+        if ($global_font_family_type === 'google') {
+
+            $site_title_key = chromenews_get_option('site_title_font');
+            $primary_key    = chromenews_get_option('primary_font');
+            $secondary_key  = chromenews_get_option('secondary_font');
+
+            /**
+             * Helper to retrieve and clean font name from the choices array.
+             * Strips suffix tags like "(Local)", "(System)", or Google variants like ":400,700".
+             */
+            $clean_font_name = function ($key) use ($chromenews_google_fonts, $universal_fallbacks) {
+                if (empty($key) || empty($chromenews_google_fonts[$key])) {
+                    return $universal_fallbacks;
+                }
+
+                $label = $chromenews_google_fonts[$key];
+
+                // 1. Remove customizer display tags if present
+                $font_name = str_replace(['(Local)', '(System)'], '', $label);
+
+                // 2. Remove variant specs (e.g. "Roboto:400,700" -> "Roboto")
+                if (strpos($font_name, ':') !== false) {
+                    list($font_name) = explode(':', $font_name);
+                }
+
+                $font_name = trim(str_replace('+', ' ', $font_name));
+
+                return "'" . esc_attr($font_name) . "', " . $universal_fallbacks;
+            };
+
+            $site_title_font = $clean_font_name($site_title_key);
+            $primary_font    = $clean_font_name($primary_key);
+            $secondary_font  = $clean_font_name($secondary_key);
+
         } else {
-            $site_title_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
-            $primary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
-            $secondary_font = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
+
+            $site_title_font = $system_stack;
+            $primary_font    = $system_stack;
+            $secondary_font  = $system_stack;
         }
+        
         $title_font_weight = chromenews_get_option('title_font_weight');
         $chromenews_section_title_font_size = chromenews_get_option('chromenews_section_title_font_size');
         $main_navigation_custom_background_color = chromenews_get_option('main_navigation_custom_background_color');
@@ -304,7 +364,7 @@ if (!function_exists('chromenews_custom_style')) {
             body .af-cat-widget-carousel a.chromenews-categories.category-color-1{
             background-color: <?php chromenews_esc_custom_style($secondary_color) ?>;
             }
-            .read-single:not(.af-cat-widget-carousel) .cat-links li a.category-color-1 {border-color: <?php chromenews_esc_custom_style($category_color_1) ?>;}
+            .read-single:not(.af-cat-widget-carousel) .cat-links li a.category-color-1 {border-color: <?php chromenews_esc_custom_style($secondary_color) ?>;}
         <?php endif; ?>
         <?php if (!empty($text_over_secondary_color)) : ?>
             body:is(.aft-dark-mode,.aft-light-mode) .site-footer .widget ul > li a.chromenews-categories,
