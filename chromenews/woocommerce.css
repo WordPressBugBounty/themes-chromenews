@@ -767,8 +767,8 @@ body.woocommerce .entry-content .wp-block-button__link{
 }
 body.aft-dark-mode .entry-content > [class*="wp-block-"]:not(.is-style-outline) .wp-block-button__link, 
 body.aft-light-mode .entry-content > [class*="wp-block-"]:not(.is-style-outline) .wp-block-button__link{
-	background-color: #FFC934;
-	color: #202020;
+	/* background-color: #FFC934;
+	color: #202020; */
 }
 
 @media screen and (max-width: 990px) {
@@ -784,6 +784,7 @@ body.aft-light-mode .entry-content > [class*="wp-block-"]:not(.is-style-outline)
 	}
 }
 
+.woocommerce p.stars a{border: none;}
 
 /* Woo Block and Normalize css */
 .aft-dark-mode a.wc-block-components-product-name,
@@ -792,9 +793,6 @@ body.aft-light-mode .entry-content > [class*="wp-block-"]:not(.is-style-outline)
 .aft-default-mode .wc-block-components-address-card__edit ,
 .aft-dark-mode .wc-block-components-address-card__edit {
     color: inherit;
-}
-body a.wc-block-components-button {
-    color: #fff;
 }
 :root .wc-block-featured-product__link :where(.wp-element-button, .wp-block-button__link){
 	background-color: #ffc934;
@@ -820,9 +818,9 @@ body.woocommerce-js .label {
 	color: inherit;
 }
 .wc-block-checkout-empty .wp-block-button__link,
-:root .wc-block-cart :where(.wp-element-button, .wp-block-button__link),
-:root .wc-block-featured-product__link :where(.wp-element-button, .wp-block-button__link),
-:root .wc-block-featured-category__link :where(.wp-element-button, .wp-block-button__link),
+.wc-block-cart :where(.wp-element-button, .wp-block-button__link),
+.wc-block-featured-product__link :where(.wp-element-button, .wp-block-button__link),
+.wc-block-featured-category__link :where(.wp-element-button, .wp-block-button__link),
 .woocommerce-notices-wrapper .button,
 .wc-block-grid .wp-block-button__link,
 .wp-block-button.wc-block-components-product-button .wp-block-button__link,
@@ -840,9 +838,9 @@ body.woocommerce-js .label {
 }
 .woocommerce #review_form #respond .form-submit input#submit:hover,
 .wc-block-checkout-empty .wp-block-button__link:hover,
-:root .wc-block-cart :where(.wp-element-button, .wp-block-button__link):hover,
-:root .wc-block-featured-product__link :where(.wp-element-button, .wp-block-button__link):hover,
-:root .wc-block-featured-category__link :where(.wp-element-button, .wp-block-button__link):hover,
+.wc-block-cart :where(.wp-element-button, .wp-block-button__link):hover,
+.wc-block-featured-product__link :where(.wp-element-button, .wp-block-button__link):hover,
+.wc-block-featured-category__link :where(.wp-element-button, .wp-block-button__link):hover,
 .woocommerce-notices-wrapper .button:hover,
 .wc-block-grid .wp-block-button__link:hover,
 .wp-block-button.wc-block-components-product-button .wp-block-button__link:hover,
@@ -951,8 +949,9 @@ a.woocommerce-button,
 .wc-block-components-button,
 .woocommerce-account .addresses .title .edit{
 	background-color: #ffc934;
-	color: #fff;
+	color: #000;
 }
+.aft-dark-mode .wc-block-components-order-summary .wc-block-components-order-summary-item__quantity span{color: #000;}
 .wc-block-components-button {
 	font-size: 14px;
 	text-transform: uppercase;
@@ -996,8 +995,13 @@ body.aft-dark-mode .entry-content > [class*="wp-block-"] .woocommerce a:not(.has
 	padding: 0 !important;
 }
 
+table.wc-block-cart-items tr:last-child td {
+	border: none;
+}
+
 body.aft-dark-mode .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button{
 	background-color: rgba(255, 255, 255, 0.1);
+	color: inherit !important;
 }
 body.aft-dark-mode .wc-block-components-address-card{
 	border-color: rgba(255, 255, 255, 0.2);
@@ -1010,9 +1014,9 @@ body.aft-dark-mode :where(.wp-block-woocommerce-mini-cart-contents) {
 .wc-block-components-address-card address .wc-block-components-address-card__address-section {
 	margin-bottom: 7px;
 }
-.aft-default-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price,
-.aft-default-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price, 
-.aft-default-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price{
+.aft-light-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price,
+.aft-light-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price, 
+.aft-light-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price{
 	color: #000;
 }
 .aft-dark-mode.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price,

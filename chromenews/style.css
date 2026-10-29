@@ -3,8 +3,8 @@ Theme Name: ChromeNews
 Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
-Description: ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/
-Version: 6.4.1
+Description: ChromeNews is a customizable WordPress news and magazine theme designed for online newspapers, news portals, blogs, editorial websites, and digital publishing platforms. Its classic widgetized layout, custom news widgets, and flexible widget areas make it easy to create engaging homepages with featured stories and magazine-style content sections. Get started with ready-made starter sites and customize your website using the WordPress Customizer, live previews, Gutenberg blocks, block patterns, and the Elementor page builder. ChromeNews also integrates with the AF themes ecosystem, including BlockSpare for advanced Gutenberg blocks, AI-powered website building, dynamic content, ACF integration, advanced post queries, and AJAX content filtering; EleSpare for Elementor kits and templates; AF Companion for optimization tools; and WP Post Author for author-related features. With responsive layouts, light and dark color modes, WooCommerce compatibility, and RTL language support, ChromeNews adapts to a wide range of publishing needs. Whether you're building a breaking news website, technology blog, sports magazine, lifestyle publication, or product review website, ChromeNews provides a flexible foundation for your WordPress site. Explore starter sites at https://afthemes.com/products/chromenews/#aft-view-starter-sites, watch tutorials at https://www.youtube.com/@wpafthemes/, and find setup instructions at https://docs.afthemes.com/chromenews/.
+Version: 6.5.0
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.1
@@ -19,7 +19,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 ChromeNews is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-ChromeNews WordPress Theme, Copyright 2024 AF themes
+ChromeNews WordPress Theme, Copyright 2026 AF themes
 ChromeNews is distributed under the terms of the GNU GPL v2 or later.
 */
 
@@ -832,11 +832,9 @@ body.aft-dark-mode.sidr-open:before {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {text-decoration: none;color: #0987f5;}
-a:hover, a:focus, a:active, a:visited {color: #0987f5;}
+a {text-decoration: none;color: inherit;}
 a:hover, a:focus, a:active {outline: 0;}
-.aft-dark-mode a,
-.aft-dark-mode :is(a:hover, a:focus, a:active, a:visited){color: #fff;}
+.aft-dark-mode a{color: #fff;}
 body a:hover, body a:focus, body a:active {text-decoration: none;}
 a:focus-visible {outline: 1px dotted;}
 a:hover {outline: none;}
@@ -3428,13 +3426,13 @@ body .widget .read-single:not(.af-cat-widget-carousel) .cat-links li a:hover{
     padding: 2px 8px;
     font-weight: 700;
 }
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-1{background-color: #ffcc00;color: #202020;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-2{background-color: #0987f5;color: #ffffff;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-3{background-color: #202020;color: #ffffff;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-4{background-color: #46af4b;color: #ffffff;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-5{background-color: #ea8d03;color: #ffffff;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-6{background-color: #ff5722;color: #ffffff;}
-body:is(.aft-dark-mode,.aft-light-mode) .af-cat-widget-carousel a.chromenews-categories.category-color-7{background-color: #9c27b0;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-1{background-color: #ffcc00;color: #202020;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-2{background-color: #0987f5;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-3{background-color: #202020;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-4{background-color: #46af4b;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-5{background-color: #ea8d03;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-6{background-color: #ff5722;color: #ffffff;}
+.af-cat-widget-carousel a.chromenews-categories.category-color-7{background-color: #9c27b0;color: #ffffff;}
 /*cat links background color*/
 .af-post-format{
     display: inline-block;
@@ -3656,10 +3654,6 @@ body.widget-title-border-bottom .widget_block .wp-block-heading.has-text-align-r
     left: unset;
     right: 0;
 }
-body:is(.aft-dark-mode,.aft-light-mode) .is-style-outline a.wp-block-button__link:not(.has-text-color){border-color: transparent;}
-:is(.aft-dark-mode,.aft-light-mode) .is-style-fill a.wp-block-button__link {border: none;}
-body:is(.aft-dark-mode,.aft-light-mode) .is-style-fill a.wp-block-button__link:not(.has-text-color){color: #000;}
-:is(.aft-dark-mode,.aft-light-mode) .is-style-fill a.wp-block-button__link:not(.has-background){background-color:#ffcc00 ;}
 h4.af-author-display-name {font-size: 22px;}
 .aft-posts-tabs-panel .nav-tabs {
     margin-top: 0;
@@ -4870,14 +4864,6 @@ p.logged-in-as a:hover,.post-excerpt a:hover,
 .entry-content > p:not(.wp-block-tag-cloud) a:hover{
     border-bottom: none;
 }
-.aft-light-mode .entry-content h1:not(.awpa-display-name) a,
-.aft-light-mode .entry-content h2:not(.awpa-display-name) a,
-.aft-light-mode .entry-content h3:not(.awpa-display-name) a,
-.aft-light-mode .entry-content h4:not(.awpa-display-name) a,
-.aft-light-mode .entry-content h5:not(.awpa-display-name) a,
-.aft-light-mode .entry-content h6:not(.awpa-display-name) a{
-    color: #0987f5;
-}
 .nav-links a .post-title:hover,
 ul.trail-items li a:hover,
 .post-edit-link:hover,
@@ -5337,12 +5323,6 @@ p.has-drop-cap:not(:focus):first-letter {
     margin-bottom: 2.14286em;
 }
 .wp-block-image figcaption{text-align: center;}
-/** === Button === */
-.wp-block-button:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright){
-    margin-top:1em;
-    margin-bottom:1em;
-}
-/** === Button === */
 /** === File === */
 .wp-block-file {margin: 0 0 20px;}
 .wp-block-file > a:not([class]),
@@ -6659,6 +6639,7 @@ body.aft-dark-mode .entry-content .wp-block-group > ol[class*="wp-block-"] > li 
 }
 .post-description a:not(.aft-readmore),
 .chromenews-widget .textwidget a,
+.chromenews-widget.widget_block .wp-block-paragraph a,
 .chromenews-widget.widget_text a {
     border-bottom: 1px solid #ffcc00;
 }
@@ -6668,6 +6649,7 @@ body.aft-dark-mode .entry-content .wp-block-group > ol[class*="wp-block-"] > li 
 }
 .post-description a:not(.aft-readmore):hover,
 .chromenews-widget .textwidget a:hover,
+.chromenews-widget.widget_block .wp-block-paragraph a:hover,
 .chromenews-widget.widget_text a:hover {
     border-bottom: none;
 }
@@ -7189,7 +7171,9 @@ body.aft-dark-mode .wp-post-author-shortcode,
 body.aft-dark-mode .aft-readmore-wrapper a.aft-readmore {
     border-color: rgba(255, 255, 255, 0.3);
 }
-body.aft-dark-mode :is(input,textarea,input.search-field),
+body.aft-dark-mode input,
+body.aft-dark-mode textarea,
+body.aft-dark-mode input.search-field,
 body.aft-dark-mode .wp-block-categories select,
 body.aft-dark-mode .widget_categories select{
     border-color: transparent;
@@ -7315,7 +7299,10 @@ body.chromenews-header .aft-small-social-menu ul li a{color: #ffffff !important;
     color: #4a4a4a;
 }
 .wp-block-search .wp-block-search__button,
-.aft-dark-mode :is(input[type="button"],input[type="reset"],input[type="submit"],.inner-suscribe input[type=submit]),
+.aft-dark-mode .inner-suscribe input[type=submit],
+.aft-dark-mode input[type="button"],
+.aft-dark-mode input[type="reset"],
+.aft-dark-mode input[type="submit"],
 .btn-style1 :is(a,a:visited),
 .chromenews-pagination .nav-links .page-numbers.current,
 #scroll-up, article.sticky .read-single:before,
@@ -7361,37 +7348,25 @@ p.awpa-more-posts a:hover{
 .hover-title-secondary-color:is(.aft-dark-mode,.aft-light-mode) .grid-design-texts-over-image .read-title h3 a:hover{
     opacity: 1;
 }
-.entry-content > [class*="wp-block-"] a:not(.has-text-color),
 .entry-content > :is(ul,ol,p) a ,
 .site-footer .secondary-footer a:hover,
 .aft-dark-mode p.awpa-website a:hover,
 .aft-dark-mode .widget ul.menu >li a:hover{
-    color:#ffcc00 ;
     transition: all 0.075s linear;
 }
-.aft-light-mode .wp-post-author-meta h4 a,
-.aft-light-mode .entry-content > [class*="wp-block-"] a:not(.has-text-color){
+.aft-light-mode .wp-post-author-meta h4 a{
     color: #404040;
 }
-body.aft-light-mode .entry-content > .wp-block-table table tbody a:not(.has-text-color),
-.aft-light-mode #wp-calendar tbody td a,
-.aft-light-mode .entry-content > :is(ul,ol,p) a:hover,
-.aft-light-mode .comment-form a, 
-.aft-light-mode .comment-content > p a, 
-.aft-light-mode .wp-calendar-nav a,
-.aft-light-mode .chromenews-widget.widget_text a,
-.aft-light-mode .chromenews-widget .textwidget a,
-.entry-content > :is(ul,ol,p) :is(a,a:visited){
-    color: #0987f5;
-}
-.aft-dark-mode .entry-content > [class*="wp-block-"] a:not(.has-text-color) {color: #fff;}
 .single span.tags-links a:hover,
-.entry-content > [class*="wp-block-"] a:not(.has-text-color),
-.entry-content > :is(ul,ol,p) :is(a,a:visited){
+.entry-content > ul :is(a,a:visited),
+.entry-content > ol :is(a,a:visited){
     border-color: #ffcc00 ;
 }
 .wp-block-search .wp-block-search__button,
-.aft-dark-mode :is(button,input[type="button"],input[type="reset"],input[type="submit"]),
+.aft-dark-mode button,
+.aft-dark-mode input[type="button"],
+.aft-dark-mode input[type="reset"],
+.aft-dark-mode input[type="submit"],
 .read-img .trending-no,
 .trending-posts-vertical .trending-no {
     color: #202020;
@@ -7454,7 +7429,9 @@ body.aft-light-mode .widget .af-author-details .social-navigation ul > li a:hove
 body.aft-light-mode .site-footer .widget .af-cat-widget-carousel ul > li a.chromenews-categories.category-color-1 {color: #000;}
 :is(.aft-dark-mode,.aft-light-mode) .banner-exclusive-posts-wrapper a .exclusive-post-title:hover,
 :is(.aft-dark-mode,.aft-light-mode) main :is(ol,ul) > li a:hover,
-.aft-light-mode .widget :is(ol,ul,ul.menu) > li a:hover,
+.aft-light-mode .widget ol > li a:hover,
+.aft-light-mode .widget ul > li a:hover,
+.aft-light-mode .widget ul.menu > li a:hover,
 .aft-light-mode .read-title :is(h2,h3) a:hover {
     border-bottom: 1px solid #ffcc00;
 }
@@ -7793,12 +7770,6 @@ body:is(.aft-dark-mode,.aft-light-mode) .widget > ul > li.wp-social-link :is(a,a
     .aft-banner-layout-aligned .af-main-banner-thumb-posts .af-sec-post {
         width: 100%;
     }
-    .aft-banner-layout-default .aft-trending-part .af-slick-navcontrols .slide-icon.slide-prev,
-    .aft-banner-layout-aligned .aft-3-trending-posts .af-slick-navcontrols .slide-icon.slide-prev ,
-    .aft-banner-layout-default .aft-trending-part .af-slick-navcontrols .slide-icon.slide-next,
-    .aft-banner-layout-aligned .aft-3-trending-posts .af-slick-navcontrols .slide-icon.slide-next {
-        transform: rotate(90deg);
-    }
     .aft-banner-layout-aligned .aft-main-banner-wrapper .chromenews-customizer.col-3 .af-slick-navcontrols {right: 0;}
     .aft-banner-layout-default.aft-banner-order-4 .aft-main-banner-part,
     .aft-banner-layout-default.aft-banner-order-2 .aft-main-banner-part,
@@ -7890,6 +7861,12 @@ body:is(.aft-dark-mode,.aft-light-mode) .widget > ul > li.wp-social-link :is(a,a
     .aft-banner-layout-aligned .aft-main-banner-wrapper .aft-slider-part {margin-top: 0;}
 }
 @media screen and (max-width: 1024px) and (min-width: 481px) {
+    .aft-banner-layout-default .aft-trending-part .af-slick-navcontrols .slide-icon.slide-prev,
+    .aft-banner-layout-aligned .aft-3-trending-posts .af-slick-navcontrols .slide-icon.slide-prev ,
+    .aft-banner-layout-default .aft-trending-part .af-slick-navcontrols .slide-icon.slide-next,
+    .aft-banner-layout-aligned .aft-3-trending-posts .af-slick-navcontrols .slide-icon.slide-next {
+        transform: rotate(90deg);
+    }
     .aft-banner-layout-tabbed-aligned .af-main-banner-thumb-posts .af-sec-post:nth-child(odd) .read-single,
     .aft-banner-layout-vertical .af-main-banner-thumb-posts .af-sec-post:nth-child(odd) .read-single {
         margin-right: 10px;
@@ -8517,13 +8494,13 @@ body:is(.aft-dark-mode,.aft-light-mode) .widget > ul > li.wp-social-link :is(a,a
     .af-slick-navcontrols .slide-icon, 
     .af-youtube-slider .slide-icon, 
     .aft-yt-video-item-wrapper .slide-icon{
-        height: 20px;
-        width: 20px;
+        height: 25px;
+        width: 25px;
     }
     .af-slick-navcontrols .slide-icon.slide-prev, 
     .af-youtube-slider .slide-icon.slide-prev, 
     .aft-yt-video-item-wrapper .slide-icon.slide-prev {
-        right: 25px;
+        right: 30px;
     }
     .widget-title-border-side .aft-horizontal-grid-part .heading-line,
     .widget-title-border-side .chromenews_popular_news_widget .heading-line,
@@ -8595,6 +8572,7 @@ body:is(.aft-dark-mode,.aft-light-mode) .widget > ul > li.wp-social-link :is(a,a
         padding-left: 0;
         padding-bottom: 0;
     }
+    
     .archive-list-post .read-title h3{margin-top: 15px;}
     body .mailchimp-block .block-title{font-size: 22px;}
     .mailchimp-block{padding: 60px 0;}
