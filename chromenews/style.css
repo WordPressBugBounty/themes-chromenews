@@ -4,7 +4,7 @@ Theme URI: https://afthemes.com/products/chromenews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
 Description: ChromeNews is a customizable WordPress news and magazine theme designed for online newspapers, news portals, blogs, editorial websites, and digital publishing platforms. Its classic widgetized layout, custom news widgets, and flexible widget areas make it easy to create engaging homepages with featured stories and magazine-style content sections. Get started with ready-made starter sites and customize your website using the WordPress Customizer, live previews, Gutenberg blocks, block patterns, and the Elementor page builder. ChromeNews also integrates with the AF themes ecosystem, including BlockSpare for advanced Gutenberg blocks, AI-powered website building, dynamic content, ACF integration, advanced post queries, and AJAX content filtering; EleSpare for Elementor kits and templates; AF Companion for optimization tools; and WP Post Author for author-related features. With responsive layouts, light and dark color modes, WooCommerce compatibility, and RTL language support, ChromeNews adapts to a wide range of publishing needs. Whether you're building a breaking news website, technology blog, sports magazine, lifestyle publication, or product review website, ChromeNews provides a flexible foundation for your WordPress site. Explore starter sites at https://afthemes.com/products/chromenews/#aft-view-starter-sites, watch tutorials at https://www.youtube.com/@wpafthemes/, and find setup instructions at https://docs.afthemes.com/chromenews/.
-Version: 6.5.0
+Version: 6.5.1
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.1
@@ -406,42 +406,6 @@ body.aft-dark-mode #loader::before {border-color: rgb(33, 32, 27);}
     text-transform: uppercase;
 }
 .main-navigation #primary-menu.menu-mobile > li{display: block;}
-@media screen and (min-width: 993px) {
-    .main-navigation #primary-menu > ul:not(.menu-mobile) > li:last-child > a,z
-    .main-navigation #primary-menu > li:last-child > a,
-    .main-navigation .menu-desktop  > li:last-child > a,
-    .main-navigation .menu-desktop > ul > li:last-child > a{
-        padding-right: 0px;
-    }
-    .main-navigation #primary-menu > li.page_item_has_children > a,
-    .main-navigation #primary-menu > li.menu-item-has-children > a,
-    .main-navigation .menu-desktop  > li.page_item_has_children > a,
-    .main-navigation .menu-desktop > ul > li.page_item_has_children > a,
-    .main-navigation .menu-desktop  > li.menu-item-has-children > a,
-    .main-navigation .menu-desktop > ul > li.menu-item-has-children > a{
-        padding-right: 45px;
-    }
-    .main-navigation #primary-menu > li.page_item_has_children:last-child > a,
-    .main-navigation #primary-menu > li.menu-item-has-children:last-child > a,
-    .main-navigation .menu-desktop  > li.page_item_has_children:last-child > a,
-    .main-navigation .menu-desktop > ul > li.page_item_has_children:last-child > a,
-    .main-navigation .menu-desktop  > li.menu-item-has-children:last-child > a,
-    .main-navigation .menu-desktop > ul > li.menu-item-has-children:last-child > a{
-        padding-right: 15px;
-    }
-    .main-navigation #primary-menu > li.page_item_has_children:last-child > a:after,
-    .main-navigation #primary-menu > li.menu-item-has-children:last-child > a:after,
-    .main-navigation .menu-desktop  > li.page_item_has_children:last-child > a:after,
-    .main-navigation .menu-desktop > ul > li.page_item_has_children:last-child > a:after,
-    .main-navigation .menu-desktop  > li.menu-item-has-children:last-child > a:after,
-    .main-navigation .menu-desktop > ul > li.menu-item-has-children:last-child > a:after{
-        right: 0;
-    }
-    .main-navigation ul.children li,
-    .main-navigation ul .sub-menu li {
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-    }
-}
 .main-navigation ul li a {color: #fff;}
 .main-navigation ul.children li,
 .main-navigation ul .sub-menu li {
@@ -583,7 +547,6 @@ body.aft-dark-mode.sidr-open:before {
     .aft-header-layout-side .main-navigation .menu-desktop > ul {
         justify-content: flex-start;
     }
-    .main-navigation #primary-menu > ul:not(.menu-mobile) > li> a,
     .main-navigation #primary-menu > li> a,
     .main-navigation .menu-desktop > li > a,
     .main-navigation .menu-desktop > ul > li > a {
@@ -741,6 +704,42 @@ body.aft-dark-mode.sidr-open:before {
         display: block;
     }
 }
+@media screen and (min-width: 993px) {
+    .main-navigation #primary-menu > ul:not(.menu-mobile) > li:last-child > a,z
+    .main-navigation #primary-menu > li:last-child > a,
+    .main-navigation .menu-desktop  > li:last-child > a,
+    .main-navigation .menu-desktop > ul > li:last-child > a{
+        padding-right: 0px;
+    }
+    .main-navigation #primary-menu > li.page_item_has_children > a,
+    .main-navigation #primary-menu > li.menu-item-has-children > a,
+    .main-navigation .menu-desktop  > li.page_item_has_children > a,
+    .main-navigation .menu-desktop > ul > li.page_item_has_children > a,
+    .main-navigation .menu-desktop  > li.menu-item-has-children > a,
+    .main-navigation .menu-desktop > ul > li.menu-item-has-children > a{
+        padding-right: 45px;
+    }
+    .main-navigation #primary-menu > li.page_item_has_children:last-child > a,
+    .main-navigation #primary-menu > li.menu-item-has-children:last-child > a,
+    .main-navigation .menu-desktop  > li.page_item_has_children:last-child > a,
+    .main-navigation .menu-desktop > ul > li.page_item_has_children:last-child > a,
+    .main-navigation .menu-desktop  > li.menu-item-has-children:last-child > a,
+    .main-navigation .menu-desktop > ul > li.menu-item-has-children:last-child > a{
+        padding-right: 15px;
+    }
+    .main-navigation #primary-menu > li.page_item_has_children:last-child > a:after,
+    .main-navigation #primary-menu > li.menu-item-has-children:last-child > a:after,
+    .main-navigation .menu-desktop  > li.page_item_has_children:last-child > a:after,
+    .main-navigation .menu-desktop > ul > li.page_item_has_children:last-child > a:after,
+    .main-navigation .menu-desktop  > li.menu-item-has-children:last-child > a:after,
+    .main-navigation .menu-desktop > ul > li.menu-item-has-children:last-child > a:after{
+        right: 0;
+    }
+    .main-navigation ul.children li,
+    .main-navigation ul .sub-menu li {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
 @media only screen and (max-width: 992px) {
     .main-navigation div.menu > ul,
     .main-navigation .menu > .menu {
@@ -805,6 +804,7 @@ body.aft-dark-mode.sidr-open:before {
         height: 13px;
     }
     .main-navigation .menu .menu-mobile li a button.active:after {opacity: 0;}
+    .main-navigation .menu .menu-mobile li .children {display: none;}
 }
 /*menu-description*/
 .main-navigation .menu-description {
