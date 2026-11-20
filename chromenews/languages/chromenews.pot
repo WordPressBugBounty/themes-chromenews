@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ChromeNews 6.2.0\n"
+"Project-Id-Version: ChromeNews 6.5.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/chromenews\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-21T08:01:40+00:00\n"
+"POT-Creation-Date: 2026-11-20T07:10:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: chromenews\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "ChromeNews is a powerful WordPress theme that's perfect for news, blogs, and magazines. The theme comes with a number of free starter sites that may be easily integrated to construct a fantastic news hub. The theme is fully widgetized, with 9+ custom widgets and widget sections, allowing users to customize site content. It also offers a light and dark color mode for viewing articles and blog posts in a fashionable manner. It also includes a variety of useful customizer choices for creating an aesthetically pleasing news site. You may set it up as you want and see how it looks before making any changes with the live customizer. It supports Gutenberg blocks and Elementor, as well as the WooCommerce plugin, allowing you to combine an online store with our newspaper theme. The RTL languages supported theme is appropriate for a news, journal, magazine, publishing, or review website, as well as blogging. It's well-designed to help the website rank higher in search engines, and users will receive excellent support from the staff if they run into any issues while using it. Find demos: https://afthemes.com/products/chromenews/#aft-view-starter-sites Videos: https://www.youtube.com/@wpafthemes/ Docs: https://docs.afthemes.com/chromenews/"
+msgid "ChromeNews is a customizable WordPress news and magazine theme designed for online newspapers, news portals, blogs, editorial websites, and digital publishing platforms. Its classic widgetized layout, custom news widgets, and flexible widget areas make it easy to create engaging homepages with featured stories and magazine-style content sections. Get started with ready-made starter sites and customize your website using the WordPress Customizer, live previews, Gutenberg blocks, block patterns, and the Elementor page builder. ChromeNews also integrates with the AF themes ecosystem, including BlockSpare for advanced Gutenberg blocks, AI-powered website building, dynamic content, ACF integration, advanced post queries, and AJAX content filtering; EleSpare for Elementor kits and templates; AF Companion for optimization tools; and WP Post Author for author-related features. With responsive layouts, light and dark color modes, WooCommerce compatibility, and RTL language support, ChromeNews adapts to a wide range of publishing needs. Whether you're building a breaking news website, technology blog, sports magazine, lifestyle publication, or product review website, ChromeNews provides a flexible foundation for your WordPress site. Explore starter sites at https://afthemes.com/products/chromenews/#aft-view-starter-sites, watch tutorials at https://www.youtube.com/@wpafthemes/, and find setup instructions at https://docs.afthemes.com/chromenews/."
 msgstr ""
 
 #. Author of the theme
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:214
+#: functions.php:413
 msgctxt "%s font: on or off"
 msgid "on"
 msgstr ""
